@@ -1,0 +1,123 @@
+## 2.3. Needfinding {#cap-2-3}
+&emsp;&emsp;&emsp;&emsp;En esta sección se explica y presenta los artefactos resultantes del proceso de
+análisis de la información recolectada.
+
+### 2.3.1. &emsp;&emsp; *User Personas* {#cap-2-3-1}
+&emsp;&emsp;&emsp;&emsp;Para desarrollar la propuesta de solución, se creará un User Persona por cada 
+segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo. 
+De esta forma, se podrá dar una idea más clara de a qué público nos estamos acercando con la idea de solución.
+
+**Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
+
+**Figura n** 
+
+*User persona de dueños o administradores de talleres*
+
+![](assets/Jorge-Torres.png "Imagen del segmento uno")
+
+**Segmento Objetivo 2: Conductores de vehículos de Lima**
+
+**Figura n**
+
+*User persona de conductores de vehículos*
+
+![](assets\Carlos-Mendoza.png "Imagen del segmento dos")
+
+### 2.3.2. &emsp;&emsp; *User Task Matrix* {#cap-2-3-2}
+&emsp;&emsp;&emsp;&emsp;La User Task Matrix servirá para el análisis que permite consolidar y priorizar
+las actividades esenciales de las User personas para alcanzar sus objetivos de negocio o personales.
+A cada actividad se le asigna un nivel en cuanto a qué tanta importancia posee y qué tan frecuente es la actividad realizada por el User Persona .
+
+<table>
+    <tbody>
+        <tr>
+            <td rowspan="2"><b>Tareas (Task)</b></td>
+            <td colspan="2"><center><b>Jorge Torres (Dueño)</b></center></td>
+            <td colspan="2"><center><b>Carlos Mendoza (Conductor)</b></center></td>
+        </tr>
+        <tr>
+            <td>Importancia</td>
+            <td>Frecuencia</td>
+            <td>Importancia</td>
+            <td>Frecuencia</td>
+        </tr>
+        <tr>
+            <td><center>Monitoreo del estado del vehículo</center></td>
+            <td>Media</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td><center>Búsqueda o selección de taller de confianza</center></td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>Alta</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td><center>Atención de fallas mecánicas de emergencia</center></td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Baja</td>
+        </tr>
+        <tr>
+            <td><center>Cálculo de presupuesto para reparaciones</center></td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td><center>Registro de historial de servicios realizados</center></td>
+            <td>Media</td>
+            <td>Media</td>
+            <td>Media</td>
+            <td>Baja</td>
+        </tr>
+        <tr>
+            <td><center>Planificación de ingresos</center></td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><center>Abastecimiento de repuestos e insumos</center></td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td><center>Fidelización y comunicación con clientes</center></td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>N/A</td>
+            <td>Baja</td>
+        </tr>
+        </tr>
+        </tr>
+    </tbody>
+</table>
+
+### 2.3.3. &emsp;&emsp; *User Journey Mapping* {#cap-2-3-3}
+&emsp;&emsp;&emsp;&emsp;El User Journey Mapping es una técnica que permite visualizar el proceso que sigue el usuario para
+cumplir un objetivo, ayudándonos a entender sus acciones, emociones y puntos de dolor.
+
+**Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
+
+**Figura n** 
+
+*User journey mapping de dueños o administradores de talleres*
+
+![](assets/Customer-journey-Taller.png "Imagen del user journey del segmento uno")
+
+**Segmento Objetivo 2: Conductores de vehículos de Lima**
+
+**Figura n**
+
+*User journey mapping de conductores de vehículos*
+
+![](assets/Customer-journey-Conductor.png "Imagen del user journey del segmento dos")
