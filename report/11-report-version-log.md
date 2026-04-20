@@ -15,6 +15,12 @@
 			<td>Se agregó la página de carátula, registro de versiones del informe y project report collaboration insights al repositorio.</td>
 		</tr>
 		<tr>
+			<td>0.2.0</td>
+			<td>20/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se agregó la página de student outcome, arreglo de entrevistas, se agrego user stories, product backlog, style guidelines y iInformation architecture al repositorio.</td>
+		</tr>
+		<tr>
 			<td></td>
 			<td></td>
 			<td></td>
