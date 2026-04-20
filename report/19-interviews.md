@@ -152,7 +152,7 @@
 
 ### 2.2.2.&emsp;&emsp;Registro de Entrevistas* {#cap-2-2-2}
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se mostrarán los registros de las entrevistas realizadas a nuestros segmentos objetivos. Cada entrevista conforma un cuadro, el cual contiene lo siguiente nombre, edad, provincia y ocupación, captura de pantalla de la entrevista, link de la entrevista y resumen de la entrevista.
+&emsp;&emsp;&emsp;&emsp;A continuación, se mostrarán los registros de las entrevistas realizadas a nuestros segmentos objetivos. Cada entrevista conforma un cuadro, el cual contiene lo siguiente nombre, edad, provincia y ocupación, captura de pantalla de la entrevista, link de la entrevista: [upc-pre-202610-1asi0729-11848-andeva-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQACV3nK06DbQ4UkN7W5GI0hAZE3xb22h8MdWhces5Vj55w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BTQX8d) y resumen de la entrevista.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
@@ -170,7 +170,9 @@
 			<td>Nombre: Alan Mamani<br>
             Edad: 27<br>
             Provincia: Lima<br>
-            Ocupación: Administrador Auxiliar
+            Ocupación: Administrador Auxiliar<br>
+			Minuto de inicio: 00:00<br>
+			Duración: 18:33min<br>
             </td>
 		</tr>
 		<tr>
@@ -198,7 +200,9 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td>Nombre: Marcelo Ramos<br>
             Edad: 73<br>
             Provincia: Lima<br>
-            Ocupación: Mecánico
+            Ocupación: Mecánico<br>
+			Minuto de inicio: 18:34<br>
+			Duración: 17:24min<br>
             </td>
 		</tr>
 		<tr>
@@ -224,7 +228,9 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td>Nombre: Jorge Aguilar<br>
             Edad: 65<br>
             Provincia: Lima<br>
-            Ocupación: Mecánico
+            Ocupación: Mecánico<br>
+			Minuto de inicio: 35:58<br>
+			Duración: 18:34min<br>
             </td>
 		</tr>
 		<tr>
@@ -250,7 +256,9 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td>Nombre: Reinaldo Machacca<br>
             Edad: 41<br>
             Provincia: Lima<br>
-            Ocupación: Mecánico Electrónico
+            Ocupación: Mecánico Electrónico<br>
+			Minuto de inicio: 54:32<br>
+			Duración: 18:38min<br>
             </td>
 		</tr>
 		<tr>
@@ -278,7 +286,9 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td>Nombre: Henry Huamani<br>
             Edad: 53<br>
             Provincia: Lima<br>
-            Ocupación: Conductor
+            Ocupación: Conductor<br>
+			Minuto de inicio: 01:13:10<br>
+			Duración: 11:50min<br>
             </td>
 		</tr>
 		<tr>
@@ -304,7 +314,9 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td>Nombre: Miguel Álvarez<br>
             Edad: 25<br>
             Provincia: Lima<br>
-            Ocupación: Conductor
+            Ocupación: Conductor<br>
+			Minuto de inicio: 01:25:01<br>
+			Duración: 23:05min<br>
             </td>
 		</tr>
 		<tr>
@@ -330,7 +342,9 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td>Nombre: Marcos Ruiz<br>
             Edad: 45<br>
             Provincia: Lima<br>
-            Ocupación: Taxista
+            Ocupación: Taxista<br>
+			Minuto de inicio: 01:48:07<br>
+			Duración: 10:30min<br>
             </td>
 		</tr>
 		<tr>
@@ -359,7 +373,9 @@ Mantiene su Bluetooth habilitado y no tendría ninguna preocupación de segurida
 			<td>Nombre: Eugenio Estefanero<br>
             Edad: 75<br>
             Provincia: Lima<br>
-            Ocupación: Conductor Jubilado
+            Ocupación: Conductor Jubilado<br>
+			Minuto de inicio: 01:58:38<br>
+			Duración: 08:33<br>
             </td>
 		</tr>
 		<tr>
@@ -387,7 +403,9 @@ A diferencia del resto, este usuario prefiere recibir alertas no urgentes a trav
 			<td>Nombre: Roxana Conde<br>
             Edad: 22<br>
             Provincia: Lima<br>
-            Ocupación: Estudiante Universitaria
+            Ocupación: Estudiante Universitaria<br>
+			Minuto de inicio: 02:07:12<br>
+			Duración: 10:51min<br>
             </td>
 		</tr>
 		<tr>
