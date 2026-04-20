@@ -21,7 +21,7 @@
 		</tr>
 		<tr>
 			<td rowspan="2">Perfil</td>
-			<td>Overwiew</td>
+			<td>Overview</td>
 			<td>Andeva es una startup peruana de base tecnológica, concebida y desarrollada por estudiantes de Ingeniería de Software de la UPC en 2025. Nuestro producto "X" transforma el modelo operativo de los talleres automotrices, evolucionándolo de un enfoque reactivo a uno preventivo e inteligente mediante hardware OBD2 + IA predictiva + ERP todo-en-uno.</td>
 			<td>Startup peruana fundada en 2022 en Lima, especializada en digitalizar talleres mecánicos independientes. Resuelve el caos administrativo (papel, Excel, WhatsApp desordenado) centralizando órdenes de trabajo, inventario y caja en una sola plataforma en la nube.</td>
 			<td>Startup mexicana fundada en 2019, líder en Latam con presencia en 6 países (México, Colombia, Perú, Chile, Argentina, Ecuador). Digitaliza talleres medianos y grandes, eliminando el papel y centralizando la operación completa (administrativa + comercial).</td>
