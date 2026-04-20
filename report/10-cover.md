@@ -3,27 +3,37 @@
 <center>Universidad Peruana de Ciencias Aplicadas</center>
 <center>Facultad de Ingeniería</center>
 
-<center><h3>1asi0729 Desarrollo de Aplicaciones Open Source</h3></center>
+<center><h4>1asi0729 Desarrollo de Aplicaciones Open Source</h4></center>
 
-<center><h5>"Informe de Trabajo Final"</h5></center>
+<h6></h6>
+
+<center><b>"Informe de Trabajo Final"</b></center>
+
+<h6></h6>
 
 <center><b>Startup:</b> andeva</center>
 
-<center><h5>Producto:</h5></center>
+<h6></h6>
+
+<center><b>Producto:</b></center>
+
+<h6></h6>
 
 <center><img src="assets/logotipo-atelier.png" alt="Logotipo de atelier"></center>
 
-<center><h5>Carrera:</h5></center>
+<h6></h6>
 
-<center>Ingeniería de Software</center>
+<center><b>Carrera:</b> Ingeniería de Software</center>
 
-<center><h5>Ciclo:</h5></center>
+<center><b>Ciclo:</b> 2026-10</center>
 
-<center>2026-10</center>
+<h6></h6>
 
-<center><h5>Integrantes:</h5></center>
+<center><b>Integrantes:</b></center>
 
-<table style="margin: 0 auto; width: 50%;">
+<h6></h6>
+
+<table style="margin: 0 auto; width: 70%;">
 	<tbody>
 		<tr>
 			<td><center>Código</center></td>
@@ -52,12 +62,14 @@
 	</tbody>
 </table>
 
-<center><h5>NRC:</h5></center>
+<h6></h6>
 
-<center>11848</center>
+<center><b>NRC:</b> 11848</center>
 
-<center><h5>Docente:</h5></center>
+<center><b>Docente:</b> Velasquez Nuñez, Angel Augusto</center>
 
-<center>Velasquez Nuñez, Angel Augusto</center>
+<h6></h6>
 
-<center><h5>Abril 2026</h5></center>
+<center><b>Abril 2026</b></center>
+
+<div style='page-break-after: always'></div>
