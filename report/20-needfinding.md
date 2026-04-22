@@ -1,9 +1,10 @@
 ## 2.3. Needfinding {#cap-2-3}
-&emsp;&emsp;&emsp;&emsp;En esta sección se explica y presenta los artefactos resultantes del proceso de
-análisis de la información recolectada.
-### 2.3.1. &emsp;&emsp; *User Personas* {#cap-2-3-1}
-&emsp;&emsp;&emsp;&emsp;Para desarrollar la propuesta de solución, se creará un User Persona por cada 
-segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo. 
+
+&emsp;&emsp;&emsp;&emsp;En esta sección se explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada.
+
+### 2.3.1.&emsp;&emsp;*User Personas*{#cap-2-3-1}
+
+&emsp;&emsp;&emsp;&emsp;Para desarrollar la propuesta de solución, se creará un User Persona por cada segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo. 
 De esta forma, se podrá dar una idea más clara de a qué público nos estamos acercando con la idea de solución.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
@@ -23,9 +24,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 <center><img src="assets/Carlos-Mendoza.png" title="Imagen del segmento dos" alt="Imagen del segmento dos" width="450"></center>
 
 ### 2.3.2. &emsp;&emsp; *User Task Matrix* {#cap-2-3-2}
-&emsp;&emsp;&emsp;&emsp;La User Task Matrix servirá para el análisis que permite consolidar y priorizar
-las actividades esenciales de las User personas para alcanzar sus objetivos de negocio o personales.
-A cada actividad se le asigna un nivel en cuanto a qué tanta importancia posee y qué tan frecuente es la actividad realizada por el User Persona .
+&emsp;&emsp;&emsp;&emsp;La User Task Matrix servirá para el análisis que permite consolidar y priorizar las actividades esenciales de las User personas para alcanzar sus objetivos de negocio o personales. A cada actividad se le asigna un nivel en cuanto a qué tanta importancia posee y qué tan frecuente es la actividad realizada por el User Persona.
 
 <table border="1" style="border-collapse: collapse; width: 100%; border-color: black;">
 	<tbody>
@@ -100,8 +99,7 @@ A cada actividad se le asigna un nivel en cuanto a qué tanta importancia posee 
 </table>
 
 ### 2.3.3. &emsp;&emsp; *User Journey Mapping* {#cap-2-3-3}
-&emsp;&emsp;&emsp;&emsp;El User Journey Mapping es una técnica que permite visualizar el proceso que sigue el usuario para
-cumplir un objetivo, ayudándonos a entender sus acciones, emociones y puntos de dolor.
+&emsp;&emsp;&emsp;&emsp;El User Journey Mapping es una técnica que permite visualizar el proceso que sigue el usuario para cumplir un objetivo, ayudándonos a entender sus acciones, emociones y puntos de dolor.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
