@@ -21,10 +21,16 @@
 			<td>Se agregó la página de student outcome, arreglo de entrevistas, se agrego user stories, product backlog, style guidelines y iInformation architecture al repositorio.</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>0.3.0</td>
+			<td>21/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se agrego la parte de Landing Page UI Design, Software Configuration Management y Landing Page Services & Applications Implementation.</td>
+		</tr>
+		<tr>
+			<td>0.3.1</td>
+			<td>22/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se actualizo el apartado de anexos del reporte.</td>
 		</tr>
 	</tbody>
 </table>
