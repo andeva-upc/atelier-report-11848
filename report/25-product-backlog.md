@@ -71,6 +71,6 @@
 
 ![](assets/product-backlog.png "Product Backlog de atelier")
 
-*Nota: Link de acceso a la plataforma de Trello [https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier-product-backlog](https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier-product-backlog)*
+*Nota: Link de acceso a la plataforma de Trello [https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier](https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier)*
 
 <div style='page-break-after: always'></div>
