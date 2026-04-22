@@ -6,7 +6,7 @@
 
 ### 4.1.1.&emsp;&emsp;*General Style Guidelines* {#cap-4-1-1}
 
-&emsp;&emsp;&emsp;&emsp;En este apartado se detallan las decisiones de estilo que establecen la identidad visual de atelier, una plataforma web y aplicacion movil que busca desempeñarse y consolidarse en el mercado automotriz, exactamente dueños de tallers y conductores de Lima. El objetivo y decisiones tomadas en cuanto al branding, typography, colors, spacing y language se basan en crear una experiencia comprensible, amigable e intuitiva. Aparte de ello transmitir estabilidad y confianza.
+&emsp;&emsp;&emsp;&emsp;En esta sección se detallan las decisiones de estilo que establecen la identidad visual de atelier, una plataforma web y aplicacion movil que busca desempeñarse y consolidarse en el mercado automotriz, exactamente dueños de tallers y conductores de Lima. El objetivo y decisiones tomadas en cuanto al branding, typography, colors, spacing y language se basan en crear una experiencia comprensible, amigable e intuitiva. Aparte de ello transmitir estabilidad y confianza.
 
 **Branding**
 
