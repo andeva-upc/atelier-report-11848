@@ -15,3 +15,5 @@ Observatorio Nacional de Seguridad Vial, (2025). Boletin estadístico anual de s
 Sánchez, J. (27 de octubre de 2024). ¿Cuánto cuesta mantener un carro en Perú? Esto revela venezolano: más de S/1.400 solo en mantenimiento al año. La República. [https://larepublica.pe/sociedad/2024/10/27/cuanto-cuesta-mantener-un-carro-en-peru-esto-revela-venezolano-mas-de-s1400-solo-en-mantenimiento-al-ano-evat-1500309](https://larepublica.pe/sociedad/2024/10/27/cuanto-cuesta-mantener-un-carro-en-peru-esto-revela-venezolano-mas-de-s1400-solo-en-mantenimiento-al-ano-evat-1500309)
 
 Sosa, B. y Herrera, M. (2023). Análisis de la situación actual del mantenimiento en el sector automotriz. Polo del Conocimiento, 8(10), 577-597. [https://doi.org/10.23857/pc.v8i10.6142](https://doi.org/10.23857/pc.v8i10.6142)
+
+<div style='page-break-after: always'></div>
