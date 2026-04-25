@@ -74,3 +74,5 @@
 *Database Diagram - Billing (Invoicing and Payments)*
 
 ![](assets/database-diagram-billing.png "Database Diagram - Billing")
+
+<div style='page-break-after: always'></div>
