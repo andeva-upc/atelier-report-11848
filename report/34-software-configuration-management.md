@@ -66,11 +66,11 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se detallan los enlaces a los repositorios oficiales donde se aloja el ecosistema digital de atelier.
 
-&emsp;&emsp;&emsp;&emsp;Landing Page: [https://github.com/andeva-upc/atelier-website-11848](https://github.com/andeva-upc/atelier-website-11848)
+&emsp;&emsp;&emsp;&emsp;Landing Page: [https://github.com/andeva-upc/atelier-website-open-source](https://github.com/andeva-upc/atelier-website-open-source)
 
-&emsp;&emsp;&emsp;&emsp;Webapp: [https://github.com/andeva-upc/atelier-webapp-11848](https://github.com/andeva-upc/atelier-webapp-11848)
+&emsp;&emsp;&emsp;&emsp;Webapp: [https://github.com/andeva-upc/atelier-webapp-open-source](https://github.com/andeva-upc/atelier-webapp-open-source)
 
-&emsp;&emsp;&emsp;&emsp;Platform: [https://github.com/andeva-upc/atelier-platform-11848](https://github.com/andeva-upc/atelier-platform-11848)
+&emsp;&emsp;&emsp;&emsp;Platform: [https://github.com/andeva-upc/atelier-platform-open-source](https://github.com/andeva-upc/atelier-platform-open-source)
 
 **GitFlow**
 
