@@ -133,7 +133,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *Empathy Mapping de dueños o administradores de talleres automotrices independientes en Lima*
 
-![](assets/Empathy-Mapping-Jorge-Torres.png "Empathy Mapping del segmento uno")
+![](assets/emp-jorge.jpg "Empathy Mapping del segmento uno")
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
@@ -141,4 +141,5 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *Empathy Mapping de conductores de vehículos de Lima*
 
-![](assets/Empathy-MappingJuan-Guitierrez.png "Empathy Mapping del segmento dos")
+![](assets/emp-juan.jpg "Empathy Mapping del segmento uno")
+![](assets/emp-juan-2.jpg "Empathy Mapping del segmento uno")
