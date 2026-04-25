@@ -91,17 +91,27 @@
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited On |
 |:----------:|:------:|-----------|----------------|---------------------|-------------|
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
-|     andeva-upc/atelier-website-11848       |        |           |                |                     |             |
+|     andeva-upc/atelier-website-open-source       |    develop    |     6e76e6df      |       chore: initial commit.         |                     |     23/04/2026 11:57        |
+|     andeva-upc/atelier-website-open-source       |    develop    |     32dd8f39      |      feat(material-design): add angular material theming and update styles.          |                     |      23/04/2026 12:02       |
+|     andeva-upc/atelier-website-open-source       |    develop    |     4786effa      |    feat(i18n): add ngx-translate for internationalization support.            |                     |      23/04/2026 at 12:04       |
+|     andeva-upc/atelier-website-open-source       |     develop   |    302e7c70       |      feat(i18n): integrate ngx-translate for multilingual support and add language files.          |                     |      23/04/2026 12:14       |
+|     andeva-upc/atelier-website-open-source       |   develop     |     09075a73      |       feat(header): add header component with logo and buttons.         |                     |      23/04/2026 13:57       |
+|     andeva-upc/atelier-website-open-source       |   develop     |    6e46c61d       |        feat(value-proposition): add hero component with title, subtitle, and buttons.        |                     |      23/04/2026 at 15:19       |
+|     andeva-upc/atelier-website-open-source       |   develop     |     fedbfc39      |       style(header): update media query to hide button container on smaller screens.         |                     |      23/04/2026 15:22       |
+|     andeva-upc/atelier-website-open-source       |    develop    |     b80c7e97      |        style(value-proposition): adjust background position for improved layout        |                     |      23/04/2026 15:27       |
+|     andeva-upc/atelier-website-open-source       |    develop    |      e53f7f1b     |       style(header): hide logo text on smaller screens and update hero z-index.         |                     |      23/04/2026 15:32       |
+|     andeva-upc/atelier-website-open-source       |    develop    |     3aae419f      |        style(value-proposition): update button styles and adjust layout for improved responsiveness.        |                     |       on 23/04/2026 at 15:47      |
+|     andeva-upc/atelier-website-open-source       |   develop     |      070f4fd8     |        feat(benefits): add card component with animation and styling.        |                     |     23/04/2026 19:50        |
+|     andeva-upc/atelier-website-open-source       |     develop   |     9f2e6d86      |        feat(pricing): initialize pricing component structure and integration.        |                     |     25/04/2026 00:17        |
+|     andeva-upc/atelier-website-open-source       |   develop     |     aff3e5e2      |       feat(pricing): implement pricing toggle with signals and responsive styles.         |                     |     25/04/2026 00:21        |
+|     andeva-upc/atelier-website-open-source       |   develop     |     d4d445e7      |       feat(pricing): implement pricing cards with dual-background design and dynamic prices.         |                     |      25/04/2026 00:48       |
+|     andeva-upc/atelier-website-open-source       |   develop     |     774ba6b6      |        feat(pricing): complete pricing section with footer disclaimer, contact button and full responsive design.        |                     |      25/04/2026 01:15       |
+|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
+|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
+|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
+|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
+|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
+|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
 
 #### 5.2.1.5.&emsp;&emsp;*Execution Evidence for Sprint Review* {#cap-5-2-1-5}
 
@@ -139,7 +149,7 @@
 
 ![](assets/imagotipo-atelier.jpg "Repositorio de la Landing Page de atelier")
 
-&emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en GitHub Pages Desde la plataforma de GitHub, se ingresó la sección de Configuración del repositorio del sitio web estático. En la barra lateral, se accedió a la sección Pages para definir la fuente del despliegue.
+&emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
 **Figura**
 
@@ -147,7 +157,7 @@
 
 ![](assets/imagotipo-atelier.jpg "Configuración de la Landing Page en GitHub Pages")
 
-&emsp;&emsp;&emsp;&emsp;Paso 3: Selección de origen y automatización del despliegue. Se configuró GitHub Pages para que realice el despliegue a partir de la rama principal seleccionada en el paso anterior, utilizando la carpeta raíz. Al guardar estos cambios, GitHub inicia automáticamente el flujo de trabajo para empaquetar y publicar el sitio web en sus servidores en la nube.
+&emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
 **Figura**
 
@@ -155,7 +165,7 @@
 
 ![](assets/imagotipo-atelier.jpg "Despliegue de la Landing Page en GitHub Pages")
 
-&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación. Una vez que el proceso de deployment interno de GitHub finaliza con éxito, la plataforma proporciona un enlace URL público y permanente. El equipo utilizó este enlace para realizar una validación final: []().
+&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: []().
 
 #### 5.2.1.8.&emsp;&emsp;*Team Collaboration Insights during Sprint* {#cap-5-2-1-8}
 
