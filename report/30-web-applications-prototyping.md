@@ -7,3 +7,4 @@
 *Captura de Pantalla del video de Web Applications Prototyping de atelier*
 
 ![](assets/prototyping-atelier.jpg "Captura de Pantalla del video de Web Applications Prototyping de atelier")
+
