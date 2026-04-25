@@ -20,3 +20,5 @@
 | **Billing / Invoicing (Facturación)** | Proceso legal y financiero de generación de comprobantes electrónicos vinculados a los servicios prestados. | Taller, Conductor, SUNAT |
 | **ERP - Enterprise Resource Planning (Sistema de gestión)** | Módulo integral de la plataforma que centraliza la administración operativa, financiera y de recursos del taller. | Taller, Administrador |
 | **Preventive Alert (Alerta preventiva)** | Notificación automática enviada al conductor y al taller basada en la predicción de fallas del motor de IA. | Conductor, Taller |
+
+<div style='page-break-after: always'></div>
