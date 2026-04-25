@@ -6,4 +6,4 @@
 
 *Tablero de Big Picture Event Storming de atelier*
 
-![Big Picture Event Storming de atelier](assets/Big-Event-Storming.png "Big Picture Event Storming de atelier")
+![](assets/Big-Event-Storming.png "Big Picture Event Storming de atelier")
