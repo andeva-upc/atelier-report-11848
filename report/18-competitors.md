@@ -6,18 +6,18 @@
 
 ### 2.1.1.&emsp;&emsp;*Análisis Competitivo* {#cap-2-1-1}
 
-**Tabla 1**
+**Tabla**
 
-*Matriz Comparativa de Competidores*
+*Competitive Analysis Landscape*
 
-<table>
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.5em;">
 	<tbody>
 		<tr>
-			<td colspan="2"><b>Competidor</b></td>
-			<td><center><img alt="Logo de Atelier" src="assets/logo-atelier.png" style="max-width: 100px; width: 100px;"></center></td>
-			<td><center><img alt="Logo de Mi Taller CRM" src="assets/logo-mi-taller.png" style="max-width: 100px; width: 100px;"></center></td>
-			<td><center><img alt="Logo de OK CAR" src="assets/logo-ok-car.png" style="max-width: 100px; width: 100px;"></center></td>
-			<td><center><img alt="Logo de Taller GP" src="assets/logo-taller-gp.png" style="max-width: 100px; width: 100px;"></center></td>
+			<td colspan="2" style="width: 10%;"><b>Competidor</b></td>
+			<td style="width: 22.5%;"><center><img alt="Logo de Atelier" src="assets/logo-atelier.png" style="max-width: 100%; height: auto;"></center></td>
+			<td style="width: 22.5%;"><center><img alt="Logo de Mi Taller CRM" src="assets/logo-mi-taller.png" style="max-width: 100%; height: auto;"></center></td>
+			<td style="width: 22.5%;"><center><img alt="Logo de OK CAR" src="assets/logo-ok-car.png" style="max-width: 100%; height: auto;"></center></td>
+			<td style="width: 22.5%;"><center><img alt="Logo de Taller GP" src="assets/logo-taller-gp.png" style="max-width: 100%; height: auto;"></center></td>
 		</tr>
 		<tr>
 			<td rowspan="2">Perfil</td>
@@ -183,9 +183,9 @@
 
 ### 2.1.2.&emsp;&emsp;*Estrategias y Tácticas frente a Competidores* {#cap-2-1-2}
 
-**Tabla 2**
+**Tabla**
 
-*Estrategias y Tácticas frente a Competidores*
+*Tabla de estrategias y tácticas frente a competidores*
 
 <table>
 	<tbody>
