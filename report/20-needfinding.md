@@ -9,22 +9,27 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Figura n** 
+**Figura** 
 
-*User persona de dueños o administradores de talleres*
+*User persona de dueños o administradores de talleres automotrices independientes en Lima*
 
 ![](assets/Jorge-Torres.png "Imagen del segmento uno")
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Figura n**
+**Figura**
 
-*User persona de conductores de vehículos*
+*User persona de conductores de vehículos de Lima*
 
 ![](assets/Carlos-Mendoza.png "Imagen del segmento dos")
 
 ### 2.3.2.&emsp;&emsp;*User Task Matrix* {#cap-2-3-2}
+
 &emsp;&emsp;&emsp;&emsp;La User Task Matrix servirá para el análisis que permite consolidar y priorizar las actividades esenciales de las User personas para alcanzar sus objetivos de negocio o personales. A cada actividad se le asigna un nivel en cuanto a qué tanta importancia posee y qué tan frecuente es la actividad realizada por el User Persona.
+
+**Tabla** 
+
+*User Task Matrix*
 
 <table border="1" style="border-collapse: collapse; width: 100%; border-color: black;">
 	<tbody>
@@ -99,21 +104,22 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 </table>
 
 ### 2.3.3.&emsp;&emsp;*User Journey Mapping* {#cap-2-3-3}
+
 &emsp;&emsp;&emsp;&emsp;El User Journey Mapping es una técnica que permite visualizar el proceso que sigue el usuario para cumplir un objetivo, ayudándonos a entender sus acciones, emociones y puntos de dolor.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Figura n** 
+**Figura** 
 
-*User journey mapping de dueños o administradores de talleres*
+*User journey mapping de dueños o administradores de talleres automotrices independientes en Lima*
 
 ![](assets/Customer-journey-Taller.png "Imagen del user journey del segmento uno")
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Figura n**
+**Figura**
 
-*User journey mapping de conductores de vehículos*
+*User journey mapping de conductores de vehículos de Lima*
 
 ![](assets/Customer-journey-Conductor.png "Imagen del user journey del segmento dos")
 
