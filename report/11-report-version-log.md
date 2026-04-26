@@ -21,6 +21,12 @@
 			<td>Se elaboró el Big Picture Event Storming y la definición inicial del Ubiquitous Language (Lenguaje Obicuo) para el modelado del dominio.</td>
 		</tr>
 		<tr>
+			<td>0.1.2</td>
+			<td>15/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se añadió el capítulo de Competidores, incluyendo tablas de análisis competitivo y logos de competidores para el análisis de requerimientos.</td>
+		</tr>
+		<tr>
 			<td>0.2.0</td>
 			<td>20/04/2026</td>
 			<td>Joel Huamani Estefanero</td>
@@ -43,6 +49,30 @@
 			<td>22/04/2026</td>
 			<td>Joel Huamani Estefanero</td>
 			<td>Se actualizo el apartado de anexos del reporte.</td>
+		</tr>
+		<tr>
+			<td>0.3.2</td>
+			<td>22/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se añadió la sección de Domain-Driven Software Architecture y los diagramas C4 (Contexto, Contenedor y Componentes).</td>
+		</tr>
+		<tr>
+			<td>0.4.0</td>
+			<td>24/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se documentaron los diagramas de clases UML del backend organizados por Bounded Contexts.</td>
+		</tr>
+		<tr>
+			<td>0.4.1</td>
+			<td>24/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se documentó el diseño de la base de datos de la plataforma por Bounded Context, incluyendo diagramas generales y específicos.</td>
+		</tr>
+		<tr>
+			<td>0.5.0</td>
+			<td>25/04/2026</td>
+			<td>Aldo Jeanfranco Machacca Soto</td>
+			<td>Se implementó la sección de Pricing de la Landing Page con diseño responsivo, tarjetas dinámicas y toggle de precios mediante signals.</td>
 		</tr>
 	</tbody>
 </table>
