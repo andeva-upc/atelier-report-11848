@@ -130,10 +130,36 @@
 
 ### 4.6.4.&emsp;&emsp;*Software Architecture Components Diagrams* {#cap-4-6-4}
 
-&emsp;&emsp;&emsp;&emsp;El diagrama de componentes (Nivel 3 del modelo C4) ofrece una disección exhaustiva de los contenedores más relevantes, focalizándose principalmente en la arquitectura interna de la API backend. Este nivel táctico exhibe la estructuración del código en módulos lógicos y responsabilidades aisladas, mostrando abiertamente las interfaces y el flujo de dependencias instaurado entre ellos. Concretamente, se exponen los microservicios, dominios o controladores técnicos delegados para orquestar comportamientos de negocio complejos, destacándose flujos de altísima importancia como la sincronización asíncrona de datos telemétricos interconectados procesados en tiempo real, el flujo transaccional de facturación y la gestión meticulosa de refacciones e insumos mecánicos.
+&emsp;&emsp;&emsp;&emsp;Los diagramas de componentes (Nivel 3 del modelo C4) ofrecen una disección exhaustiva de los contenedores más relevantes del ecosistema **atelier**. Este nivel táctico exhibe la estructuración del código en módulos lógicos, responsabilidades aisladas y el flujo de dependencias instaurado entre ellos para satisfacer las reglas de negocio del dominio. A continuación, se exponen las arquitecturas internas de los 4 contenedores principales de la plataforma:
+
+&emsp;&emsp;&emsp;&emsp;**a) Core Backend API:** Exhibe la estructuración de la lógica de negocio transaccional, dominios y controladores técnicos delegados para orquestar comportamientos complejos, destacándose flujos de altísima importancia como la sincronización de datos telemétricos, el flujo transaccional de facturación y la gestión de refacciones e insumos.
 
 **Figura XX**
 
-*Software Architecture Components Diagram*
+*Component Diagram: Core Backend API*
 
-![](assets/c4-components-diagram.svg "Components Diagram")
+![](assets/c4-components-diagram.svg "Core Backend API Components Diagram")
+
+&emsp;&emsp;&emsp;&emsp;**b) Single-Page Application:** Muestra la arquitectura de la interfaz web en Angular. Agrupa la capa de enrutamiento y seguridad con las vistas gerenciales (Dashboard), el módulo de citas y la revisión de gráficos predictivos de telemetría. Además, encapsula las peticiones hacia la API principal.
+
+**Figura XX**
+
+*Component Diagram: Single-Page Application*
+
+![](assets/single-page-aplication.png "Single-Page Application Components Diagram")
+
+&emsp;&emsp;&emsp;&emsp;**c) Mobile App:** Detalla los componentes internos de la aplicación Android (Kotlin) utilizada por los mecánicos a pie de motor. Destaca la gestión de diagnósticos vehiculares, el empaquetado y envío de telemetría OBD2 en lotes, y la recepción de notificaciones push.
+
+**Figura XX**
+
+*Component Diagram: Mobile App*
+
+![](assets/mobile-application.png "Mobile App Components Diagram")
+
+&emsp;&emsp;&emsp;&emsp;**d) Async Worker Service:** Ilustra el procesador de tareas asíncronas y pesadas. Escucha eventos desde la cola de mensajes (RabbitMQ) y orquesta la comunicación con sistemas externos como la validación tributaria (SUNAT / PSE) y el envío de alertas preventivas (WhatsApp), evitando bloqueos en la experiencia del usuario final.
+
+**Figura XX**
+
+*Component Diagram: Async Worker Service*
+
+![](assets/async-worker.png "Async Worker Service Components Diagram")
