@@ -106,12 +106,12 @@
 |     andeva-upc/atelier-website-open-source       |   develop     |     aff3e5e2      |       feat(pricing): implement pricing toggle with signals and responsive styles.         |                     |     25/04/2026 00:21        |
 |     andeva-upc/atelier-website-open-source       |   develop     |     d4d445e7      |       feat(pricing): implement pricing cards with dual-background design and dynamic prices.         |                     |      25/04/2026 00:48       |
 |     andeva-upc/atelier-website-open-source       |   develop     |     774ba6b6      |        feat(pricing): complete pricing section with footer disclaimer, contact button and full responsive design.        |                     |      25/04/2026 01:15       |
-|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
-|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
-|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
-|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
-|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
-|     andeva-upc/atelier-website-open-source       |   develop     |           |                |                     |             |
+|     andeva-upc/atelier-website-open-source       |   develop     |     5609a2fd      |       feat(team-info): add team component with member profiles.         |                     |       25/04/2026 10:32      |
+|     andeva-upc/atelier-website-open-source       |   develop     |     d859ca4c      |         fix(team): add mariana's photo and fix card image background.       |                     |        25/04/2026 15:53     |
+|     andeva-upc/atelier-website-open-source       |   develop     |     5ec553fd      |         feat: add footer in the landing page.       |                     |      25/04/2026 19:56       |
+|     andeva-upc/atelier-website-open-source       |   develop     |      1c51d1ac     |        fix(footer): reorganize footer component imports and file structure.        |                     |      26/04/2026 07:07       |
+|     andeva-upc/atelier-website-open-source       |   main     |     a4d98cd5      |        Release/website atelier 1.0.0        |                     |      26/04/2026 07:23       |
+
 
 #### 5.2.1.5.&emsp;&emsp;*Execution Evidence for Sprint Review* {#cap-5-2-1-5}
 
@@ -123,11 +123,11 @@
 
 *Capturas de Pantalla de la Landing Page de atelier*
 
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
-![](assets/imagotipo-atelier.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-1.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-2.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-3.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-4.jpg "Capturas de Pantalla de la Landing Page de atelier")
+![](assets/landing-page-5.jpg "Capturas de Pantalla de la Landing Page de atelier")
 
 #### 5.2.1.6.&emsp;&emsp;*Services Documentation Evidence for Sprint Review* {#cap-5-2-1-6}
 
@@ -145,27 +145,33 @@
 
 **Figura**
 
-*Repositorio de la Landing Page de atelier*
+*Repositorio del website de atelier*
 
-![](assets/imagotipo-atelier.jpg "Repositorio de la Landing Page de atelier")
+![](assets/repo-website-atelier.jpeg "Repositorio del website de atelier")
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
 **Figura**
 
-*Configuración de la Landing Page en GitHub Pages*
+*Captura de pantalla de la seccion de proyectos de Vercel*
 
-![](assets/imagotipo-atelier.jpg "Configuración de la Landing Page en GitHub Pages")
+![](assets/vercel-add-new.jpeg "Captura de pantalla de la seccion de proyectos de Vercel")
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
 **Figura**
 
-*Despliegue de la Landing Page en GitHub Pages*
+*Captura de pantalla de la seccion de despliegue de Vercel*
 
-![](assets/imagotipo-atelier.jpg "Despliegue de la Landing Page en GitHub Pages")
+![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: []().
+**Figura**
+
+*Captura de pantalla de la configuración de despliegue de Vercel*
+
+![](assets/vercel-deploy.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: [https://atelier-11848.vercel.app/](https://atelier-11848.vercel.app/).
 
 #### 5.2.1.8.&emsp;&emsp;*Team Collaboration Insights during Sprint* {#cap-5-2-1-8}
 
@@ -187,6 +193,6 @@
 
 *Gráfico de commits*
 
-![](assets/imagotipo-atelier.jpg "Gráfico de commits")
+![](assets/commits-sprint-1.jpg "Gráfico de commits")
 
 <div style='page-break-after: always'></div>
