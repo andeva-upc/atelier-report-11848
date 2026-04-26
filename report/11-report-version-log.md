@@ -74,6 +74,48 @@
 			<td>Aldo Jeanfranco Machacca Soto</td>
 			<td>Se implementó la sección de Pricing de la Landing Page con diseño responsivo, tarjetas dinámicas y toggle de precios mediante signals.</td>
 		</tr>
+		<tr>
+			<td>0.5.1</td>
+			<td>20/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó mapa de empatía, mapa de impacto.</td>
+		</tr>
+		<tr>
+			<td>0.6.0</td>
+			<td>24/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó Web Applications Mock-ups y Web Applications Userflow Diagrams.</td>
+		</tr>
+		<tr>
+			<td>0.6.1</td>
+			<td>22/04/2026</td>
+			<td>Morocho Pinedo, Mariana Hortencia</td>
+			<td>Se realizó la entrevista, el user persona.</td>
+		</tr>
+		<tr>
+			<td>0.7.0</td>
+			<td>23/04/2026</td>
+			<td>Morocho Pinedo, Mariana Hortencia</td>
+			<td>Se realizó el user journey mapping, user task matrix.</td>
+		</tr>
+		<tr>
+			<td>0.7.1</td>
+			<td>24/04/2026</td>
+			<td>Morocho Pinedo, Mariana Hortencia</td>
+			<td>Se realizó Web Applications Wireframes y Web Applications Wireflow Diagrams.</td>
+		</tr>
+		<tr>
+			<td>0.8.0</td>
+			<td>24/04/2026</td>
+			<td>Luis Daniel Granda Ibarra</td>
+			<td>Se realizó los benefits del landing page, con diseño dinámico.</td>
+		</tr>
+		<tr>
+			<td>0.8.1</td>
+			<td>25/04/2026</td>
+			<td>Morocho Pinedo, Mariana Hortencia</td>
+			<td>Se realizó el footer del landing page.</td>
+		</tr>
 	</tbody>
 </table>
 
