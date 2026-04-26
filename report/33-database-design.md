@@ -25,7 +25,7 @@
 
 ![](assets/database-diagram-core.png "Database Diagram - Core")
 
-**Bounded Context: IoT (Hardware y Telemetría)**
+**Bounded Context: IoT (Hardware and Telemetry)**
 
 &emsp;&emsp;&emsp;&emsp;En este diagrama se exponen las tablas encargadas de almacenar la configuración de dispositivos y los registros de telemetría provenientes de los escáneres OBD2.
 
