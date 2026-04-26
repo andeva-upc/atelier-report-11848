@@ -21,8 +21,6 @@
 
 ![](assets/insights-1.png "Insights del Primer Avance 1 (AV1)")
 
-![](assets/gitflow-1.png "GitFlow del Primer Avance 1 (AV1)")
-
 ##### TB1:
 ##### Descripción:
 
