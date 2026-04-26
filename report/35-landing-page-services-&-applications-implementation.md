@@ -139,8 +139,6 @@
 
 &emsp;&emsp;&emsp;&emsp;En esta sección se resumen los procesos realizados en relación con el despliegue durante el primer sprint del proyecto atelier. De acuerdo con los objetivos trazados en el Sprint Planning, el alcance técnico de esta iteración se limitó exclusivamente a la construcción del Landing Page. Por consiguiente, durante este periodo no se realizaron despliegues vinculados a las Web Applications ni a los Web Services.
 
-&emsp;&emsp;&emsp;&emsp;Las actividades de despliegue para este primer sprint abarcaron la configuración del repositorio oficial del proyecto y la habilitación de recursos en el cloud provider seleccionado: GitHub Pages. Al tratarse de una arquitectura estática, este proveedor permite una automatización directa y una integración continua del alojamiento web directamente desde el repositorio.
-
 &emsp;&emsp;&emsp;&emsp;Paso 1: Integración de la rama de lanzamiento. Como paso inicial, el equipo consolidó todos los avances de diseño y maquetación de las distintas ramas de características hacia la rama principal de despliegue. Esto asegura que el código a desplegar sea la versión estable y aprobada del Sprint.
 
 **Figura**
