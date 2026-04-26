@@ -36,15 +36,15 @@
 			<td><b>Carrera</b></td>
 		</tr>
 		<tr>
-			<td rowspan="3"></td>
-			<td></td>
+			<td rowspan="3"><img alt="Imagen de Aldo Machacca Soto" src="assets/imagen-mariana-morocho.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td>Morocho Pinedo, Mariana - U202411521</td>
 			<td>Ingeniería de Software</td>
 		</tr>
 		<tr>
 			<td colspan="2"><b>Descripción</b></td>
 		</tr>
 		<tr>
-			<td colspan="2"></td>
+			<td colspan="2">Soy estudiante de Ingeniería de Software de quinto ciclo. Me considero una persona empática y orientada al trabajo en equipo, con un especial interés en el desarrollo frontend. Disfruto crear interfaces claras y agradables, buscando que la experiencia del usuario sea intuitiva y fluida. Cuento con conocimientos en C++ y Python, que complemento con mi enfoque hacia la parte visual y funcional de las aplicaciones.<br><br>Me gusta apoyar a mis compañeros y mantener una comunicación clara. Entre mis habilidades destacan la coordinación de tareas y la capacidad de aportar ideas para mejorar tanto la interfaz como la dinámica del equipo. Dentro de una startup, me visualizo en un rol orientado al frontend y la gestión, donde pueda contribuir al diseño de interfaces, apoyar en la organización del equipo y asegurar que el trabajo fluya de manera clara, eficiente y alineada con los objetivos del proyecto.</td>
 		</tr>
 		<tr>
 			<td rowspan="3"><img alt="Imagen de Joel Huamani Estefanero" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
@@ -84,17 +84,15 @@
 			<td colspan="2">Soy estudiante de 5.° ciclo de Ingeniería de Software en la UPC, enfocado en el desarrollo de soluciones tecnológicas de alto impacto y el análisis avanzado de datos. Mi formación técnica se respalda en el dominio de Python y C++ para el desarrollo de algoritmos eficientes, así como en el manejo estratégico de SQL para la gestión de bases de datos y Excel para el modelado de información. Me apasiona la Ciencia de Datos y el Machine Learning, áreas donde busco transformar la complejidad técnica en herramientas de decisión para las empresas líderes del mercado.<br><br>Me considero un perfil dinámico, responsable y con una alta capacidad de adaptabilidad, cualidades que potencio fuera del entorno académico a través de la disciplina del deporte y la música. La constancia que aplico en la calistenia, la natación y el gimnasio, sumada a la creatividad que desarrollo con la guitarra, me permiten abordar los retos de ingeniería con una mentalidad resiliente y un pensamiento lateral. Mi meta es consolidarme como un profesional indispensable en el ecosistema tecnológico, aportando valor real a través de la innovación y la ingeniería de calidad.</td>
 		</tr>
 		<tr>
-			<td rowspan="3"><img alt="Imagen de Aldo Machacca Soto" src="assets/imagen-mariana-morocho.jpg" style="max-width: 100px; width: 100px;"></td>
-			<td>Morocho Pinedo, Mariana - U202411521</td>
+			<td rowspan="3"></td>
+			<td></td>
 			<td>Ingeniería de Software</td>
 		</tr>
 		<tr>
 			<td colspan="2"><b>Descripción</b></td>
 		</tr>
 		<tr>
-			<td colspan="2">
-			Soy estudiante de Ingeniería de Software de quinto ciclo. Me considero una persona empática y orientada al trabajo en equipo, con un especial interés en el desarrollo frontend. Disfruto crear interfaces claras y agradables, buscando que la experiencia del usuario sea intuitiva y fluida. Cuento con conocimientos en C++ y Python, que complemento con mi enfoque hacia la parte visual y funcional de las aplicaciones.<br><br>Me gusta apoyar a mis compañeros y mantener una comunicación clara. Entre mis habilidades destacan la coordinación de tareas y la capacidad de aportar ideas para mejorar tanto la interfaz como la dinámica del equipo. Dentro de una startup, me visualizo en un rol orientado al frontend y la gestión, donde pueda contribuir al diseño de interfaces, apoyar en la organización del equipo y asegurar que el trabajo fluya de manera clara, eficiente y alineada con los objetivos del proyecto.
-			</td>
+			<td colspan="2"></td>
 		</tr>
 	</tbody>
 </table>
