@@ -181,6 +181,7 @@
 	</tbody>
 </table>
 
+
 ### 2.1.2.&emsp;&emsp;*Estrategias y Tácticas frente a Competidores* {#cap-2-1-2}
 
 **Tabla**
