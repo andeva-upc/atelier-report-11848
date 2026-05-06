@@ -22,7 +22,7 @@
 
 ![](assets/estadistica-2.png "Ventas de vehículos livianos y pesados desde enero del 2020 a enero del 2026")
 
-&emsp;&emsp;&emsp;&emsp;Hay varias formas como los seguros vehiculares, pero son muy volátiles, con servicios pésimos o no son una opción viable económicamente. Por otra parte, los 38000 talleres de Lima Metropolitana y del Callao presentaron Por otra parte, los 38000 talleres de Lima Metropolitana y del Callao presentaron pérdidas del 30% a 40%, lo que conlleva a que hay un bajo uso de estos debido a la disparidad de precios entre talleres, generando baja fidelización y flujo de clientes (Fiestas et al., 2021).
+&emsp;&emsp;&emsp;&emsp;Hay varias formas como los seguros vehiculares, pero son muy volátiles, con servicios pésimos o no son una opción viable económicamente. Por otra parte, los 38000 talleres de Lima Metropolitana y del Callao presentaron pérdidas del 30% a 40%, lo que conlleva a que hay un bajo uso de estos debido a la disparidad de precios entre talleres, generando baja fidelización y flujo de clientes (Fiestas et al., 2021).
 
 &emsp;&emsp;&emsp;&emsp;El no contar con un servicio de mantenimiento o arreglo de fallas mecánicas lleva a que según el boletín estadístico anual de siniestralidad vial 2024, realizado por el Observatorio Nacional de Seguridad Vial, señala que de un total de 87757 siniestros de tránsitos a nivel nacional el 1,2% de muertes son por partes de fallas mecánicas y de un 0,2% por falta de luces (ONSV, 2025, p. 17). Esto representaría que el 1,4% de los siniestros de tránsito son por factores vehiculares, los porcentajes pueden sonar bajos, pero en total hablamos de 1190 siniestros que pudieron haberse evitado con un mantenimiento adecuado.
 
