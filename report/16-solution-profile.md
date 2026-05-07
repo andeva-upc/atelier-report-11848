@@ -66,8 +66,6 @@
 
 &emsp;&emsp;&emsp;&emsp;El dispositivo OBD2 debe asegurar compatibilidad y estandarización de lectura de datos frente a un parque automotor peruano sumamente heterogéneo.
 
-&emsp;&emsp;&emsp;&emsp;
-
 ### 1.2.2.&emsp;&emsp;*Lean UX Process* {#cap-1-2-2}
 
 &emsp;&emsp;&emsp;&emsp;En esta sección, se abordará el uso del Lean UX Process, una metodología específicamente diseñada y centrada en el usuario, en el cual validaremos la solución con técnicas como "Lean UX Problem Statements", "Lean UX Assumptions", "Lean UX Hypothesis Statements" y "Lean UX Canvas".
