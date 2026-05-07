@@ -21,7 +21,7 @@
 
 *Class Diagram - Core (Identity and Multi-Tenancy)*
 
-![](assets/class-diagram-core.svg "Class Diagram - Core")
+<center><img src="assets/class-diagram-core.png" alt="Class Diagram - Core" style="width: 70%; max-width: 100%; height: auto;"></center>
 
 **Bounded Context: IoT (Hardware y Telemetría)**
 
@@ -31,7 +31,7 @@
 
 *Class Diagram - IoT (Hardware and Telemetry)*
 
-![](assets/class-diagram-iot.svg "Class Diagram - IoT")
+<center><img src="assets/class-diagram-iot.png" alt="Class Diagram - IoT" style="width: 70%; max-width: 100%; height: auto;"></center>
 
 **Bounded Context: Operations (Work Orders)**
 
@@ -41,7 +41,7 @@
 
 *Class Diagram - Operations (Work Orders)*
 
-![](assets/class-diagram-operations.svg "Class Diagram - Operations")
+<center><img src="assets/class-diagram-operations.png" alt="Class Diagram - Operations" style="width: 70%; max-width: 100%; height: auto;"></center>
 
 **Bounded Context: Fleet (Fleet Management)**
 
@@ -51,7 +51,7 @@
 
 *Class Diagram - Fleet (Fleet Management)*
 
-![](assets/class-diagram-fleet.svg "Class Diagram - Fleet")
+<center><img src="assets/class-diagram-fleet.png" alt="Class Diagram - Fleet" style="width: 70%; max-width: 100%; height: auto;"></center>
 
 **Bounded Context: Inventory (Warehouse)**
 
@@ -61,7 +61,7 @@
 
 *Class Diagram - Inventory (Warehouse)*
 
-![](assets/class-diagram-inventory.svg "Class Diagram - Inventory")
+<center><img src="assets/class-diagram-inventory.png" alt="Class Diagram - Inventory" style="width: 70%; max-width: 100%; height: auto;"></center>
 
 **Bounded Context: Billing (Invoicing and Payments)**
 
@@ -71,4 +71,4 @@
 
 *Class Diagram - Billing (Invoicing and Payments)*
 
-![](assets/class-diagram-billing.svg "Class Diagram - Billing")
+<center><img src="assets/class-diagram-billing.png" alt="Class Diagram - Billing" style="width: 70%; max-width: 100%; height: auto;"></center>
