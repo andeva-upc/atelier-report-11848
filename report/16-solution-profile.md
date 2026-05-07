@@ -32,7 +32,7 @@
 
 ![](assets/estadistica-3.png "Porcentajes de siniestros según su causa, 2024")
 
-&emsp;&emsp;&emsp;&emsp;Por ello, en andeva hemos considerado pertinente elaborar dos artefactos que pongan en perspectiva los aspectos fundamentales de la problemática que aborda “X”. Por un lado, mediante 2 diagramas de Ishikawa identificamos las causas raíz que explican el constante uso de un modelo reactivo en el Perú y baja fidelización conductor-taller.
+&emsp;&emsp;&emsp;&emsp;Por ello, en andeva hemos considerado pertinente elaborar dos artefactos que pongan en perspectiva los aspectos fundamentales de la problemática que aborda Atelier. Por un lado, mediante 2 diagramas de Ishikawa identificamos las causas raíz que explican el constante uso de un modelo reactivo en el Perú y baja fidelización conductor-taller.
 
 **Figura 5**
 
@@ -53,6 +53,20 @@
 *Diagrama 5W’s + 2H’s - atelier*
 
 ![](assets/diagrama-5w-y-2h.jpg "Diagrama 5W’s + 2H’s - atelier")
+
+&emsp;&emsp;&emsp;&emsp;A partir de este contexto, la oportunidad comercial que Andeva desea aprovechar radica en la inmensa brecha tecnológica de estos 38,000 talleres independientes. Existe un mercado masivo desatendido que opera de manera informal y que requiere una transición urgente hacia la digitalización. La oportunidad consiste en introducir un modelo SaaS accesible que integre hardware de telemetría IoT con un sistema de planificación de recursos.
+
+&emsp;&emsp;&emsp;&emsp;Al ofrecer esta solución, la startup tiene la oportunidad de capturar a los talleres que buscan modernizarse para retener la creciente demanda del parque automotor, permitiéndoles monetizar el mantenimiento preventivo y transformar un gasto reactivo del conductor en una inversión predecible y segura.
+
+&emsp;&emsp;&emsp;&emsp;Sin embargo, para capitalizar esta oportunidad, la solución tecnológica debe diseñarse y operar considerando las siguientes restricciones críticas del mercado:
+
+&emsp;&emsp;&emsp;&emsp;Existe una alta resistencia al cambio tecnológico por parte de mecánicos tradicionales, lo que exige que el software tenga una curva de aprendizaje mínima, interfaces intuitivas y requiera muy pocos clics para operar.
+
+&emsp;&emsp;&emsp;&emsp;El sistema depende de una conexión a internet estable en los talleres para la sincronización en tiempo real del ERP y la recepción de telemetría. En zonas de Lima con conectividad variable, esto representa una limitante técnica.
+
+&emsp;&emsp;&emsp;&emsp;El dispositivo OBD2 debe asegurar compatibilidad y estandarización de lectura de datos frente a un parque automotor peruano sumamente heterogéneo.
+
+&emsp;&emsp;&emsp;&emsp;
 
 ### 1.2.2.&emsp;&emsp;*Lean UX Process* {#cap-1-2-2}
 
