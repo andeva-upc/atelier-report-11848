@@ -10,9 +10,7 @@
 
 *Class Diagram*
 
-![](assets/class-diagram.svg "Class Diagram - General")
-[Enlace al diagrama completo](https://drive.google.com/file/d/10egYtCO9XkUSs_AtSltKLX53fD8nvHCr/view?usp=sharing)
-
+<center><a href="assets/class-diagram.svg" target="_blank"><img src="assets/class-diagram.svg" alt="Class Diagram - General" style="width: 70%; max-width: 100%; height: auto;"></a></center>
 
 
 **Bounded Context: Core (Identity and Multi-Tenancy)**
