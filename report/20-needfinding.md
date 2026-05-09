@@ -25,7 +25,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 ### 2.3.2.&emsp;&emsp;*User Task Matrix* {#cap-2-3-2}
 
-&emsp;&emsp;&emsp;&emsp;La User Task Matrix servirá para el análisis que permite consolidar y priorizar las actividades esenciales de las User personas para alcanzar sus objetivos de negocio o personales. A cada actividad se le asigna un nivel en cuanto a qué tanta importancia posee y qué tan frecuente es la actividad realizada por el User Persona.
+&emsp;&emsp;&emsp;&emsp;En esta sección se presenta el User Task Matrix correspondiente a los segmentos objetivos identificados en la investigación: dueños o administradores de talleres automotrices independientes y conductores de vehículos de Lima. A partir de estos segmentos, se analizan las principales tareas que realizan en sus actividades cotidianas para alcanzar sus objetivos, considerando la importancia y frecuencia de cada una dentro de su contexto.
 
 **Tabla** 
 
@@ -45,9 +45,9 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 			<td>Frecuencia</td>
         </tr>
         <tr>
-            <td><center>Monitoreo del estado del vehículo</center></td>
-            <td>Media</td>
-            <td>Media</td>
+            <td><center>Revisión del estado general del vehículo</center></td>
+            <td>Alta</td>
+            <td>Alta</td>
             <td>Alta</td>
             <td>Media</td>
         </tr>
@@ -59,46 +59,46 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
             <td>Media</td>
         </tr>
         <tr>
-            <td><center>Atención de fallas mecánicas de emergencia</center></td>
+            <td><center>Evitar averías inesperadas durante traslados</center></td>
+            <td>Medio</td>
+            <td>Bajo</td>
             <td>Alta</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td><center>Búsqueda de información técnica automotriz</center></td>
             <td>Alta</td>
-            <td>Alta</td>
+            <td>Media</td>
+            <td>Baja</td>
             <td>Baja</td>
         </tr>
         <tr>
-            <td><center>Cálculo de presupuesto para reparaciones</center></td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Media</td>
-        </tr>
-        <tr>
-            <td><center>Registro de historial de servicios realizados</center></td>
+            <td><center>Limpieza y mantenimiento básico del vehículo</center></td>
             <td>Media</td>
             <td>Media</td>
             <td>Media</td>
-            <td>Baja</td>
-        </tr>
-        <tr>
-            <td><center>Planificación de ingresos</center></td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td><center>Abastecimiento de repuestos e insumos</center></td>
+            <td><center>Compra de repuestos e insumos automotrices</center></td>
             <td>Alta</td>
-            <td>Alta</td>
+            <td>Media</td>
             <td>N/A</td>
             <td>N/A</td>
         </tr>
         <tr>
-            <td><center>Fidelización y comunicación con clientes</center></td>
+            <td><center>Comunicación y atención a clientes</center></td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><center>Evaluación de costos de combustible</center></td>
+            <td>Baja</td>
+            <td>Baja</td>
             <td>Alta</td>
             <td>Media</td>
-            <td>N/A</td>
-            <td>Baja</td>
         </tr>
     </tbody>
 </table>
