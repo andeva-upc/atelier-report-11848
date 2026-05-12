@@ -23,4 +23,21 @@ Finalmente, este gráfico representa la cantidad de commits realizados por cada 
 
 &emsp;&emsp;&emsp;&emsp;
 
+##### Entrega Parcial (TB1):
+##### Reporte de la colaboración:
+
+La entrega parcial del reporte tuvo aportes y correcciones de todos los integrantes de andeva. A continuación, se describe los principales aportes de cada integrante.
+
+- El integrante Luis Daniel Granda Ibarra, realizo las correciones del "Lean UX Process" y cumplimientos de sus tareas para el sprint 2.
+- El integrante Joel Huamani Estefanero, realizó las correciones de "Antecendentes y Problemática", "Análisis de entrevistas", "User Stories", "Impact Mapping", dirigir el Sprint 2 y cumplimientos de las tareas de este mismo.
+- El integrante Aldo Jeanfranco Machacca Soto, se encargó redifinir el diagrama de la base de datos y cumplimientos de sus tareas para el sprint 2.
+- La integrante Mariana Hortencia Morocho Pinedo, corrigió el "Needfinding", agrego las descripciones correspondientes de los artefactos rediseñados y cumplimientos de sus tareas para el sprint 2.
+- La integrante Jennifer Yamilet Riveros Vera, se encargó de rediseñar los artefactos del "Needfinding", reconstrucciones de los mockups como prototipos y cumplimiento de sus tareas del sprint 2.
+- El integrante Adiel Abdiaz Sanchez Santin, se encargó de organizar el "Big Picture Event Storming" según la rúbrica y cumplimientos de sus tareas del sprint 2.
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+&emsp;&emsp;&emsp;&emsp;
+
+<center><img src="assets/insights-2.png" alt="commits del TB1"></center>
+
 <div style='page-break-after: always'></div>
