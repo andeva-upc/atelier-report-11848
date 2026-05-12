@@ -184,10 +184,54 @@
 
 ![](assets/vercel-deploy.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [atelier-11848.vercel.app](atelier-11848.vercel.app), comprobamos el correcto despliegue de atelier.
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-11848.vercel.app/](https://atelier-11848.vercel.app/), comprobamos el correcto despliegue de atelier.
 
 **Figura**
 
 *Captura de pantalla del Landing Page de atelier en Vercel*
 
 ![](assets/vercel-page.jpg "Captura de pantalla del Landing Page de atelier en Vercel")
+
+**Web Application**
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan la configuración para realizar el despliegue de la web application de atelier.
+
+&emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente de la web application de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
+
+**Figura**
+
+*Repositorio del web application de atelier*
+
+![](assets/repo-web-app-atelier.jpeg "Repositorio del web application de atelier")
+
+&emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
+
+**Figura**
+
+*Captura de pantalla de la seccion de proyectos de Vercel*
+
+![](assets/vercel-add-new.jpeg "Captura de pantalla de la seccion de proyectos de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 3: Seleccionamos el repositorio que aloja el codigo fuente de la web application de atelier.
+
+**Figura**
+
+*Captura de pantalla de la seccion de despliegue de Vercel*
+
+![](assets/vercel-repo-deploy-web.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento de la web application de atelier.
+
+**Figura**
+
+*Captura de pantalla de la configuración de despliegue de Vercel*
+
+![](assets/vercel-deploy-web.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
+
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-11848.vercel.app/](https://atelier-11848.vercel.app/), comprobamos el correcto despliegue de atelier.
+
+**Figura**
+
+*Captura de pantalla de la Web Application de atelier en Vercel*
+
+![](assets/vercel-page-web.jpg "Captura de pantalla de la Web Application de atelier en Vercel")
