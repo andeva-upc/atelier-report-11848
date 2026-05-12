@@ -22,7 +22,7 @@
 
 ![](assets/estadistica-2.png "Ventas de vehículos livianos y pesados desde enero del 2020 a enero del 2026")
 
-&emsp;&emsp;&emsp;&emsp;Hay varias formas como los seguros vehiculares, pero son muy volátiles, con servicios pésimos o no son una opción viable económicamente. Por otra parte, los 38000 talleres de Lima Metropolitana y del Callao presentaron Por otra parte, los 38000 talleres de Lima Metropolitana y del Callao presentaron pérdidas del 30% a 40%, lo que conlleva a que hay un bajo uso de estos debido a la disparidad de precios entre talleres, generando baja fidelización y flujo de clientes (Fiestas et al., 2021).
+&emsp;&emsp;&emsp;&emsp;Hay varias formas como los seguros vehiculares, pero son muy volátiles, con servicios pésimos o no son una opción viable económicamente. Por otra parte, los 38000 talleres de Lima Metropolitana y del Callao presentaron pérdidas del 30% a 40%, lo que conlleva a que hay un bajo uso de estos debido a la disparidad de precios entre talleres, generando baja fidelización y flujo de clientes (Fiestas et al., 2021).
 
 &emsp;&emsp;&emsp;&emsp;El no contar con un servicio de mantenimiento o arreglo de fallas mecánicas lleva a que según el boletín estadístico anual de siniestralidad vial 2024, realizado por el Observatorio Nacional de Seguridad Vial, señala que de un total de 87757 siniestros de tránsitos a nivel nacional el 1,2% de muertes son por partes de fallas mecánicas y de un 0,2% por falta de luces (ONSV, 2025, p. 17). Esto representaría que el 1,4% de los siniestros de tránsito son por factores vehiculares, los porcentajes pueden sonar bajos, pero en total hablamos de 1190 siniestros que pudieron haberse evitado con un mantenimiento adecuado.
 
@@ -32,7 +32,7 @@
 
 ![](assets/estadistica-3.png "Porcentajes de siniestros según su causa, 2024")
 
-&emsp;&emsp;&emsp;&emsp;Por ello, en andeva hemos considerado pertinente elaborar dos artefactos que pongan en perspectiva los aspectos fundamentales de la problemática que aborda “X”. Por un lado, mediante 2 diagramas de Ishikawa identificamos las causas raíz que explican el constante uso de un modelo reactivo en el Perú y baja fidelización conductor-taller.
+&emsp;&emsp;&emsp;&emsp;Por ello, en andeva hemos considerado pertinente elaborar dos artefactos que pongan en perspectiva los aspectos fundamentales de la problemática que aborda Atelier. Por un lado, mediante 2 diagramas de Ishikawa identificamos las causas raíz que explican el constante uso de un modelo reactivo en el Perú y baja fidelización conductor-taller.
 
 **Figura 5**
 
@@ -53,6 +53,18 @@
 *Diagrama 5W’s + 2H’s - atelier*
 
 ![](assets/diagrama-5w-y-2h.jpg "Diagrama 5W’s + 2H’s - atelier")
+
+&emsp;&emsp;&emsp;&emsp;A partir de este contexto, la oportunidad comercial que Andeva desea aprovechar radica en la inmensa brecha tecnológica de estos 38,000 talleres independientes. Existe un mercado masivo desatendido que opera de manera informal y que requiere una transición urgente hacia la digitalización. La oportunidad consiste en introducir un modelo SaaS accesible que integre hardware de telemetría IoT con un sistema de planificación de recursos.
+
+&emsp;&emsp;&emsp;&emsp;Al ofrecer esta solución, la startup tiene la oportunidad de capturar a los talleres que buscan modernizarse para retener la creciente demanda del parque automotor, permitiéndoles monetizar el mantenimiento preventivo y transformar un gasto reactivo del conductor en una inversión predecible y segura.
+
+&emsp;&emsp;&emsp;&emsp;Sin embargo, para capitalizar esta oportunidad, la solución tecnológica debe diseñarse y operar considerando las siguientes restricciones críticas del mercado:
+
+&emsp;&emsp;&emsp;&emsp;Existe una alta resistencia al cambio tecnológico por parte de mecánicos tradicionales, lo que exige que el software tenga una curva de aprendizaje mínima, interfaces intuitivas y requiera muy pocos clics para operar.
+
+&emsp;&emsp;&emsp;&emsp;El sistema depende de una conexión a internet estable en los talleres para la sincronización en tiempo real del ERP y la recepción de telemetría. En zonas de Lima con conectividad variable, esto representa una limitante técnica.
+
+&emsp;&emsp;&emsp;&emsp;El dispositivo OBD2 debe asegurar compatibilidad y estandarización de lectura de datos frente a un parque automotor peruano sumamente heterogéneo.
 
 ### 1.2.2.&emsp;&emsp;*Lean UX Process* {#cap-1-2-2}
 
