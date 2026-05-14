@@ -122,6 +122,12 @@
 			<td>Joel Huamani Estefanero</td>
 			<td>Se realizó la revisión final de AV1 y merge al branch main del repositorio.</td>
 		</tr>
+		<tr>
+			<td>2.0.0</td>
+			<td>14/05/2026</td>
+			<td>Joel Huamani Estefanero<br>Morocho Pinedo, Mariana Hortencia<br>Luis Daniel Granda Ibarra<br>Aldo Jeanfranco Machacca Soto<br>Adiel Sanchez Santin<br>Jennifer Riveros Vera</td>
+			<td>Se realizó el desarrollo del sprint 2 y despliegue de la web app de atelier.</td>
+		</tr>
 	</tbody>
 </table>
 

@@ -95,7 +95,7 @@
             <td colspan="2">Soy estudiante de Ingeniería de Software con un perfil analítico y detallista. Me considero una persona introvertida y reflexiva, lo que me lleva a investigar y entender bien cómo funcionan las herramientas antes de utilizarlas. Tengo conocimientos en lenguajes como C++, Python y Java, y me gusta explorar sus librerías para comprender la lógica detrás de cada proyecto. En el equipo, trato de aportar desde el análisis y la organización técnica, buscando siempre que las soluciones sean ordenadas y funcionen correctamente. Mi enfoque está en el aprendizaje constante y en traducir ideas complejas en implementaciones técnicas claras y funcionales.</td>
         </tr>
 		<tr>
-			<td rowspan="3"><img alt="Imagen de Riveros Vera, Jennifer Yamilet" src="" style="max-width: 100px; width: 100px;"></td>
+			<td rowspan="3"><img alt="Imagen de Riveros Vera, Jennifer Yamilet" src="assets/imagen-jennifer.jpg" style="max-width: 100px; width: 100px;"></td>
 			<td>Riveros Vera, Jennifer Yamilet - U20241C998</td>
 			<td>Ingeniería de Software</td>
 		</tr>
@@ -103,7 +103,7 @@
 			<td colspan="2"><b>Descripción</b></td>
 		</tr>
 		<tr>
-			<td colspan="2"></td>
+			<td colspan="2">Soy estudiante de Ingeniería de Software de quinto ciclo. Me considero una persona empática y orientada al trabajo en equipo, con un especial interés en el desarrollo frontend. Disfruto crear interfaces claras y agradables, buscando que la experiencia del usuario sea intuitiva y fluida. Cuento con conocimientos en C++ y Python, que complemento con mi enfoque hacia la parte visual y funcional de las aplicaciones.</td>
 		</tr>
 	</tbody>
 </table>
