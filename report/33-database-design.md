@@ -10,8 +10,7 @@
 
 *Database Diagram*
 
-![](assets/database-diagram.svg "Database Diagram - General")
-[Enlace al diagrama completo](https://drive.google.com/file/d/1FqyfK4xVcR_XmQySjRU2UyQ2Q41mcU6M/view?usp=sharing)
+<center><a href="assets/database-diagram.svg" target="_blank"><img src="assets/database-diagram.svg" alt="Database Diagram - General" style="width: 70%; max-width: 100%; height: auto;"></a></center>
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se detallan los diagramas de base de datos relacional para cada *Bounded Context*. Cada diagrama especifica los objetos que permitirán la persistencia de la información, evidenciando las tablas, columnas, restricciones (*constraints* como *primary keys* y *foreign keys*) y las relaciones entre tablas.
 
