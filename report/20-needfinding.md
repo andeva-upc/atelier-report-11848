@@ -13,7 +13,11 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *User persona de dueños o administradores de talleres automotrices independientes en Lima*
 
-![](assets/Jorge-Torres.png "Imagen del segmento uno")
+<p align="center">
+  <img src="assets/Jorge-Torres.png" alt="User persona de dueños o administradores de talleres automotrices independientes en Lima" width="250">
+</p>
+
+[Enlace al user persona completo](https://drive.google.com/file/d/16DWBxr7SzYmYusrDQ5-nQVxWimsSq2LR/view?usp=drive_link)
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
@@ -21,7 +25,11 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *User persona de conductores de vehículos de Lima*
 
-![](assets/Carlos-Mendoza.png "Imagen del segmento dos")
+<p align="center">
+  <img src="assets/Carlos-Mendoza.png" alt="User persona de conductores de vehículos de Lima" width="380">
+</p>
+
+[Enlace al user persona completo](https://drive.google.com/file/d/1Y9jcc8UxjN1R96rB5HGIEg_zpsHmTKGU/view?usp=drive_link)
 
 ### 2.3.2.&emsp;&emsp;*User Task Matrix* {#cap-2-3-2}
 
