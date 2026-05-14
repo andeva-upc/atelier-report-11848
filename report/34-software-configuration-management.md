@@ -202,7 +202,7 @@
 
 *Repositorio del web application de atelier*
 
-![](assets/repo-web-app-atelier.jpeg "Repositorio del web application de atelier")
+![](assets/repo-web-app-atelier.png "Repositorio del web application de atelier")
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
 
