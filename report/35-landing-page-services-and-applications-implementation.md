@@ -498,7 +498,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Luis Granda: Se encargó de codificar las interfaces del módulo de Billing. Para validar su funcionamiento, estructuró la comunicación con los Web Services mediante los endpoints /quotes y /payments, simulando el cierre financiero de las reparaciones.
 
-&emsp;&emsp;&emsp;&emsp;Aldo MAchacca: Lideró el desarrollo del producto Web Services configurando la arquitectura base del archivo db.json para la Mock API y desplegándolo en Render. Lideró la implementación de las vistas de Telemetry y Customers en el Front-end. Además, colaboró activamente en la definición del esquema de datos de los Web Services, mapeando las respuestas simuladas de los endpoints /telemetry_snapshots y /vehicle_dtc_alerts para renderizar las gráficas dinámicas de los vehículos.
+&emsp;&emsp;&emsp;&emsp;Aldo Machacca: Lideró el desarrollo del producto Web Services configurando la arquitectura base del archivo db.json para la Mock API y desplegándolo en Render. Lideró la implementación de las vistas de Telemetry y Customers en el Front-end. Además, colaboró activamente en la definición del esquema de datos de los Web Services, mapeando las respuestas simuladas de los endpoints /telemetry_snapshots y /vehicle_dtc_alerts para renderizar las gráficas dinámicas de los vehículos.
 
 &emsp;&emsp;&emsp;&emsp;Mariana Morocho: Centró su esfuerzo en la Web Application desarrollando las interfaces del módulo de Work-Orders. Paralelamente, interactuó con los Web Services estructurando las peticiones HTTP GET y POST hacia el endpoint /work_orders y /work_orders_tasks para validar la creación de nuevas órdenes operativas.
 
