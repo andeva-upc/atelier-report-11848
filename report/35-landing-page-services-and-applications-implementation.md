@@ -8,7 +8,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning meeting siguiendo la estructura establecida:
 
-**Tabla**
+**Tabla 21**
 
 *Tabla de Sprint 1 de atelier*
 
@@ -31,7 +31,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Dado que el objetivo exclusivo de este primer sprint es la construcción de la Landing Page de Atelier, los principales aspectos que se toman en cuenta corresponden a los subconjuntos del alcance funcional. Estos aspectos son: Propuesta de Valor, Exploración de Módulos, Planes de Suscripción, Presentación del Equipo y Información Legal y Footer.
 
-**Tabla**
+**Tabla 22**
 
 *Leadership-and-Collaboration Matrix*
 
@@ -106,7 +106,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las User Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
-**Tabla**
+**Tabla 23**
 
 *Sprint Backlog #1 atelier*
 
@@ -128,7 +128,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio del sitio web estático, los commits directamente relacionados con la implementación de las características mencionadas:
 
-**Tabla**
+**Tabla 24**
 
 *Tabla de Commits del Sprint #1*
 
@@ -244,7 +244,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning:
 
-**Tabla**
+**Tabla 25**
 
 *Tabla de Sprint 2 de atelier*
 
@@ -267,7 +267,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Se han designado los responsables de liderar el desarrollo del front-end de cada módulo operativo para asegurar la especialización en la lógica de cada vista.
 
-**Tabla**
+**Tabla 26**
 
 *Leadership-and-Collaboration Matrix*
 
@@ -364,7 +364,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las User Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
-**Tabla**
+**Tabla 27**
 
 *Sprint Backlog #2 atelier*
 
@@ -401,7 +401,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio de la web application, los commits directamente relacionados con la implementación de las características mencionadas:
 
-**Tabla**
+**Tabla 28**
 
 *Tabla de Commits del Sprint #2*
 

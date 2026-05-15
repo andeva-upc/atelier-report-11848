@@ -35,7 +35,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 &emsp;&emsp;&emsp;&emsp;En esta sección se presenta el User Task Matrix correspondiente a los segmentos objetivos identificados en la investigación: dueños o administradores de talleres automotrices independientes y conductores de vehículos de Lima. A partir de estos segmentos, se analizan las principales tareas que realizan en sus actividades cotidianas para alcanzar sus objetivos, considerando la importancia y frecuencia de cada una dentro de su contexto.
 
-**Tabla** 
+**Tabla 15** 
 
 *User Task Matrix*
 
