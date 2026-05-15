@@ -36,7 +36,7 @@
 			<td><b>Carrera</b></td>
 		</tr>
 		<tr>
-			<td rowspan="3"><img alt="Imagen de Aldo Machacca Soto" src="assets/imagen-mariana-morocho.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td rowspan="3"><img alt="Imagen de Morocho Pinedo, Mariana" src="assets/imagen-mariana-morocho.jpg" style="max-width: 100px; width: 100px;"></td>
 			<td>Morocho Pinedo, Mariana - U202411521</td>
 			<td>Ingeniería de Software</td>
 		</tr>
@@ -47,7 +47,7 @@
 			<td colspan="2">Soy estudiante de Ingeniería de Software de quinto ciclo. Me considero una persona empática y orientada al trabajo en equipo, con un especial interés en el desarrollo frontend. Disfruto crear interfaces claras y agradables, buscando que la experiencia del usuario sea intuitiva y fluida. Cuento con conocimientos en C++ y Python, que complemento con mi enfoque hacia la parte visual y funcional de las aplicaciones.<br><br>Me gusta apoyar a mis compañeros y mantener una comunicación clara. Entre mis habilidades destacan la coordinación de tareas y la capacidad de aportar ideas para mejorar tanto la interfaz como la dinámica del equipo. Dentro de una startup, me visualizo en un rol orientado al frontend y la gestión, donde pueda contribuir al diseño de interfaces, apoyar en la organización del equipo y asegurar que el trabajo fluya de manera clara, eficiente y alineada con los objetivos del proyecto.</td>
 		</tr>
 		<tr>
-			<td rowspan="3"><img alt="Imagen de Joel Huamani Estefanero" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td rowspan="3"><img alt="Imagen de Huamani Estefanero, Joel" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
 			<td>Huamani Estefanero, Joel – U20241E275</td>
 			<td>Ingeniería de Software</td>
 		</tr>
@@ -62,7 +62,7 @@
 			Dentro del startup, me visualizo como el arquitecto técnico y conceptual. Me apasiona crear soluciones que no solo funcionen correctamente, sino que estén diseñadas con una atención meticulosa a cada componente.</td>
 		</tr>
 		<tr>
-			<td rowspan="3"><img alt="Imagen de Aldo Machacca Soto" src="assets/imagen-aldo-machacca-soto.png" style="max-width: 100px; width: 100px;"></td>
+			<td rowspan="3"><img alt="Imagen de Machacca Soto, Aldo Jeanfranco" src="assets/imagen-aldo-machacca-soto.png" style="max-width: 100px; width: 100px;"></td>
 			<td>Machacca Soto, Aldo Jeanfranco – U202419485</td>
 			<td>Ingeniería de Software</td>
 		</tr>
@@ -73,7 +73,7 @@
 			<td colspan="2">Soy Aldo Jeanfranco Machacca Soto, actualmente estoy cursando la carrera de Ingeniería de Software, disciplina centrada en el diseño, desarrollo y mantenimiento de soluciones tecnológicas eficientes, escalables y de calidad. En cuanto a mi perfil técnico, me destaco principalmente en el ámbito del desarrollo backend, contando con sólida experiencia en la creación y arquitectura de APIs. Mi stack tecnológico abarca lenguajes como Python, C++, JavaScript y TypeScript, además de frameworks y librerías como React y Next.js para el desarrollo frontend. Tengo experiencia en la gestión de bases de datos optimizadas para soportar grandes volúmenes de información, así como en procesos de despliegue (deploy) para llevar proyectos a producción. Como habilidad diferenciadora, cuento con experiencia práctica integrando agentes de inteligencia artificial (como OpenCode) en los flujos de trabajo. En un equipo, puedo aportar una visión integral del ciclo de vida del software, capaz de conectar eficientemente la lógica del servidor, la interfaz de usuario y la infraestructura, garantizando soluciones robustas y de alto rendimiento.</td>
 		</tr>
 		<tr>
-			<td rowspan="3"><img alt="Imagen de Luis Daniel Granda Ibarra" src="assets/imagen-luis-daniel-granda-ibarra.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td rowspan="3"><img alt="Imagen de Granda Ibarra, Luis Daniel" src="assets/imagen-luis-daniel-granda-ibarra.jpg" style="max-width: 100px; width: 100px;"></td>
 			<td>Granda Ibarra, Luis Daniel – U20241E401</td>
 			<td>Ingeniería de Software</td>
 		</tr>
@@ -84,8 +84,8 @@
 			<td colspan="2">Soy estudiante de 5.° ciclo de Ingeniería de Software en la UPC, enfocado en el desarrollo de soluciones tecnológicas de alto impacto y el análisis avanzado de datos. Mi formación técnica se respalda en el dominio de Python y C++ para el desarrollo de algoritmos eficientes, así como en el manejo estratégico de SQL para la gestión de bases de datos y Excel para el modelado de información. Me apasiona la Ciencia de Datos y el Machine Learning, áreas donde busco transformar la complejidad técnica en herramientas de decisión para las empresas líderes del mercado.<br><br>Me considero un perfil dinámico, responsable y con una alta capacidad de adaptabilidad, cualidades que potencio fuera del entorno académico a través de la disciplina del deporte y la música. La constancia que aplico en la calistenia, la natación y el gimnasio, sumada a la creatividad que desarrollo con la guitarra, me permiten abordar los retos de ingeniería con una mentalidad resiliente y un pensamiento lateral. Mi meta es consolidarme como un profesional indispensable en el ecosistema tecnológico, aportando valor real a través de la innovación y la ingeniería de calidad.</td>
 		</tr>
 		<tr>
-            <td rowspan="3"><img alt="Imagen de Adiel Sánchez" src="assets/imagen-adiel-sanchez.jpeg" style="max-width: 100px; width: 100px;"></td>
-            <td>Sánchez, Adiel – U20241E287</td>
+            <td rowspan="3"><img alt="Imagen de Sánchez Santin, Adiel Abdiaz" src="assets/imagen-adiel-sanchez.jpeg" style="max-width: 100px; width: 100px;"></td>
+            <td>Sánchez Santin, Adiel Abdiaz – U20241E287</td>
             <td>Ingeniería de Software</td>
         </tr>
         <tr>
@@ -94,5 +94,16 @@
         <tr>
             <td colspan="2">Soy estudiante de Ingeniería de Software con un perfil analítico y detallista. Me considero una persona introvertida y reflexiva, lo que me lleva a investigar y entender bien cómo funcionan las herramientas antes de utilizarlas. Tengo conocimientos en lenguajes como C++, Python y Java, y me gusta explorar sus librerías para comprender la lógica detrás de cada proyecto. En el equipo, trato de aportar desde el análisis y la organización técnica, buscando siempre que las soluciones sean ordenadas y funcionen correctamente. Mi enfoque está en el aprendizaje constante y en traducir ideas complejas en implementaciones técnicas claras y funcionales.</td>
         </tr>
+		<tr>
+			<td rowspan="3"><img alt="Imagen de Riveros Vera, Jennifer Yamilet" src="assets/imagen-jennifer.jpg" style="max-width: 100px; width: 100px;"></td>
+			<td>Riveros Vera, Jennifer Yamilet - U20241C998</td>
+			<td>Ingeniería de Software</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Descripción</b></td>
+		</tr>
+		<tr>
+			<td colspan="2">Curso el quinto ciclo de la carrera de Ingeniería de Software. Me caracterizo por ser una persona colaborativa y con alta capacidad de empatía, con una marcada inclinación hacia el desarrollo frontend. Me apasiona construir interfaces atractivas y bien estructuradas, priorizando siempre que la experiencia del usuario sea cómoda y natural. Tengo bases sólidas en C++ y Python, conocimientos que combino con mi interés por el diseño visual y el comportamiento funcional de las aplicaciones.</td>
+		</tr>
 	</tbody>
 </table>

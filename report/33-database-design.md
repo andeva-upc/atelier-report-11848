@@ -6,12 +6,11 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación se presenta el diagrama de base de datos general, abarcando la totalidad de la aplicación. Posteriormente, el diseño se desglosa y detalla según cada *Bounded Context*.
 
-**Figura XX**
+**Figura 75**
 
 *Database Diagram*
 
-![](assets/database-diagram.svg "Database Diagram - General")
-[Enlace al diagrama completo](https://drive.google.com/file/d/1FqyfK4xVcR_XmQySjRU2UyQ2Q41mcU6M/view?usp=sharing)
+<center><a href="assets/database-diagram.svg" target="_blank"><img src="assets/database-diagram.svg" alt="Database Diagram - General" style="width: 70%; max-width: 100%; height: auto;"></a></center>
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se detallan los diagramas de base de datos relacional para cada *Bounded Context*. Cada diagrama especifica los objetos que permitirán la persistencia de la información, evidenciando las tablas, columnas, restricciones (*constraints* como *primary keys* y *foreign keys*) y las relaciones entre tablas.
 
@@ -19,7 +18,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El siguiente diagrama detalla la estructura de tablas para la gestión de usuarios, roles, talleres y suscripciones, estableciendo las bases para el esquema *multi-tenant* de la plataforma.
 
-**Figura XX**
+**Figura 76**
 
 *Database Diagram - Core (Identity and Multi-Tenancy)*
 
@@ -29,7 +28,7 @@
 
 &emsp;&emsp;&emsp;&emsp;En este diagrama se exponen las tablas encargadas de almacenar la configuración de dispositivos y los registros de telemetría provenientes de los escáneres OBD2.
 
-**Figura XX**
+**Figura 77**
 
 *Database Diagram - IoT (Hardware and Telemetry)*
 
@@ -39,7 +38,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El diagrama ilustra el esquema de base de datos para la operación de los talleres, estructurando la persistencia de las órdenes de trabajo, citas y tareas mecánicas.
 
-**Figura XX**
+**Figura 78**
 
 *Database Diagram - Operations (Work Orders)*
 
@@ -49,7 +48,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Este modelo describe las tablas requeridas para administrar el registro de clientes y los vehículos de sus flotas respectivas, asociados a cada taller.
 
-**Figura XX**
+**Figura 79**
 
 *Database Diagram - Fleet (Fleet Management)*
 
@@ -59,7 +58,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El diagrama presenta la estructura relacional para la gestión del catálogo de repuestos, productos e insumos, controlando el stock y movimientos en los almacenes.
 
-**Figura XX**
+**Figura 80**
 
 *Database Diagram - Inventory (Warehouse)*
 
@@ -69,7 +68,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Finalmente, este diagrama detalla las tablas relacionadas con la facturación, los pagos, impuestos y el registro de comprobantes financieros de los servicios realizados.
 
-**Figura XX**
+**Figura 81**
 
 *Database Diagram - Billing (Invoicing and Payments)*
 

@@ -10,11 +10,11 @@
 
 **Branding**
 
-&emsp;&emsp;&emsp;&emsp;"atelier" es un término de origen francés que significa "taller" o "estudio", tradicionalmente reservado para el espacio de trabajo de artistas y diseñadores. A través de este nombre, buscamos reivindicar y elevar el prestigio de los profesionales que dan vida al clásico taller mecánico peruano.
+&emsp;&emsp;&emsp;&emsp;Atelier es un término de origen francés que significa "taller" o "estudio", tradicionalmente reservado para el espacio de trabajo de artistas y diseñadores. A través de este nombre, buscamos reivindicar y elevar el prestigio de los profesionales que dan vida al clásico taller mecánico peruano.
 
 &emsp;&emsp;&emsp;&emsp;Nuestro imagotipo refleja esta visión mediante un diseño limpio y claro, combinando únicamente una tuerca simplificada con el nombre de la marca. Con este enfoque visual directo y minimalista, buscamos posicionarnos de manera memorable en la mente de nuestros clientes.
 
-**Figura**
+**Figura 21**
 
 *Imagotipo de atelier*
 
@@ -26,7 +26,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para la fuente principal se ha seleccionado Mona Sans. Su estructura moderna, geométrica y con un marcado carácter tecnológico transmite la precisión y la innovación que definen el ecosistema de Atelier. Esta tipografía es ideal para encabezados, módulos de navegación y cifras clave dentro del panel de control, donde la claridad visual y una jerarquía sólida son fundamentales para optimizar el flujo de trabajo operativo del taller.
 
-**Figura**
+**Figura 22**
 
 *Tipografía Mona Sans*
 
@@ -34,7 +34,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Como complemento funcional, Arimo se establece como la fuente secundaria para todo el cuerpo de texto y los componentes informativos de la plataforma. Gracias a su diseño optimizado para una alta legibilidad en pantallas, esta fuente asegura que los datos técnicos, historiales de mantenimiento y descripciones de averías sean fáciles de procesar tanto para mecánicos en el taller como para conductores en la aplicación móvil. Su uso aporta la sobriedad y eficiencia necesaria en una herramienta de gestión diseñada para transformar el diagnóstico vehicular.
 
-**Figura**
+**Figura 23**
 
 *Tipografía Arimo*
 
@@ -42,7 +42,7 @@
 
 **Colors**
 
-&emsp;&emsp;&emsp;&emsp;La identidad cromática de "atelier" se basa en tonos azules que refuerzan la asociación de transmitir estabilidad y confianza. Cada color cumple un rol específico para mantener consistencia y usabilidad.
+&emsp;&emsp;&emsp;&emsp;La identidad cromática de Atelier se basa en tonos azules que refuerzan la asociación de transmitir estabilidad y confianza. Cada color cumple un rol específico para mantener consistencia y usabilidad.
 
 &emsp;&emsp;&emsp;&emsp;El Primary Color, el cual representa el código hexadecimal #0071EB, es el corazón de la identidad visual de Atelier. Este tono azul transmite confianza, estabilidad y vanguardia tecnológica. Servirá como el ancla principal de la marca, guiando la atención del usuario hacia los elementos más importantes de la plataforma y estableciendo la conexión emocional de un servicio profesional y seguro.
 
@@ -62,7 +62,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El Success Color, el cual representa el código hexadecimal #10B981, es el sinónimo psicológico de positividad, fluidez y salud mecánica. Aparte, tenemos el Failure Color, el cual representa el código hexadecimal #EF4444, es la máxima expresión de urgencia, precaución y detención. Servirá como una alarma visual inconfundible.
 
-**Figura**
+**Figura 24**
 
 *Paleta de colores de atelier*
 
@@ -70,7 +70,7 @@
 
 **Spacing**
 
-&emsp;&emsp;&emsp;&emsp;El espaciado en "atelier" define la estructura visual de la interfaz, garantizando orden, claridad y equilibrio entre los elementos. Un sistema de spacing coherente permite mejorar la legibilidad, evitar la sobrecarga visual y guiar la atención del usuario hacia lo más importante.
+&emsp;&emsp;&emsp;&emsp;El espaciado en Atelier define la estructura visual de la interfaz, garantizando orden, claridad y equilibrio entre los elementos. Un sistema de spacing coherente permite mejorar la legibilidad, evitar la sobrecarga visual y guiar la atención del usuario hacia lo más importante.
 
 &emsp;&emsp;&emsp;&emsp;El espaciado se organiza en una escala de 4 px (4, 8, 12, 16, 24, 32, 40, 64). Esta base modular facilita la consistencia en todos los componentes, debe aplicarse de forma equilibrada entre textos, botones, imágenes y secciones, priorizando siempre la legibilidad y el “espacio en blanco” no es vacío: cumple el rol de dar descanso visual y marcar jerarquía en los contenidos.
 
@@ -86,11 +86,11 @@
 
 ### 4.1.2.&emsp;&emsp;*Web Style Guidelines* {#cap-4-1-2}
 
-&emsp;&emsp;&emsp;&emsp;Para el desarrollo de la interfaz de usuario de "atelier", se ha seleccionado Angular como el marco de trabajo principal debido a su robustez y capacidad para gestionar aplicaciones web de gran escala. Al ser un proyecto orientado al desarrollo de aplicaciones open source, Angular proporciona un ecosistema estructurado basado en componentes que facilita el mantenimiento y la escalabilidad del software. Esta arquitectura permite separar la lógica de negocio de la presentación, asegurando que el panel de administración para los talleres y la interfaz de monitoreo para los conductores funcionen de manera fluida y modular. La implementación se beneficia del uso de TypeScript, lo que aporta tipado estático y reduce errores durante la fase de codificación, garantizando una plataforma estable y profesional.
+&emsp;&emsp;&emsp;&emsp;Para el desarrollo de la interfaz de usuario de Atelier, se ha seleccionado Angular como el marco de trabajo principal debido a su robustez y capacidad para gestionar aplicaciones web de gran escala. Al ser un proyecto orientado al desarrollo de aplicaciones open source, Angular proporciona un ecosistema estructurado basado en componentes que facilita el mantenimiento y la escalabilidad del software. Esta arquitectura permite separar la lógica de negocio de la presentación, asegurando que el panel de administración para los talleres y la interfaz de monitoreo para los conductores funcionen de manera fluida y modular. La implementación se beneficia del uso de TypeScript, lo que aporta tipado estático y reduce errores durante la fase de codificación, garantizando una plataforma estable y profesional.
 
 &emsp;&emsp;&emsp;&emsp;La experiencia visual y la interactividad se potencian mediante la integración de Angular Material, siguiendo estrictamente el sistema de diseño definido para la marca. Se emplean componentes preconstruidos y optimizados, como tablas de datos avanzadas para el inventario, cuadros de diálogo para la gestión de citas, menús laterales de navegación y modales.
 
-**Figura**
+**Figura 25**
 
 *Angular Material*
 

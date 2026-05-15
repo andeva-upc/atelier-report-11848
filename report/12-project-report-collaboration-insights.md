@@ -1,11 +1,25 @@
 # Project Report Collaboration Insights
 
-&emsp;&emsp;&emsp;&emsp;Repositorio de Github del informe: [https://github.com/andeva-upc/atelier-report-11848](https://github.com/andeva-upc/atelier-report-11848)
+Repositorio de Github del informe: [https://github.com/andeva-upc/atelier-report-11848](https://github.com/andeva-upc/atelier-report-11848)
 
-&emsp;&emsp;&emsp;&emsp;Organización de GitHub de Andeva: [https://github.com/andeva-upc](https://github.com/andeva-upc)
+Organización de GitHub de Andeva: [https://github.com/andeva-upc](https://github.com/andeva-upc)
 
-##### AV1:
-##### Descripción:
+##### Primer Avance (AV1):
+##### Reporte de la colaboración:
+
+El primer avance del reporte tuvo aporte de todos los integrantes de andeva. A continuación, se describe los principales aportes de cada integrante.
+
+- El integrante Luis Daniel Granda Ibarra, realizó el sección de Lean UX Process, el artefacto de Empathy Mapping, ayuda en las User Stories, desarrollo del artefacto de Impact Mapping y creación de los wireframes como mock-ups de Web Applications UX/UI Design.
+
+- El integrante Joel Huamani Estefanero, realizó el sección de Startup Profile, Solution Profile y Segmentos Objetivo en relación al capítulo 1. Además, desarrollo las User Stories, Product Backlog, Style Guidelines, Information Architecture, creación de wireframes y mock-ups de la Landing Page como de Web Applications UX/UI Design.
+- El integrante Aldo Jeanfranco Machacca Soto, se encargó de los competidores, creación de los secciones relacionado al C4, Class Diagram y Database Diagram.
+- La integrante Mariana Hortencia Morocho Pinedo, realizó el Needfinding y reación de los wireframes como mock-ups de Web Applications UX/UI Design.
+- El integrante Adiel Abdiaz Sanchez Santin, se encargó del Big Picture Event Storming, Ubiquitous Language, Design-Level Event Storming y aporte en el desarrollo del Class Diagram.
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+&emsp;&emsp;&emsp;&emsp;
+
+<center><img src="assets/insights-1.png" alt="commits del av1"></center>
 
 &emsp;&emsp;&emsp;&emsp;El primer avance del reporte tuvo aporte de todos los integrantes de andeva. A continuación, se describe los principales aportes de cada integrante.
 
@@ -21,19 +35,21 @@
 
 ![](assets/insights-1.png "Insights del Primer Avance 1 (AV1)")
 
-##### TB1:
-##### Descripción:
+##### Entrega Parcial (TB1):
+##### Reporte de la colaboración:
 
+La entrega parcial del reporte tuvo aportes y correcciones de todos los integrantes de andeva. A continuación, se describe los principales aportes de cada integrante.
+
+- El integrante Luis Daniel Granda Ibarra, realizo las correciones del "Lean UX Process" y cumplimientos de sus tareas para el sprint 2.
+- El integrante Joel Huamani Estefanero, realizó las correciones de "Antecendentes y Problemática", "Análisis de entrevistas", "User Stories", "Impact Mapping", dirigir el Sprint 2 y cumplimientos de las tareas de este mismo.
+- El integrante Aldo Jeanfranco Machacca Soto, se encargó redifinir el diagrama de la base de datos y cumplimientos de sus tareas para el sprint 2.
+- La integrante Mariana Hortencia Morocho Pinedo, corrigió el "Needfinding", agrego las descripciones correspondientes de los artefactos rediseñados y cumplimientos de sus tareas para el sprint 2.
+- La integrante Jennifer Yamilet Riveros Vera, se encargó de rediseñar los artefactos del "Needfinding", reconstrucciones de los mockups como prototipos y cumplimiento de sus tareas del sprint 2.
+- El integrante Adiel Abdiaz Sanchez Santin, se encargó de organizar el "Big Picture Event Storming" según la rúbrica y cumplimientos de sus tareas del sprint 2.
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
 &emsp;&emsp;&emsp;&emsp;
 
-##### AV2:
-##### Descripción:
-
-&emsp;&emsp;&emsp;&emsp;
-
-##### TB2:
-##### Descripción:
-
-&emsp;&emsp;&emsp;&emsp;
+<center><img src="assets/insights-2.png" alt="commits del TB1"></center>
 
 <div style='page-break-after: always'></div>
