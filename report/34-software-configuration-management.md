@@ -234,4 +234,4 @@
 
 *Captura de pantalla de la Web Application de atelier en Vercel*
 
-![](assets/vercel-page-web.jpg "Captura de pantalla de la Web Application de atelier en Vercel")
+![](assets/web-app-1.png "Captura de pantalla de la Web Application de atelier en Vercel")
