@@ -116,6 +116,12 @@
 			<td>Morocho Pinedo, Mariana Hortencia</td>
 			<td>Se realizó el footer del landing page.</td>
 		</tr>
+		<tr>
+			<td>1.0.0</td>
+			<td>26/04/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se realizó la revisión final de AV1 y merge al branch main del repositorio.</td>
+		</tr>
 	</tbody>
 </table>
 

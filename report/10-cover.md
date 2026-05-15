@@ -11,7 +11,15 @@
 
 <h6></h6>
 
-<center><b>Startup:</b> andeva</center>
+<center><b>NRC:</b> 11848</center>
+
+<h6></h6>
+
+<center><b>Docente:</b> Velasquez Nuñez, Angel Augusto</center>
+
+<h6></h6>
+
+<center><b>Startup:</b> Andeva</center>
 
 <h6></h6>
 
@@ -31,9 +39,7 @@
 
 <center><b>Integrantes:</b></center>
 
-<h6></h6>
-
-<table style="margin: 0 auto; width: 70%;">
+<table style="display: flex; justify-content:center">
 	<tbody>
 		<tr>
 			<td><center>Código</center></td>
@@ -56,17 +62,15 @@
 			<td>Morocho Pinedo, Mariana Hortencia</td>
 		</tr>
 		<tr>
+			<td>U20241C998</td>
+			<td>Riveros Vera, Jennifer Yamilet</td>
+		</tr>
+		<tr>
 			<td>U20241E287</td>
 			<td>Sanchez Santin, Adiel Abdiaz</td>
 		</tr>
 	</tbody>
 </table>
-
-<h6></h6>
-
-<center><b>NRC:</b> 11848</center>
-
-<center><b>Docente:</b> Velasquez Nuñez, Angel Augusto</center>
 
 <h6></h6>
 

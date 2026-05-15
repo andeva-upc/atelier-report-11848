@@ -179,9 +179,7 @@
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Joven de 23 años que se desempeña como auxiliar administrativo, pero que también participa activamente en las reparaciones del taller. Atiende mayormente problemas de sonido en motores o caja de cambios, y fallas muy repetitivas como correas que suenan.
-Se apoya en internet para buscar soluciones y valora las conexiones con otras áreas como electricistas o torneros. Desea un panel de control automatizado e intuitivo ("en pocos pasos") que ofrezca gráficas de clientes y permita llevar un historial detallado de errores para cada uno de ellos, mejorando así el rendimiento del local.
-</td>
+			<td colspan="2">Joven técnico que asiste tanto en la administración como en la mecánica del taller. Su principal objetivo es lograr reparaciones de alta calidad para asegurar la retención de clientes. Identifica que la mayoría de los usuarios son altamente reactivos, acudiendo solo cuando ocurren averías graves y costosas. No utiliza software de gestión en el taller; toda la agenda la lleva en una libreta física o en las notas de su Smartphone. Para diagnósticos, emplean escáneres físicos conectados a la computadora del auto. Para actualizarse, consulta las páginas web oficiales de las marcas de autos desde su navegador. Se describe como "precavido". Teme que la nueva tecnología sea un gasto innecesario que entorpezca el trabajo en lugar de facilitarlo. Utiliza WhatsApp y llamadas telefónicas directas para coordinar citas. Valora enormemente la idea de un escáner OBD2 Bluetooth y un panel de control automatizado que requiera "pocos clics". Desea ver gráficas de clientes y un historial de códigos de error ordenado.</td>
 		</tr>
 	</tbody>
 </table>
@@ -209,7 +207,7 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Es mecánico desde 1976, especializado en maquinaria pesada, motores diésel y gasolineros. Actualmente se apoya en su vasta experiencia para gestionar la empresa y apoya constantemente a estudiantes de SENATI. Atiende fallas simples que terminan en problemas graves, principalmente recalentamientos ocasionados por el descuido de los conductores. Solicita que las plataformas o aplicaciones web sean claras y transparentes. Siente frustración con los sistemas actuales porque a menudo no son sinceros con la información que solicitan o bloquean el ingreso de datos a la mitad del proceso.</td>
+			<td colspan="2">Mecánico veterano desde 1976 dedicado a motores pesados. Su motivación es trabajar con honestidad y formar estudiantes de SENATI. Su mayor frustración es la negligencia de los conductores, quienes provocan fallas catastróficas por no realizar mantenimientos y suelen mentir sobre el origen de la falla. A pesar de confiar en su juicio para detectar fallas, se apoya fuertemente en tecnología de vanguardia por obligación del mercado. Utiliza escáneres multimarca, destacando su preferencia y confianza absoluta por la marca Autel, seguida de FCar y Launch. Utiliza su Smartphone constantemente. Escéptico respecto a la adopción tecnológica por parte del cliente, ya que percibe que los conductores peruanos no quieren pagar por innovación. Sin embargo, como técnico, está abierto a plataformas que no limiten o bloqueen la información. Depende 100% de las llamadas telefónicas y de WhatsApp; incluso diagnostica ruidos de motores a través de audios enviados por sus clientes desde provincias. Pide que la aplicación web sea transparente, nacional y que no restrinja los datos a mitad de camino. Considera que el sistema predictivo salvaría motores de reparaciones totales.</td>
 		</tr>
 	</tbody>
 </table>
@@ -237,7 +235,7 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Es técnico mecánico automotriz con aproximadamente 53 años de experiencia. Su flujo de trabajo consiste en recibir al cliente, evaluar directamente el vehículo con su personal y dialogar con el dueño sobre los tiempos de solución y disponibilidad de repuestos. No se considera muy apegado a la tecnología de manera independiente, pero utiliza enlaces que le envían sus proveedores y revisa YouTube para actualizarse sobre nuevos motores o piezas modernas. Prefiere buscar orientación cuando le llega un equipo nuevo para no entorpecer su trabajo. Le resultaría muy útil contar con una plataforma que envíe una alerta para las fallas vehiculares, aprovechando que los equipos actuales están llenos de sensores.</td>
+			<td colspan="2">Mecánico de campo con 53 años de experiencia, atiende maquinaria estacionaria y automotriz directamente donde el cliente se queda varado. Se frustra por la mala calidad del combustible peruano, que arruina los sistemas de inyección modernos. Lleva el control del historial de sus clientes en una Laptop mediante anotaciones y usa un cuaderno físico como respaldo. Utiliza un escáner de marca española (Jaltest) que le permite ver telemetría en tiempo real. Se autodefine como "un poco flojo" para el uso de laptops y chats, adoptando un perfil muy precavido. Cuando llega un equipo nuevo, prefiere buscar tutoriales en YouTube o revisar links en su navegador enviados por proveedores antes de manipularlo por temor a estropearlo. Utiliza llamadas y WhatsApp. Cuando no hay señal, los operadores le envían videos por WhatsApp de las fallas. magina la plataforma como una "alarma" de hospital que le indique qué equipo exacto presenta baja presión de aceite, permitiéndole llamar al cliente para que apague el motor a tiempo.</td>
 		</tr>
 	</tbody>
 </table>
@@ -265,7 +263,7 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Es un técnico que maneja una cartera de clientes y se especializa en las fallas electrónicas y de electricidad de los vehículos (cilindros, sensores ABS, TPMS y unidades de control). Valora mucho tener las herramientas actualizadas para no quedarse atrás con los autos modernos (2025-2026) y se mantiene en constante comunicación con sus proveedores de equipos de diagnóstico para recibir avisos de actualizaciones. Reconoce que instalar un dispositivo de diagnóstico directamente en el vehículo sería de gran ayuda. Desea un aplicativo que sirva como panel de control para llevar el historial exacto de cada vehículo: fecha de mantenimiento, kilometraje, fallas reparadas y trabajos realizados.</td>
+			<td colspan="2">Especialista en electrónica automotriz. Enfrenta las averías más complejas y costosas generadas por fallos en las unidades de control. Su objetivo es estar a la vanguardia con los vehículos modernos. Es un usuario de tecnología avanzada. Posee múltiples escáneres de marcas como Autel, Thinkcar, FCAR y Launch, reconociendo que ninguna marca es 100% completa. Usa osciloscopios y multímetros. Es un perfil "pionero". Exige estar constantemente actualizado y mantiene contacto estrecho con proveedores de software para recibir parches de actualización. Utiliza llamadas telefónicas y gestión de contactos directa desde su Smartphone. Considera indispensable tener un aplicativo ERP que le sirva como panel de control para registrar fechas, kilometraje exacto, modelo y tipo de reparación. Ve el uso del OBD2 Bluetooth como una gran ayuda para prevenir que el cliente se quede botado en lugares peligrosos o de difícil acceso para grúas.</td>
 		</tr>
 	</tbody>
 </table>
@@ -295,7 +293,7 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Utiliza el vehículo exclusivamente para transportarse a su trabajo y uso personal. Se considera un conductor preventivo que realiza mantenimientos guiándose por el tacómetro. Vivió una pésima experiencia cuando su auto recalentó por una falla en el termostato camino al trabajo, afectando gravemente el radiador y el motor, lo que resultó en un perjuicio económico y un retraso laboral. Ya utiliza el Bluetooth de forma habitual para la radio del auto y le resulta fácil descargar aplicaciones. Adoptaría la aplicación de su taller principalmente para optimizar su tiempo al sacar citas. Prefiere ser notificado sobre problemas no urgentes mediante un mensaje de WhatsApp.</td>
+			<td colspan="2">Utiliza su Toyota sedán para ir al trabajo. Se considera un usuario "preventivo", guiándose estrictamente por el sticker de kilometraje del lubricentro. Su mayor dolor fue quedarse botado camino al trabajo por un termostato roto que fundió el radiador, generándole fuertes pérdidas de dinero y tiempo. Posee un Smartphone marca Honor. Las aplicaciones que más domina son WhatsApp, TikTok y Messenger. Mantiene siempre activos sus datos móviles y el Bluetooth para conectarse a la radio del auto. Le resulta muy fácil descargar aplicaciones y crearse cuentas. Sin embargo, desconoce la tecnología OBD2, asumiendo que solo es para "autos de alta gama". Prefiere netamente los mensajes de WhatsApp para notificaciones de mantenimiento; las llamadas las considera invasivas si no es emergencia. Descargaría la aplicación de su taller principalmente para optimizar su tiempo al sacar citas y conocer el costo aproximado de la reparación antes de ir al local.</td>
 		</tr>
 	</tbody>
 </table>
@@ -323,7 +321,7 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Conduce diversos vehículos (desde sedanes hasta camionetas) para la empresa en la que trabaja, con el fin de movilizarse o llevar visitas de campo. Trata de ser preventivo, aunque admite que por descuido puede exceder los kilometrajes recomendados o rellenar líquidos a destiempo. Considera el WhatsApp como el canal más práctico para avisos no urgentes, ya que, desde su perspectiva, el correo electrónico casi no es revisado por los usuarios para estos fines.</td>
+			<td colspan="2">Conduce camionetas y sedanes de la empresa. Intenta ser preventivo, pero admite que la rutina lo vuelve descuidado. Sus mayores frustraciones son los autos que no encienden por falsas señales de sensores y bomberos de grifo que confunden diésel con gasolina. Perfil altamente digital. Prefiere utilizar Waze por encima de Google Maps porque confía más en su cálculo de rutas y personalización de tráfico. Entiende a la perfección qué es el puerto OBD2 y la luz del Check Engine. Le aburre crear cuentas nuevas y exige opciones de Single Sign-On como con Google. Aceptaría compartir sus datos telemáticos sin dudarlo, siempre y cuando la aplicación esté respaldada por una marca oficial o un taller serio que le ofrezca garantía de privacidad. Desprecia el correo electrónico. Prefiere WhatsApp para avisos. Quiere una app "didáctica" que le muestre resúmenes anuales de su manejo y le envíe ofertas personalizadas para renovar aceite.</td>
 		</tr>
 	</tbody>
 </table>
@@ -351,10 +349,7 @@ Se apoya en internet para buscar soluciones y valora las conexiones con otras á
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Utiliza su vehículo de manera particular, enfocándose meticulosamente en la presentación de este (pintura, lubricantes) mediante una libreta física. Recibe llamadas proactivas de sus proveedores de aceite. Vivió una experiencia límite al quedarse varado la noche entera bajo la lluvia en un campo abierto, todo debido a que se le mojó un conector eléctrico y el auto dejó de encender.
-
-Mantiene su Bluetooth habilitado y no tendría ninguna preocupación de seguridad en compartir la data interna de su auto con el taller para recibir diagnósticos. Le gustaría programar controles en la app y prefiere notificaciones por WhatsApp.
-</td>
+			<td colspan="2">Cuida su vehículo meticulosamente y se considera "preventivo". Su peor experiencia traumática fue quedarse varado de madrugada bajo la lluvia en un descampado porque un conector eléctrico se mojó y no sabía cómo arreglarlo. Es usuario fiel de la marca Samsung. Utiliza intensivamente su Smartphone con apps como WhatsApp, Telegram, Facebook, Instagram y LinkedIn. Siempre mantiene el Bluetooth encendido. No siente frustración al descargar nuevas apps o crear cuentas, viéndolas como herramientas que facilitan la vida. No tiene preocupaciones de privacidad respecto a compartir la salud de su motor con el mecánico. refiere WhatsApp. Valora que los mecánicos modernos ahora le envíen fotos y videos por este medio para demostrarle qué pieza está dañada. Desea una aplicación que le permita programar sus controles de mantenimiento de manera ordenada y que prevenga averías que lo puedan dejar inmovilizado.</td>
 		</tr>
 	</tbody>
 </table>
@@ -382,9 +377,7 @@ Mantiene su Bluetooth habilitado y no tendría ninguna preocupación de segurida
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Conductor jubilado que anota fechas de reparación en una libreta de acuerdo con las sugerencias de su vendedor. Se considera 100% reactivo. Tuvo demoras significativas en un viaje porque no se previno de revisar la presión de la llanta de repuesto. También sufrió la rotura imprevista de la faja de distribución.
-A diferencia del resto, este usuario prefiere recibir alertas no urgentes a través de una llamada telefónica directa, pues considera importante mantener un contacto "personal" con su mecánico.
-</td>
+			<td colspan="2">Conductor de la tercera edad, 100% reactivo por costumbre. Anota las fechas de mantenimiento en una libreta de papel. Ha sufrido retrasos graves en viajes por olvidar medir la presión de la llanta de repuesto y se le ha roto la faja de distribución en plena ruta por no cambiarla a tiempo. Uso tecnológico extremadamente básico. Solo utiliza el teléfono celular para usar WhatsApp básico y hacer llamadas. Nunca mantiene encendido el Bluetooth porque no sabe para qué sirve y no sabe cómo crear cuentas en aplicaciones. Tiene una alta barrera tecnológica. No utilizaría escáneres ni descargaría aplicaciones por cuenta propia, limitándose a pagar la mano de obra. A diferencia de los jóvenes, rechaza la automatización por mensajes y exige comunicación mediante llamadas telefónicas formales para mantener un trato "personal" y directo con el mecánico. Para este usuario, la plataforma no debe ser una App orientada al cliente, sino una herramienta de uso interno del taller que le permita al mecánico avisarle y citarlo de forma oportuna.</td>
 		</tr>
 	</tbody>
 </table>
@@ -412,27 +405,41 @@ A diferencia del resto, este usuario prefiere recibir alertas no urgentes a trav
 			<td colspan="2"><center><b>Resumen</b></center></td>
 		</tr>
 		<tr>
-			<td colspan="2">Es universitaria y utiliza su vehículo (el primero que tiene) para ir a estudiar, hacer prácticas y salir con amigos. Admite ser desordenada con el control de sus mantenimientos y, aunque actualmente es reactiva ante los fallos, le gustaría volverse preventiva para evitar accidentes, gastos excesivos y alargar la vida del auto. Su auto no encendió repentinamente la mañana de un examen muy importante, lo que causó muchísimo estrés y provocó que perdiera la prueba por exceso de confianza en el auto. Desearía recibir recordatorios automáticos sobre las fallas que podría presentar su automóvil y cotizaciones aproximadas de cuánto le costará. Prefiere que las notificaciones no urgentes le lleguen por WhatsApp por ser la plataforma que más revisa, dejando las llamadas telefónicas solo para averías críticas.</td>
+			<td colspan="2">Joven universitaria, es su primer auto. Se describe como "reactiva" y "desordenada" con sus mantenimientos (anota fechas en notas del celular o confía en su memoria). Su mayor frustración ocurrió cuando su auto no encendió la mañana de un examen crucial en la universidad, causándole un estrés inmenso y perjudicando sus notas por exceso de confianza.Perfil nativo digital. Las tres aplicaciones que no puede dejar de usar a diario son WhatsApp, Google Maps e Instagram. Cuando se le encendió el Check Engine, entró en pánico, buscó soluciones en Google y le escribió a su mecánico por WhatsApp. Considera tedioso crear cuentas nuevas, pero lo haría gustosa si la App le garantiza evitar gastos fuertes. Tendría una leve preocupación inicial por la privacidad de los datos telemáticos, pero cedería si su taller se lo explica bien. Ignora los correos electrónicos. Exige que las notificaciones preventivas lleguen por WhatsApp y reserva las llamadas telefónicas exclusivamente para emergencias críticas. Espera un recordatorio automático que le notifique el costo aproximado del arreglo antes de ir al taller y que le brinde la tranquilidad de saber que no se quedará botada antes de un evento importante.</td>
 		</tr>
 	</tbody>
 </table>
 
 ### 2.2.3.&emsp;&emsp;*Análisis de Entrevistas* {#cap-2-2-3}
 
-&emsp;&emsp;&emsp;&emsp;Recopilando la información obtenida de las entrevistas, se obtuvieron los siguientes análisis por cada segmento objetivo.
+&emsp;&emsp;&emsp;&emsp;Con base en la información detallada y los resúmenes obtenidos de las entrevistas, se ha realizado un análisis estadístico y conductual por cada segmento objetivo.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-&emsp;&emsp;&emsp;&emsp;El 100% del personal entrevistado tiene participación directa en las reparaciones mecánicas del taller. El 75% corresponde a técnicos mecánicos senior con décadas de experiencia o alta especialización (diagnósticos electrónicos), mientras que el 25% representa a la nueva generación. El 75% de los entrevistados emplea internet, YouTube o enlaces enviados por sus proveedores para mantenerse al día con los avances del mercado.
+&emsp;&emsp;&emsp;&emsp;El 75% de los entrevistados son técnicos senior con amplia trayectoria, mientras que el 25% representa a la nueva generación de apoyo administrativo/técnico. Esto indica que el User Persona principal del taller será un usuario maduro, experto en mecánica empírica y técnica, pero no necesariamente nativo digital.
 
-&emsp;&emsp;&emsp;&emsp;El 50% manifiesta que gran parte de su trabajo correctivo pesado (como recalentamientos de motor) es consecuencia directa de la negligencia y falta de prevención de los conductores. Además, el 50% expresa rechazo hacia las plataformas web que son opacas, bloquean procesos a la mitad o entorpecen su flujo de trabajo.
+&emsp;&emsp;&emsp;&emsp;El 100% de la muestra carece actualmente de un software ERP en la nube. Gestionan sus historiales mediante libretas físicas, notas en el celular o archivos locales en laptops, lo que valida la necesidad urgente de digitalización.
 
-&emsp;&emsp;&emsp;&emsp;El 100% se muestra abierto a integrar tecnología que optimice su operación. Específicamente, el 50% desea un panel de control que centralice el historial clínico del vehículo (mantenimientos previos, kilometraje y reparaciones). Un 25% menciona explícitamente el valor de aprovechar los sensores del auto para recibir alertas automáticas en el taller.
+&emsp;&emsp;&emsp;&emsp;El 100% de los entrevistados utiliza escáneres físicos multimarca (Autel, Launch, FCar, Jaltest) para leer la computadora del vehículo, lo que demuestra que están completamente familiarizados con la lectura de códigos de error y telemetría, validando la viabilidad de introducir un dispositivo OBD2 propio de Atelier.
+
+&emsp;&emsp;&emsp;&emsp;El 100% utiliza WhatsApp y llamadas telefónicas como canal exclusivo para coordinar citas, recibir evidencias (fotos/videos) de sus clientes y enviar diagnósticos.
+
+&emsp;&emsp;&emsp;&emsp;El 75% manifiesta una profunda frustración ante la negligencia de los conductores, lo cual deriva en reparaciones complejas y clientes que mienten sobre el origen de la falla.
+
+&emsp;&emsp;&emsp;&emsp;El 75% posee una personalidad "precavida" o "escéptica" ante nuevas tecnologías de gestión. Temen que un nuevo sistema sea un gasto inútil, entorpezca su trabajo o restrinja información. Solo el 25% tiene un perfil "pionero". Por ende, el arquetipo del mecánico exigirá una interfaz de usuario directa, transparente y que requiera una curva de aprendizaje mínima.
+
+&emsp;&emsp;&emsp;&emsp;El 100% espera que la plataforma funcione como un "panel de control" o "alarma médica" que centralice el historial de cada vehículo y les avise preventivamente antes de que el motor sufra un daño catastrófico.
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-&emsp;&emsp;&emsp;&emsp;El 100% de la muestra emplea el vehículo como medio de transporte primario para actividades laborales, académicas y recreativas. El 80% de los usuarios entrevistados mantiene el Bluetooth de su dispositivo móvil encendido durante sus trayectos, lo que valida la viabilidad técnica de la transmisión de datos IoT en la cabina.
+&emsp;&emsp;&emsp;&emsp;El 80% de los entrevistados mantiene el Bluetooth y los datos móviles encendidos permanentemente mientras conduce. Esto estadísticamente valida la viabilidad técnica del modelo IoT de Atelier, asegurando que el hardware OBD2 podrá triangular los datos a través del Smartphone del conductor sin fricción adicional.
 
-&emsp;&emsp;&emsp;&emsp;El 60% afirma tener intención de llevar un cuidado preventivo, apoyándose en el tacómetro o libretas manuales. El 40% restante reconoce ser totalmente reactivo o desordenado, pero manifiesta voluntad de cambio hacia la prevención. El 100% de los encuestados reporta como su peor experiencia una inmovilización inesperada. Esto demuestra que el dolor principal no es solo económico, sino la pérdida de tiempo y el impacto en su vida personal/laboral.
+&emsp;&emsp;&emsp;&emsp;El 80% utiliza y prefiere WhatsApp para recibir alertas y notificaciones del taller, rechazando canales formales como el correo electrónico. Además, el 80% domina apps de movilidad como Google Maps o Waze. Solo el 20% requiere comunicación netamente por llamada telefónica.
 
-&emsp;&emsp;&emsp;&emsp;El 80% establece WhatsApp como el canal ideal y menos invasivo para recibir recordatorios y agendar citas. Solo un 20% prefiere el contacto tradicional mediante llamada telefónica para mantener una relación personal con el mecánico. El 80% usaría una aplicación si esta les notifica preventivamente las fallas, les genera alertas por fechas de mantenimiento y proporciona cotizaciones transparentes previas al servicio.
+&emsp;&emsp;&emsp;&emsp;El 60% no tiene problemas en descargar aplicaciones si ven un beneficio claro, un 20% exige integraciones de inicio de sesión rápido por "aburrimiento" a crear cuentas, y un 20% rechaza por completo el uso de apps por barreras generacionales.
+
+&emsp;&emsp;&emsp;&emsp;El 60% se auto-percibe como "preventivo", mientras que el 40% admite ser completamente "reactivo" o "desordenado". El User Persona del conductor deberá reflejar esta dualidad: alguien que desea cuidar su inversión, pero que la rutina o el desconocimiento técnico lo vuelven descuidado.
+
+&emsp;&emsp;&emsp;&emsp;El 100% de la muestra relató experiencias altamente traumáticas vinculadas a averías imprevistas. Esto evidencia que el valor fundamental de Atelier para este arquetipo no es solo económico, sino la tranquilidad y la seguridad personal.
+
+&emsp;&emsp;&emsp;&emsp;El 80% de los usuarios digitales espera una aplicación que no solo lance alertas, sino que sea "didáctica": que traduzca los códigos de falla a un lenguaje cotidiano, envíe recordatorios automáticos de mantenimiento, estime los costos aproximados de reparación y ofrezca resúmenes históricos de la salud del vehículo.
