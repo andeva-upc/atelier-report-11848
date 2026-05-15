@@ -121,7 +121,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *User journey mapping de dueños o administradores de talleres automotrices independientes en Lima*
 
-![](assets/user-journey-conductores.png "Imagen del user journey del segmento uno")
+![](assets/user-journey-talleres.png "Imagen del user journey del segmento uno")
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
@@ -129,7 +129,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *User journey mapping de conductores de vehículos de Lima*
 
-![](assets/user-journey-talleres.png "Imagen del user journey del segmento dos")
+![](assets/user-journey-conductores.png "Imagen del user journey del segmento dos")
 
 ### 2.3.4.&emsp;&emsp;*Empathy Mapping* {#cap-2-3-4}
 
