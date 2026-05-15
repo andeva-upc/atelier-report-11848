@@ -13,8 +13,8 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *User persona de dueños o administradores de talleres automotrices independientes en Lima*
 
-<p align="center">
-  <img src="assets/Jorge-Torres.png" alt="User persona de dueños o administradores de talleres automotrices independientes en Lima" width="250">
+<p style="text-align:center;">
+    <img src="assets/Jorge-Torres.png" alt="User persona de dueños o administradores de talleres automotrices independientes en Lima" style="display:block; margin:0 auto; width:auto; max-width:250px; height:auto; max-height:58vh;">
 </p>
 
 [Enlace al user persona completo](https://drive.google.com/file/d/16DWBxr7SzYmYusrDQ5-nQVxWimsSq2LR/view?usp=drive_link)
@@ -25,8 +25,8 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 *User persona de conductores de vehículos de Lima*
 
-<p align="center">
-  <img src="assets/Carlos-Mendoza.png" alt="User persona de conductores de vehículos de Lima" width="380">
+<p style="text-align:center;">
+    <img src="assets/Carlos-Mendoza.png" alt="User persona de conductores de vehículos de Lima" style="display:block; margin:0 auto; width:auto; max-width:380px; height:auto; max-height:58vh;">
 </p>
 
 [Enlace al user persona completo](https://drive.google.com/file/d/1Y9jcc8UxjN1R96rB5HGIEg_zpsHmTKGU/view?usp=drive_link)
