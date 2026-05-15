@@ -8,7 +8,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Se aplica el principio de jerarquía visual mediante el tamaño de los bloques y textos, destacando el titular principal "Transforma tu Taller" por encima de las descripciones secundarias. Se utiliza la Ley de Proximidad en las secciones de "Servicios" y "Precios" para agrupar tarjetas de información relacionada, permitiendo que el cerebro procese los beneficios y planes del SaaS de forma ordenada. El diseño modular se apoya en un sistema de espaciado coherente que utiliza el espacio negativo para dar descanso visual.
 
-**Figura**
+**Figura 28**
 
 *Wireframe del Landing Page de atelier*
 
@@ -26,7 +26,7 @@
 
 &emsp;&emsp;&emsp;&emsp;El alto contraste entre el texto (#212121 y #FFFFFF) sobre fondos oscuros o azules puros asegura el cumplimiento de estándares de accesibilidad visual. El sistema de navegación global mediante el Sticky Header permanece visible en todo momento, permitiendo al usuario ingresar a la plataforma o registrarse sin importar en qué punto del recorrido de la página se encuentre, consolidando así un embudo de ventas altamente efectivo.
 
-**Figura**
+**Figura 29**
 
 *Mock-up del Landing Page de atelier*
 

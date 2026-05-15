@@ -53,7 +53,7 @@
 | 41      | US035         | Acceso a información legal             | Como visitante web, quiero revisar las políticas de privacidad y términos de servicio, para comprender el tratamiento de los datos telemáticos.     | 1                                |
 
 
-**Figura**
+**Figura 20**
 
 *Product Backlog de atelier en Trello*
 

@@ -9,7 +9,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Figura** 
+**Figura 9**
 
 *User persona de dueños o administradores de talleres automotrices independientes en Lima*
 
@@ -21,7 +21,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Figura**
+**Figura 10**
 
 *User persona de conductores de vehículos de Lima*
 
@@ -117,7 +117,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Figura** 
+**Figura 11**
 
 *User journey mapping de dueños o administradores de talleres automotrices independientes en Lima*
 
@@ -125,7 +125,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Figura**
+**Figura 12**
 
 *User journey mapping de conductores de vehículos de Lima*
 
@@ -137,7 +137,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Figura** 
+**Figura 13**
 
 *Empathy Mapping de dueños o administradores de talleres automotrices independientes en Lima*
 
@@ -145,7 +145,7 @@ De esta forma, se podrá dar una idea más clara de a qué público nos estamos 
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Figura**
+**Figura 14**
 
 *Empathy Mapping de conductores de vehículos de Lima*
 

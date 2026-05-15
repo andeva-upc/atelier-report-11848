@@ -154,7 +154,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente de la landing page de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
 
-**Figura**
+**Figura 81**
 
 *Repositorio del website de atelier*
 
@@ -162,7 +162,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
 
-**Figura**
+**Figura 82**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -170,7 +170,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Seleccionamos el repositorio que aloja el codigo fuente de la landing page de atelier.
 
-**Figura**
+**Figura 83**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
@@ -178,7 +178,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento de la landing page.
 
-**Figura**
+**Figura 84**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -186,7 +186,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-11848.vercel.app/](https://atelier-11848.vercel.app/), comprobamos el correcto despliegue de atelier.
 
-**Figura**
+**Figura 85**
 
 *Captura de pantalla del Landing Page de atelier en Vercel*
 
@@ -198,7 +198,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente de la web application de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
 
-**Figura**
+**Figura 86**
 
 *Repositorio del web application de atelier*
 
@@ -206,7 +206,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en la seccion de proyectos de Vercel, hacemos click en "Add New...".
 
-**Figura**
+**Figura 87**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -214,7 +214,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Seleccionamos el repositorio que aloja el codigo fuente de la web application de atelier.
 
-**Figura**
+**Figura 88**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
@@ -222,7 +222,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento de la web application de atelier.
 
-**Figura**
+**Figura 89**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -230,7 +230,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-sepia-three.vercel.app/home](https://atelier-sepia-three.vercel.app/home), comprobamos el correcto despliegue de atelier.
 
-**Figura**
+**Figura 90**
 
 *Captura de pantalla de la Web Application de atelier en Vercel*
 

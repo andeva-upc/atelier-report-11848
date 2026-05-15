@@ -162,7 +162,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: []().
 
-**Figura**
+**Figura 91**
 
 *Capturas de Pantalla de la Landing Page de atelier*
 
@@ -184,7 +184,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Integración de la rama de lanzamiento. Como paso inicial, el equipo consolidó todos los avances de diseño y maquetación de las distintas ramas de características hacia la rama principal de despliegue. Esto asegura que el código a desplegar sea la versión estable y aprobada del Sprint.
 
-**Figura**
+**Figura 92**
 
 *Repositorio del website de atelier*
 
@@ -192,7 +192,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura**
+**Figura 93**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -200,13 +200,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura**
+**Figura 94**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura**
+**Figura 95**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -230,7 +230,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura**
+**Figura 96**
 
 *Gráfico de commits*
 
@@ -356,7 +356,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier](https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier).
 
-**Figura**
+**Figura 97**
 
 *Captura de Pantalla del Sprint Backlog #2 atelier en Trello*
 
@@ -494,9 +494,9 @@
 
 &emsp;&emsp;&emsp;&emsp;Durante este sprint se logro implementar y desplegar una primera versión del front end de la aplicación web de atelier.
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [https://atelier-sepia-three.vercel.app/home](https://atelier-sepia-three.vercel.app/home).
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQCpTxZ-ag_KQ7IVCmDfBK6ZAYwH-s_Spe5JOStb3O5RtE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eza18p).
 
-**Figura**
+**Figura 97**
 
 *Capturas de Pantalla de la Web App de atelier*
 
@@ -519,7 +519,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Verificamos que el repositorio de Github este preparado para el despliegue.
 
-**Figura**
+**Figura 98**
 
 *Repositorio del web app de atelier*
 
@@ -527,7 +527,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura**
+**Figura 99**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -535,13 +535,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura**
+**Figura 100**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/ercel-web-app-deploy.png "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura**
+**Figura 101**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -567,7 +567,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura**
+**Figura 102**
 
 *Gráfico de commits*
 
