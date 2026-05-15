@@ -24,8 +24,8 @@
 |    Sprint 1 – 1 Retrospective Summary      |     --     |
 |     **Sprint Goal & User Stories**     |          |
 |     Sprint 1 Goal     |     Our focus is on offering a comprehensive and attractive initial digital presence through a fully functional landing page for the atelier platform.<br>We believe it delivers a clear understanding of the ERP and IoT value proposition, transparent comparison of subscription plans, and trust in the brand to our target audience.<br>This will be confirmed when visitors access the site to seamlessly navigate through the service modules across different devices, read the legal policies, and interact with the landing page.     |
-|     Sprint 1 Velocity     |    24      |
-|     Sum of Story Points     |   8       |
+|     Sprint 1 Velocity     |     22     |
+|     Sum of Story Points     |   20       |
 
 #### 5.2.1.2.&emsp;&emsp;*Aspect Leaders and Collaborators* {#cap-5-2-1-2}
 
