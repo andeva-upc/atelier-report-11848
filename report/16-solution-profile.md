@@ -176,5 +176,3 @@
 *Lean UX Canvas*
 
 ![](assets/lean-ux-canvas.png "Lean UX Canvas")
-
-
