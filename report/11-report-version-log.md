@@ -1,6 +1,6 @@
-# Registro de Versiones del Informe
+### Registro de Versiones del Informe
 
-<table>
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.8em;">
 	<tbody>
 		<tr>
 			<td><b><center>Versión</center></b></td>
@@ -127,6 +127,48 @@
 			<td>14/05/2026</td>
 			<td>Joel Huamani Estefanero<br>Morocho Pinedo, Mariana Hortencia<br>Luis Daniel Granda Ibarra<br>Aldo Jeanfranco Machacca Soto<br>Adiel Sanchez Santin<br>Jennifer Riveros Vera</td>
 			<td>Se realizó el desarrollo del sprint 2 y despliegue de la web app de atelier.</td>
+		</tr>
+		<tr>
+			<td>2.2.0</td>
+			<td>13/06/2026</td>
+			<td>Joel Huamani Estefanero<br>Morocho Pinedo, Mariana Hortencia<br>Luis Daniel Granda Ibarra<br>Aldo Jeanfranco Machacca Soto<br>Adiel Sanchez Santin<br>Jennifer Riveros Vera</td>
+			<td>Se realizó el desarrollo del sprint 3 y despliegue del backend de atelier.</td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2..</td>
+			<td>//2026</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>3.0.0</td>
+			<td>20/06/2026</td>
+			<td></td>
+			<td></td>
 		</tr>
 	</tbody>
 </table>

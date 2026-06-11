@@ -24,8 +24,8 @@
 |    Sprint 1 – 1 Retrospective Summary      |     --     |
 |     **Sprint Goal & User Stories**     |          |
 |     Sprint 1 Goal     |     Our focus is on offering a comprehensive and attractive initial digital presence through a fully functional landing page for the atelier platform.<br>We believe it delivers a clear understanding of the ERP and IoT value proposition, transparent comparison of subscription plans, and trust in the brand to our target audience.<br>This will be confirmed when visitors access the site to seamlessly navigate through the service modules across different devices, read the legal policies, and interact with the landing page.     |
-|     Sprint 1 Velocity     |     22     |
-|     Sum of Story Points     |   20       |
+|     Sprint 1 Velocity     |     8     |
+|     Sum of Story Points     |   8       |
 
 #### 5.2.1.2.&emsp;&emsp;*Aspect Leaders and Collaborators* {#cap-5-2-1-2}
 
@@ -35,8 +35,7 @@
 
 *Leadership-and-Collaboration Matrix*
 
-<div align="center">
-<table>
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.8em;">
 <thead>
 <tr>
 <th>Team Member</th>
@@ -96,13 +95,18 @@
 </tr>
 </tbody>
 </table>
-</div>
 
 #### 5.2.1.3.&emsp;&emsp;*Sprint Backlog 1* {#cap-5-2-1-3}
 
 &emsp;&emsp;&emsp;&emsp;Como se estableció en el Sprint Planning, el objetivo principal de este primer sprint es el desarrollo, maquetación y despliegue de la primera versión funcional de la Landing Page de Atelier. Esto implica implementar todas las secciones visuales que comuniquen la propuesta de valor, los planes de suscripción, el equipo desarrollador y la adaptabilidad móvil.
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier](https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier).
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/uvBe5RgN/atelier-sprint-backlog-1](https://trello.com/b/uvBe5RgN/atelier-sprint-backlog-1).
+
+**Figura**
+
+*Captura de Pantalla del Sprint Backlog #1 atelier en Trello*
+
+![](assets/trello-1.png "Captura de Pantalla del Sprint Backlog #1 atelier en Trello")
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las User Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
@@ -110,17 +114,156 @@
 
 *Sprint Backlog #1 atelier*
 
-| Sprint #   | Sprint 1                             |                  |                                                              |                                                                                                                                                                        |                    |                 |                                                |
-|------------|--------------------------------------|------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|------------------------------------------------|
-| User Story |                                      | Work-Item / Task |                                                              |                                                                                                                                                                        |                    |                 |                                                |
-| Id         | Title                                | Id               | Title                                                        | Description                                                                                                                                                            | Estimation (Hours) | Assigned To     | Status (To-do / In-Process / To-Review / Done) |
-| US033      | Visualización de propuesta de valor  | ET01             | Implementación integral de Hero Component y CTA              | Desarrollar la estructura HTML semántica de la cabecera principal, aplicar estilos CSS avanzados con tipografía Mona Sans y configurar el botón Call to Action.        | 5                  | Joel Huamani    | Done                                           |
-| US034      | Exploración de módulos               | ET02             | Maquetación de cuadrícula de servicios y visualización       | Construir el sistema de grid responsivo para los beneficios de ERP e IoT, integrar recursos gráficos optimizados y asegurar el correcto espaciado (padding/margin).    | 5                  | Luis Granda     | Done                                           |
-| US035      | Comparación de planes de suscripción | ET03             | Desarrollo de componentes de tablas de precios y comparativa | Estructurar las tarjetas comparativas (Lite, Pro, Max) en HTML, insertar listas de características técnicas y aplicar estilos de contraste visual.                     | 6                  | Aldo Machacca   | Done                                           |
-| US036      | Presentación del equipo              | ET04             | Codificación de sección de equipo y estilización de perfiles | Desarrollar la estructura base de la sección Team, integrar fotografías y perfiles profesionales y aplicar estilos visuales consistentes a las tarjetas de perfil.     | 4                  | Adiel Sanchez   | Done                                           |
-| US037      | Acceso a información legal           | ET05             | Estructuración de Footer e integración de accesos legales    | Desarrollar la estructura semántica del pie de página, integrar los hipervínculos a Términos, Condiciones y Políticas, y aplicar estilización Dark Primary responsiva. | 4                  | Mariana Morocho | Done                                           |
-
-
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.6em;">
+    <thead>
+      <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item / Task</th>
+      </tr>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status (To-Do / In-Process / To-Review / Done)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3"><strong>US033</strong></td>
+        <td rowspan="3">Visualización de propuesta de valor</td>
+        <td>US033-01</td>
+        <td>Maquetación Hero Section</td>
+        <td>Desarrollar el componente principal (Hero) asegurando un diseño "mobile-first" y estructura responsiva.</td>
+        <td>4</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US033-02</td>
+        <td>Optimización de Assets Visuales</td>
+        <td>Comprimir y formatear las imágenes e ilustraciones (WebP/SVG) para asegurar tiempos de carga óptimos.</td>
+        <td>2</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US033-03</td>
+        <td>Configuración de Breakpoints</td>
+        <td>Ajustar las media queries y grid layout para garantizar una visualización perfecta en tablets y desktop.</td>
+        <td>3</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US034</strong></td>
+        <td rowspan="3">Exploración de módulos</td>
+        <td>US034-01</td>
+        <td>Creación de Componente Features</td>
+        <td>Diseñar y programar las tarjetas modulares para presentar las capacidades del ERP y la Telemetría IoT.</td>
+        <td>4</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US034-02</td>
+        <td>Interactividad y Animaciones</td>
+        <td>Implementar animaciones de scroll y despliegue dinámico de información extendida al interactuar con cada tarjeta.</td>
+        <td>3</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US034-03</td>
+        <td>Inyección de Copy Técnico</td>
+        <td>Redactar e integrar el contenido técnico en los componentes, asegurando jerarquía de texto (H2, H3, P).</td>
+        <td>2</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US035</strong></td>
+        <td rowspan="3">Comparación de planes de suscripción</td>
+        <td>US035-01</td>
+        <td>Maquetación de Matriz de Precios</td>
+        <td>Construir la tabla comparativa que contrasta los límites operativos y características de cada nivel de suscripción.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US035-02</td>
+        <td>Lógica de Toggle de Facturación</td>
+        <td>Implementar el componente de switch que recalcula dinámicamente los precios al alternar entre mensual y anual.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US035-03</td>
+        <td>Integración de CTAs</td>
+        <td>Añadir e instrumentar los botones de "Call to Action" en cada plan, preparándolos para la redirección al registro.</td>
+        <td>1</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US036</strong></td>
+        <td rowspan="3">Presentación del equipo</td>
+        <td>US036-01</td>
+        <td>Estructuración Sección About Us</td>
+        <td>Definir el contenedor base de la sección corporativa y el grid para presentar a los miembros de la startup.</td>
+        <td>2</td>
+        <td>Adiel Sanchez</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US036-02</td>
+        <td>Diseño de Tarjetas de Perfil</td>
+        <td>Maquetar las cards individuales incluyendo los avatares, nombres y roles de los desarrolladores.</td>
+        <td>3</td>
+        <td>Adiel Sanchez</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US036-03</td>
+        <td>Enlaces a Redes Profesionales</td>
+        <td>Integrar íconos SVG y configurar las anclas de redirección segura (target blank) hacia perfiles profesionales.</td>
+        <td>1</td>
+        <td>Adiel Sanchez</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US037</strong></td>
+        <td rowspan="3">Acceso a información legal</td>
+        <td>US037-01</td>
+        <td>Maquetación de Vistas Legales</td>
+        <td>Crear las rutas y plantillas estáticas para alojar los documentos de Términos de Servicio y Privacidad.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US037-02</td>
+        <td>Formateo e Inserción de Contenido</td>
+        <td>Trasladar y estructurar semánticamente (listas, negritas, subtítulos) los borradores legales a las plantillas web.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US037-03</td>
+        <td>Funcionalidad de Exportación PDF</td>
+        <td>Instalar e implementar la librería (ej. html2pdf) para permitir la descarga del contenido legal generado estáticamente.</td>
+        <td>4</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+    </tbody>
+  </table>
 
 #### 5.2.1.4.&emsp;&emsp;*Development Evidence for Sprint Review* {#cap-5-2-1-4}
 
@@ -212,7 +355,7 @@
 
 ![](assets/vercel-deploy.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: [https://atelier-11848.vercel.app/](https://atelier-11848.vercel.app/).
+&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: [https://atelier-website-11848.vercel.app/](https://atelier-website-11848.vercel.app/).
 
 #### 5.2.1.8.&emsp;&emsp;*Team Collaboration Insights during Sprint* {#cap-5-2-1-8}
 
@@ -260,7 +403,7 @@
 |    Sprint 2 – 1 Retrospective Summary      |    The team identified that initial task estimations were too low. For the upcoming sprint, we committed to consolidating engineering tasks into blocks of 4 to 8 hours and ensuring a more rigorous technical documentation process.      |
 |     **Sprint Goal & User Stories**     |          |
 |     Sprint 2 Goal     |     Our focus for this sprint is to develop the front-end architecture and functional user interfaces for the core modules of the Atelier web application. We aim to implement the Dashboard, Work-Orders, Telemetry, Customers, Appointments, and Billing sections, ensuring a consistent UI/UX, seamless navigation, and data visualization to support essential workshop operations.     |
-|     Sprint 2 Velocity     |     46     |
+|     Sprint 2 Velocity     |     69     |
 |     Sum of Story Points     |   69       |
 
 #### 5.2.2.2.&emsp;&emsp;*Aspect Leaders and Collaborators* {#cap-5-2-2-2}
@@ -271,8 +414,7 @@
 
 *Leadership-and-Collaboration Matrix*
 
-<div style="display: flex; justify-content: center;">
-<table>
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.7em;">
 <thead>
 <tr>
 <th>Team Member</th>
@@ -348,19 +490,18 @@
 </tr>
 </tbody>
 </table>
-</div>
 
 #### 5.2.2.3.&emsp;&emsp;*Sprint Backlog 2* {#cap-5-2-2-3}
 
 &emsp;&emsp;&emsp;&emsp;Como se estableció en el Sprint Planning, el objetivo principal de este segundo sprint es el desarrollo de la web application de atelier.
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier](https://trello.com/invite/b/69e53a1f24bfdaee349e4ae0/ATTI7bbd33d5db1338ca2c51df8c95727a2a46CEA512/atelier).
+&emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/xhhM4rYX/atelier-sprint-backlog-2](https://trello.com/b/xhhM4rYX/atelier-sprint-backlog-2).
 
 **Figura 97**
 
 *Captura de Pantalla del Sprint Backlog #2 atelier en Trello*
 
-![](assets/sprint-2-trello.png "Captura de Pantalla del Sprint Backlog #2 atelier en Trello")
+![](assets/trello-2.png "Captura de Pantalla del Sprint Backlog #2 atelier en Trello")
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las User Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
@@ -368,54 +509,540 @@
 
 *Sprint Backlog #2 atelier*
 
-<table style="width:100%; table-layout:fixed; border-collapse:collapse; font-size:9px; line-height:1.2;">
-<colgroup>
-<col style="width:7%;" />
-<col style="width:13%;" />
-<col style="width:7%;" />
-<col style="width:18%;" />
-<col style="width:29%;" />
-<col style="width:7%;" />
-<col style="width:9%;" />
-<col style="width:10%;" />
-</colgroup>
-<thead>
-<tr>
-<th>US Id</th>
-<th>User Story</th>
-<th>ET Id</th>
-<th>Task</th>
-<th>Description</th>
-<th>Est. (h)</th>
-<th>Assigned</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>US030</td><td>Panel de ingresos y rentabilidad</td><td>ET07</td><td>Desarrollo de Dashboard y gráficos de rentabilidad</td><td>Codificar la interfaz del Home integrando librerías de gráficos y tarjetas de resumen para exponer visualmente las métricas financieras.</td><td>6</td><td>Joel Huamani</td><td>Done</td></tr>
-<tr><td>US032</td><td>Sugerencia por kilometraje</td><td>ET08</td><td>Maquetación de panel de alertas preventivas en Home</td><td>Desarrollar la sección del Dashboard dedicada a listar notificaciones y sugerencias proactivas de vehículos que superaron su kilometraje.</td><td>4</td><td>Joel Huamani</td><td>Done</td></tr>
-<tr><td>US013</td><td>Gestión de lockers de trabajo</td><td>ET09</td><td>Construcción de interfaz de asignación de lockers</td><td>Desarrollar la interfaz gráfica y los indicadores visuales de estado (ocupado/disponible) para la gestión de espacios físicos del taller.</td><td>4</td><td>Mariana Morocho</td><td>To-Review</td></tr>
-<tr><td>US014</td><td>Creación de Orden de Trabajo</td><td>ET10</td><td>Implementación de formulario dinámico para Órdenes</td><td>Maquetar el formulario interactivo para registrar órdenes de trabajo, incorporando selectores de clientes/vehículos y campos de descripción.</td><td>6</td><td>Mariana Morocho</td><td>To-Review</td></tr>
-<tr><td>US015</td><td>Asignación de mecánicos a OT</td><td>ET11</td><td>Codificación de selectores de personal técnico</td><td>Implementar la lógica visual y los componentes desplegables para asignar y vincular mecánicos a las órdenes de trabajo activas.</td><td>4</td><td>Mariana Morocho</td><td>To-Review</td></tr>
-<tr><td>US016</td><td>Actualización de estado de Orden</td><td>ET12</td><td>Desarrollo de vista visual para control de estados (OTs)</td><td>Implementar la interfaz interactiva para visualizar, filtrar y actualizar el progreso técnico y los diagnósticos de las órdenes de trabajo.</td><td>5</td><td>Mariana Morocho</td><td>To-Review</td></tr>
-<tr><td>US017</td><td>Búsqueda y filtrado de inventario</td><td>ET13</td><td>Implementación de filtros de búsqueda para repuestos</td><td>Construir la barra de búsqueda y los componentes de filtrado por categoría para localizar repuestos rápidamente durante la reparación.</td><td>4</td><td>Mariana Morocho</td><td>To-Review</td></tr>
-<tr><td>US011</td><td>Registro de nuevo cliente</td><td>ET14</td><td>Maquetación del directorio de clientes y formulario</td><td>Codificar el listado maestro de clientes y el formulario de captura de datos con sus respectivas validaciones visuales de campos.</td><td>5</td><td>Aldo Machacca</td><td>Done</td></tr>
-<tr><td>US012</td><td>Consulta de historial clínico</td><td>ET15</td><td>Desarrollo de vista de línea de tiempo de reparaciones</td><td>Maquetar la interfaz que expone el historial clínico de los vehículos, ordenando cronológicamente las órdenes de trabajo previas.</td><td>5</td><td>Aldo Machacca</td><td>Done</td></tr>
-<tr><td>US018</td><td>Vinculación de hardware OBD2</td><td>ET16</td><td>Maquetación del flujo de emparejamiento OBD2</td><td>Codificar los modales y validaciones visuales para la asociación del identificador del escáner telemático al perfil del vehículo.</td><td>4</td><td>Aldo Machacca</td><td>Done</td></tr>
-<tr><td>US019</td><td>Desvinculación de escáner OBD2</td><td>ET17</td><td>Desarrollo de interacción visual de desvinculación</td><td>Implementar los botones de acción y cuadros de diálogo de confirmación para liberar el hardware OBD2 de un vehículo activo.</td><td>4</td><td>Aldo Machacca</td><td>Done</td></tr>
-<tr><td>US020</td><td>Visualización de telemetría en vivo</td><td>ET18</td><td>Construcción de panel IoT y renderizado de gráficos en vivo</td><td>Construir la interfaz dinámica que renderizará los gráficos y métricas (RPM, Temperatura) simulando la conexión continua del dispositivo.</td><td>7</td><td>Aldo Machacca</td><td>Done</td></tr>
-<tr><td>US022</td><td>Listado de alertas predictivas</td><td>ET19</td><td>Desarrollo de tabla de códigos DTC y alertas</td><td>Desarrollar la tabla interactiva que lista, filtra y clasifica por criticidad las alertas telemáticas recibidas de los vehículos.</td><td>5</td><td>Aldo Machacca</td><td>Done</td></tr>
-<tr><td>US023</td><td>Historial de Telemetría</td><td>ET20</td><td>Implementación de gráficos históricos y selectores temporales</td><td>Codificar los componentes visuales para consultar rangos de fechas y renderizar gráficas con la data telemática agregada del pasado.</td><td>5</td><td>Aldo Machacca</td><td>Done</td></tr>
-<tr><td>US024</td><td>Agendamiento de citas</td><td>ET21</td><td>Integración de componente de calendario y reservas</td><td>Implementar una vista de calendario interactiva para la visualización gráfica y el registro de nuevas reservas de mantenimiento.</td><td>6</td><td>Jennifer</td><td>Done</td></tr>
-<tr><td>US025</td><td>Reprogramación de citas</td><td>ET22</td><td>Desarrollo de interfaces modales para gestión de citas</td><td>Codificar los modales y la interacción visual para permitir la reprogramación rápida o cancelación de fechas de citas preexistentes.</td><td>4</td><td>Jennifer</td><td>Done</td></tr>
-<tr><td>US026</td><td>Creación de cotización digital</td><td>ET23</td><td>Desarrollo de vista de cotizaciones y cálculo dinámico</td><td>Desarrollar la vista para armar cotizaciones, permitiendo agregar servicios y repuestos con cálculo en tiempo real del subtotal e impuestos.</td><td>6</td><td>Luis Granda</td><td>Done</td></tr>
-<tr><td>US028</td><td>Registro de cobro en caja</td><td>ET24</td><td>Implementación de interfaz de pasarela y comprobantes</td><td>Maquetar el formulario de cierre comercial que permite seleccionar el método de pago y emitir la vista previa del comprobante.</td><td>5</td><td>Luis Granda</td><td>Done</td></tr>
-<tr><td>US029</td><td>Aplicación de descuentos</td><td>ET25</td><td>Codificación de lógica visual para deducción de descuentos</td><td>Implementar campos de validación y la lógica reactiva en la interfaz para aplicar porcentajes de descuento sobre el subtotal facturado.</td><td>4</td><td>Luis Granda</td><td>Done</td></tr>
-<tr><td>US008</td><td>Alta de nuevos repuestos</td><td>ET26</td><td>Desarrollo de listado de inventario y formulario de alta</td><td>Codificar la vista del catálogo de repuestos y el formulario interactivo para la creación de nuevos ítems con validación de SKU.</td><td>6</td><td>Adiel Sanchez</td><td>Done</td></tr>
-<tr><td>US009</td><td>Ajuste manual de stock</td><td>ET27</td><td>Implementación de controles visuales para ajuste de inventario</td><td>Desarrollar los controles interactivos (+/-) y la lógica de validación visual para prevenir que el stock se ajuste a números negativos.</td><td>5</td><td>Adiel Sanchez</td><td>Done</td></tr>
-</tbody>
-</table>
-
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.5em;">
+    <thead>
+      <tr>
+        <th colspan="2">User Story</th>
+        <th colspan="6">Work-Item / Task</th>
+      </tr>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status (To-do / In-Process / To-Review / Done)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3"><strong>US030</strong></td>
+        <td rowspan="3">Panel de ingresos y rentabilidad</td>
+        <td>US030-01</td>
+        <td>Query Builder Financiero</td>
+        <td>Desarrollar las consultas de agregación en base de datos para calcular ingresos y variaciones mensuales.</td>
+        <td>4</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US030-02</td>
+        <td>Integración de Librería de Gráficos</td>
+        <td>Instalar y configurar Recharts/Chart.js en el frontend para el renderizado de datos de rentabilidad.</td>
+        <td>2</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US030-03</td>
+        <td>Maquetación de Dashboard</td>
+        <td>Diseñar la interfaz de usuario con tarjetas de métricas comparativas (KPIs) e indicadores visuales.</td>
+        <td>4</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US032</strong></td>
+        <td rowspan="3">Sugerencia por kilometraje</td>
+        <td>US032-01</td>
+        <td>Lógica de Evaluación de Kilometraje</td>
+        <td>Desarrollar el algoritmo que compare el kilometraje actual telemático versus la última orden de trabajo.</td>
+        <td>3</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US032-02</td>
+        <td>Cron Job Preventivo</td>
+        <td>Implementar un worker asíncrono que corra diariamente para generar alertas de mantenimiento.</td>
+        <td>4</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US032-03</td>
+        <td>Notificaciones UI Recepción</td>
+        <td>Crear el componente visual (campana/toast) que exponga las sugerencias proactivas a la recepcionista.</td>
+        <td>3</td>
+        <td>Joel Huamani</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US013</strong></td>
+        <td rowspan="3">Gestión de lockers de trabajo</td>
+        <td>US013-01</td>
+        <td>Endpoint CRUD de Lockers</td>
+        <td>Implementar la API para cambiar el estado de disponibilidad y asociar un vehículo al locker.</td>
+        <td>3</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US013-02</td>
+        <td>Validación de Conflictos</td>
+        <td>Añadir middleware para rechazar asignaciones si el vehículo ya está asignado o el locker ocupado.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US013-03</td>
+        <td>Vista Grid Interactiva</td>
+        <td>Desarrollar una interfaz visual (mapa de lockers) para arrastrar y soltar vehículos en espacios disponibles.</td>
+        <td>5</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US014</strong></td>
+        <td rowspan="3">Creación de Orden de Trabajo</td>
+        <td>US014-01</td>
+        <td>Controlador Inicialización OT</td>
+        <td>Crear el endpoint POST que genera el ID único y asocia cliente y vehículo con estado "Pendiente".</td>
+        <td>4</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US014-02</td>
+        <td>Validación de Vínculos</td>
+        <td>Implementar validación que rechace la creación si el vehículo no está previamente registrado en el sistema.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US014-03</td>
+        <td>Formulario Frontend Creación</td>
+        <td>Construir el formulario con selectores de búsqueda (typeahead) para cliente y vehículo.</td>
+        <td>4</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US015</strong></td>
+        <td rowspan="3">Asignación de mecánicos a OT</td>
+        <td>US015-01</td>
+        <td>Endpoint Vinculación Empleado</td>
+        <td>Desarrollar la actualización de la base de datos (relación muchos a muchos o foránea) para asignar el técnico.</td>
+        <td>3</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US015-02</td>
+        <td>Validación de Roles (RBAC)</td>
+        <td>Garantizar que el sistema rechace la asignación si el empleado seleccionado no posee rol técnico.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US015-03</td>
+        <td>Selector Dinámico UI</td>
+        <td>Implementar el dropdown en la vista de la OT que liste exclusivamente mecánicos activos.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US016</strong></td>
+        <td rowspan="3">Actualización de estado de Orden</td>
+        <td>US016-01</td>
+        <td>Endpoint PATCH Estado</td>
+        <td>Programar la ruta de actualización parcial para transicionar el ciclo de vida de la OT.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US016-02</td>
+        <td>Regla de Diagnóstico Requerido</td>
+        <td>Agregar validación de negocio que impida pasar a estado "Completado" si no hay texto de diagnóstico guardado.</td>
+        <td>3</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US016-03</td>
+        <td>Componente Kanban UI</td>
+        <td>Construir un visualizador de progreso por pasos (Steps o Kanban card) para interactuar con los estados.</td>
+        <td>4</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US017</strong></td>
+        <td rowspan="3">Búsqueda y filtrado de inventario</td>
+        <td>US017-01</td>
+        <td>Implementación Query Params</td>
+        <td>Modificar el GET del catálogo para soportar filtros de búsqueda por coincidencia parcial (LIKE) y categoría.</td>
+        <td>3</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US017-02</td>
+        <td>Indexación de Base de Datos</td>
+        <td>Crear índices en la tabla de repuestos (Nombre, Categoría, SKU) para optimizar la velocidad del filtrado.</td>
+        <td>2</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US017-03</td>
+        <td>Barra de Búsqueda Dinámica UI</td>
+        <td>Desarrollar el input con debounce en el frontend y los selectores visuales de filtros de categoría.</td>
+        <td>4</td>
+        <td>Mariana Morocho</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US011</strong></td>
+        <td rowspan="3">Registro de nuevo cliente</td>
+        <td>US011-01</td>
+        <td>Esquema y Controlador Cliente</td>
+        <td>Desarrollar el endpoint POST para persistir la ficha de datos del cliente en la base de datos.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US011-02</td>
+        <td>Prevención de Duplicidad</td>
+        <td>Configurar constraints y validación a nivel código para bloquear registros con mismo documento de identidad.</td>
+        <td>2</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US011-03</td>
+        <td>Modal de Alta Rápida</td>
+        <td>Diseñar el formulario pop-up que permita a la recepcionista registrar al cliente sin abandonar la vista actual.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US012</strong></td>
+        <td rowspan="3">Consulta de historial clínico</td>
+        <td>US012-01</td>
+        <td>Endpoint Recuperación de OT</td>
+        <td>Crear consulta JOIN que recupere las órdenes cerradas asociadas a la placa de un vehículo, ordenadas por fecha.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US012-02</td>
+        <td>Manejo de Resultados Vacíos</td>
+        <td>Asegurar que el endpoint devuelva una lista vacía (200 OK) sin errores si el vehículo es nuevo.</td>
+        <td>1</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US012-03</td>
+        <td>Timeline Histórico UI</td>
+        <td>Maquetar un componente visual de línea de tiempo interactivo para revisar intervenciones previas fácilmente.</td>
+        <td>5</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US018</strong></td>
+        <td rowspan="3">Vinculación de hardware OBD2</td>
+        <td>US018-01</td>
+        <td>Endpoint Emparejamiento</td>
+        <td>Desarrollar la API de enlace entre identificador único del hardware y perfil del vehículo activo.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US018-02</td>
+        <td>Validación de Disponibilidad</td>
+        <td>Aplicar lógica para denegar vinculaciones si el escáner ya figura emparejado a otro vehículo.</td>
+        <td>2</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US018-03</td>
+        <td>Interfaz de Ingreso Hardware</td>
+        <td>Crear vista simple para emparejamiento manual del código del dispositivo por parte del mecánico.</td>
+        <td>2</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US019</strong></td>
+        <td rowspan="3">Desvinculación de escáner OBD2</td>
+        <td>US019-01</td>
+        <td>Endpoint de Desvinculación</td>
+        <td>Programar la lógica de limpieza de relación y cierre seguro del flujo de transmisión de datos.</td>
+        <td>2</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US019-02</td>
+        <td>Manejo de Operaciones Nulas</td>
+        <td>Asegurar la idempotencia: si el escáner ya está libre, retornar éxito sin lanzar excepciones severas.</td>
+        <td>1</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US019-03</td>
+        <td>Botón de Confirmación UI</td>
+        <td>Implementar acción destructiva en frontend con su respectivo modal de confirmación "Seguro que desea desvincular".</td>
+        <td>2</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US020</strong></td>
+        <td rowspan="3">Visualización de telemetría en vivo</td>
+        <td>US020-01</td>
+        <td>Consumo de WebSockets (Cliente)</td>
+        <td>Integrar librería socket en el frontend para escuchar los eventos de transmisión del hardware activo.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US020-02</td>
+        <td>Manejo de Desconexiones</td>
+        <td>Desarrollar lógica de reconexión y preservación del último snapshot válido en el estado de la aplicación.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US020-03</td>
+        <td>Renderizado de Tablero Vivo</td>
+        <td>Diseñar indicadores circulares (gauges) y barras para parámetros vitales (RPM, Voltaje, Temperatura).</td>
+        <td>5</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US022</strong></td>
+        <td rowspan="3">Listado de alertas predictivas</td>
+        <td>US022-01</td>
+        <td>Endpoint Consumo de Alertas</td>
+        <td>Exponer la API GET que recupere el registro de anomalías detectadas por el motor predictivo.</td>
+        <td>2</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US022-02</td>
+        <td>Algoritmo de Ordenamiento</td>
+        <td>Clasificar las alertas retornadas estableciendo pesos según nivel de criticidad (Alta, Media, Baja).</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US022-03</td>
+        <td>Centro de Notificaciones UI</td>
+        <td>Crear panel dedicado con sistema de banderas por colores y tabla paginada de vehículos en riesgo.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US023</strong></td>
+        <td rowspan="3">Historial de Telemetría</td>
+        <td>US023-01</td>
+        <td>Endpoint Consulta Histórica</td>
+        <td>Implementar GET con filtrado de parámetros temporales (start_date, end_date) en Time-Series BD.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US023-02</td>
+        <td>Gestión de Sets Vacíos</td>
+        <td>Añadir controlador para validar y retornar estructuradamente arrays vacíos cuando no hay actividad temporal.</td>
+        <td>1</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US023-03</td>
+        <td>Gráficas de Líneas Multi-eje</td>
+        <td>Construir los componentes visuales para correlacionar parámetros del motor a través del tiempo seleccionado.</td>
+        <td>5</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US024</strong></td>
+        <td rowspan="3">Agendamiento de citas</td>
+        <td>US024-01</td>
+        <td>Lógica de Bloques Temporales</td>
+        <td>Desarrollar el esquema y validador de solapamiento para reservas en el taller.</td>
+        <td>4</td>
+        <td>Jennifer Riveros</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US024-02</td>
+        <td>Endpoint de Creación de Cita</td>
+        <td>Programar la inserción (POST) manejando las validaciones de horario disponible del negocio.</td>
+        <td>2</td>
+        <td>Jennifer Riveros</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US024-03</td>
+        <td>Integración de Calendario Interactivo</td>
+        <td>Implementar librería (ej. FullCalendar) en frontend para visualización mensual/semanal.</td>
+        <td>5</td>
+        <td>Jennifer Riveros</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US025</strong></td>
+        <td rowspan="3">Reprogramación de citas</td>
+        <td>US025-01</td>
+        <td>Endpoint PUT Actualización Temporal</td>
+        <td>Implementar el reemplazo de fechas garantizando la liberación atómica del bloque viejo.</td>
+        <td>3</td>
+        <td>Jennifer Riveros</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US025-02</td>
+        <td>Validación de Fechas Inválidas</td>
+        <td>Incluir middleware temporal para evitar reasignar citas a días que ya pasaron.</td>
+        <td>2</td>
+        <td>Jennifer Riveros</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US026</strong></td>
+        <td rowspan="3">Creación de cotización digital</td>
+        <td>US026-01</td>
+        <td>Motor Calculador de Totales</td>
+        <td>Programar la lógica backend que sume repuestos, mano de obra y compute la carga impositiva (IGV).</td>
+        <td>4</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US026-02</td>
+        <td>Alerta de Desabastecimiento</td>
+        <td>Integrar validación cross-módulo para generar "Warning" al cotizar un producto con stock cero.</td>
+        <td>2</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US026-03</td>
+        <td>Interfaz Compilador de Cotización</td>
+        <td>Desarrollar vista dinámica donde se agreguen o remuevan ítems, actualizando los montos reactivamente.</td>
+        <td>5</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US028</strong></td>
+        <td rowspan="3">Registro de cobro en caja</td>
+        <td>US028-01</td>
+        <td>Endpoint Asiento de Caja</td>
+        <td>Desarrollar la transacción financiera que registra método de cobro y cierra la cuenta corriente de la OT.</td>
+        <td>3</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US028-02</td>
+        <td>Validación de Suficiencia de Fondos</td>
+        <td>Asegurar que la solicitud sea rechazada si el pago ingresado no cubre el saldo deudor adeudado.</td>
+        <td>2</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US028-03</td>
+        <td>UI de Punto de Pago (POS)</td>
+        <td>Construir ventana de checkout rápido con selección de método de pago (Efectivo/Tarjeta).</td>
+        <td>3</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US029</strong></td>
+        <td rowspan="3">Aplicación de descuentos</td>
+        <td>US029-01</td>
+        <td>Servicio de Recálculo</td>
+        <td>Adaptar el motor de cotización para aceptar cupones y procesar deductibles aplicables pre-impuestos.</td>
+        <td>3</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US029-02</td>
+        <td>Límites de Reglas de Negocio</td>
+        <td>Incorporar limitadores porcentuales máximos dictados por la administración en base de datos.</td>
+        <td>2</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US029-03</td>
+        <td>Interacción UI de Descuento</td>
+        <td>Agregar input con validación on-the-fly y botón de aplicación en la vista de facturación.</td>
+        <td>2</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>US008</strong></td>
+        <td rowspan="3">Alta de nuevos repuestos</td>
+        <td>US008-01</td>
+        <td>Endpoint y Esquema de Repuestos</td>
+        <td>Configurar tabla de base de datos y ruta de creación considerando detalles técnicos de las piezas.</td>
+        <td>3</td>
+        <td>Adiel Sanchez</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US008-02</td>
+        <td>Constricción de SKU Único</td>
+        <td>Aplicar lógica de unicidad sobre el código identificador y devolver error legible de duplicidad.</td>
+        <td>2</td>
+        <td>Adiel Sanchez</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US008-03</td>
+        <td>Formulario Inventario UI</td>
+        <td>Construir vista con campos validados y capacidad de subir imágenes o fichas técnicas.</td>
+        <td>4</td>
+        <td>Adiel Sanchez</td>
+        <td>Done</td>
+      </tr>
+    </tbody>
+  </table>
 
 #### 5.2.2.4.&emsp;&emsp;*Development Evidence for Sprint Review* {#cap-5-2-2-4}
 
@@ -569,7 +1196,7 @@
 
 ![](assets/vercel-deploy-2.png "Captura de pantalla de la configuración de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: [https://atelier-sepia-three.vercel.app/home](https://atelier-sepia-three.vercel.app/home).
+&emsp;&emsp;&emsp;&emsp;Paso 4: Obtención del enlace público y validación: [https://atelier-webapp-11848.vercel.app/](https://atelier-webapp-11848.vercel.app/).
 
 #### 5.2.2.8.&emsp;&emsp;*Team Collaboration Insights during Sprint* {#cap-5-2-2-8}
 
