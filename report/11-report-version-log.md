@@ -167,8 +167,8 @@
 		<tr>
 			<td>3.0.0</td>
 			<td>20/06/2026</td>
-			<td></td>
-			<td></td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se realizó la revisión final de AV2 y release del repositorio.</td>
 		</tr>
 	</tbody>
 </table>

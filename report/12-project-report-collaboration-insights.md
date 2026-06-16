@@ -70,17 +70,17 @@ Para finalizar, se adjunta la métrica de participación extraída de la secció
 
 El presente documento corresponde al segundo avance (AV2) del reporte del proyecto. En esta sección se detallan los nuevos entregables desarrollados para esta fase, así como la implementación de las correcciones y mejoras sugeridas en las revisiones anteriores. A continuación, se especifica la contribución de cada miembro del equipo:
 
-- **Luis Daniel Granda Ibarra:** 
+- **Luis Daniel Granda Ibarra:** Cumplio con las tareas en el desarollo del sprint 3 y realizo sus entrevistas correspondiente para el validation interviews.
 
-- **Joel Huamani Estefanero:** 
+- **Joel Huamani Estefanero:** Cumplio con las tareas en el desarollo del sprint 3, agregar user stories, modificar el product backlog, modificar el diagrama de base de datos, modificar el sprint backlog 1, 2 y 3 y realizo sus entrevistas correspondiente para el validation interviews.
 
-- **Aldo Jeanfranco Machacca Soto:** 
+- **Aldo Jeanfranco Machacca Soto:** Cumplio con las tareas en el desarollo del sprint 3, cambiar las imagenes del Software Architecture Container Diagrams y realizo sus entrevistas correspondiente para el validation interviews.
 
-- **Mariana Hortencia Morocho Pinedo:** 
+- **Mariana Hortencia Morocho Pinedo:** Correcion del artefacto de los user personas, colocar las imagenes correctas del user journey mapping y realizo sus entrevistas correspondiente para el validation interviews.
 
-- **Jennifer Yamilet Riveros Vera:** 
+- **Jennifer Yamilet Riveros Vera:** Correcion del artefacto de los user personas, modificar el Class Diagram y realizo sus entrevistas correspondiente para el validation interviews..
 
-- **Adiel Abdiaz Sanchez Santin:** 
+- **Adiel Abdiaz Sanchez Santin:** Agregar el bounded context iam al Design-Level Event Storming, con mejoras en el bounded context core, y y realizo sus entrevistas correspondiente para el validation interviews.
 
 Finalmente, la siguiente evidencia visual ha sido extraída de la pestaña Pulse del repositorio del proyecto en GitHub. Esta sección refleja la dinámica de trabajo y la actividad reciente del equipo, ilustrando de manera resumida la cantidad de commits realizados por cada integrante, los pull requests gestionados y el flujo de integración de código durante este periodo.
 &emsp;&emsp;&emsp;&emsp;

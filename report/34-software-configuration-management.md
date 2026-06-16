@@ -56,7 +56,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Backend: La API fue desplegada en Render, una plataforma en la nube que automatiza el alojamiento de servicios web, garantizando la disponibilidad pública e ininterrumpida de la aplicación.
 
-&emsp;&emsp;&emsp;&emsp;Base de Datos: Para el despliegue de la base de datos relacional conectada al backend, se recurrió a Render, facilitando el alojamiento remoto y gratuito de la información.
+&emsp;&emsp;&emsp;&emsp;Base de Datos: Para el despliegue de la base de datos relacional conectada al backend, se recurrió a Aiven, facilitando el alojamiento remoto y gratuito de la información.
 
 ### 5.1.2.&emsp;&emsp;*Source Code Management* {#cap-5-1-2}
 
@@ -273,7 +273,7 @@
 ![](assets/render-deploy-1.png "Captura de pantalla de la configuración de despliegue de Render")
 ![](assets/render-deploy-2.png "Captura de pantalla de la configuración de despliegue de Render")
 
-&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [](), comprobamos el correcto despliegue de atelier.
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-platform.onrender.com/swagger-ui/index.html](https://atelier-platform.onrender.com/swagger-ui/index.html), comprobamos el correcto despliegue del backend atelier.
 
 **Figura 90**
 

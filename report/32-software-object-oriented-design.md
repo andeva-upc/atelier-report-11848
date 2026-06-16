@@ -1,3 +1,4 @@
+(CAMBIOS)
 ## 4.7. Software Object-Oriented Design {#cap-4-7}
 
 &emsp;&emsp;&emsp;&emsp;En esta sección se presentan y explican los Diagramas de Clases UML para el Backend (Web Service) del sistema **atelier**, dividiéndolo por *Bounded Contexts* de acuerdo con el enfoque *Domain-Driven Design* (DDD). Cada diagrama detalla las clases, interfaces, enumeraciones y sus relaciones, incluyendo los miembros para cada clase (atributos, métodos) y el *scope* en cada caso (private, public, protected), así como la calificación, dirección y multiplicidad de las relaciones.

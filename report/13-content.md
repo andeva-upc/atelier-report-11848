@@ -194,13 +194,15 @@
 
 &emsp;&emsp;&emsp;&emsp;[5.3.1. Diseño de Entrevistas](#cap-5-3-1)
 
-&emsp;&emsp;&emsp;&emsp;[5.3.2. Diseño de Entrevistas](#cap-5-3-2)
+&emsp;&emsp;&emsp;&emsp;[5.3.2. Registro de Entrevistas](#cap-5-3-2)
 
-&emsp;&emsp;&emsp;&emsp;[5.3.3. Diseño de Entrevistas](#cap-5-3-3)
+&emsp;&emsp;&emsp;&emsp;[5.3.3. Evaluaciones según heurísticas](#cap-5-3-3)
 
-&emsp;&emsp;[5.4. Video About-the-Product](#cap-5-3)
+&emsp;&emsp;[5.4. Video About-the-Product](#cap-5-4)
 
 [Conclusiones](#conclusiones)
+
+[](#video-about-the-team)
 
 [Bibliografía](#bibliografia)
 
