@@ -150,7 +150,7 @@
 	</tbody>
 </table>
 
-### 2.2.2.&emsp;&emsp;Registro de Entrevistas* {#cap-2-2-2}
+### 2.2.2.&emsp;&emsp;Registro de Entrevistas {#cap-2-2-2}
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se mostrarán los registros de las entrevistas realizadas a nuestros segmentos objetivos. Cada entrevista conforma un cuadro, el cual contiene lo siguiente nombre, edad, provincia y ocupación, captura de pantalla de la entrevista, link de la entrevista: [upc-pre-202610-1asi0729-11848-andeva-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQACV3nK06DbQ4UkN7W5GI0hAZE3xb22h8MdWhces5Vj55w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BTQX8d) y resumen de la entrevista.
 

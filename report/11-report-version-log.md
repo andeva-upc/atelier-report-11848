@@ -135,10 +135,10 @@
 			<td>Se realizó el desarrollo del sprint 3 y despliegue del backend de atelier.</td>
 		</tr>
 		<tr>
-			<td>2..</td>
-			<td>//2026</td>
-			<td></td>
-			<td></td>
+			<td>2.3.0</td>
+			<td>16/06/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Documentacion de los endpoints del bounded context core, iam y operations.</td>
 		</tr>
 		<tr>
 			<td>2..</td>
