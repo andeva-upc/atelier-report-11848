@@ -280,3 +280,5 @@
 *Captura de pantalla de confirmación atelier en Render*
 
 ![](assets/platform.png "Captura de pantalla de confirmación atelier en Render")
+
+<div style='page-break-after: always'></div>
