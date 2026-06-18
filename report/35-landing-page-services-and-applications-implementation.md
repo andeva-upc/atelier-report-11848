@@ -7607,7 +7607,7 @@
         <td>El response nos confirma el cliente que esta vinculado a este usuario.</td>
       </tr>
       <tr>
-        <td rowspan="13"><strong>/api/v1/work-orders</strong></td>
+        <td rowspan="12"><strong>/api/v1/work-orders</strong></td>
         <td>[GET] /{id}</td>
         <td>-</td>
         <td>id: id de la work order.</td>
