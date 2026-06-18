@@ -7576,8 +7576,8 @@
         <td>-</td>
         <td>UserId: id del usuario.</td>
         <td>{
-  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "id": "uuid",
+  "userId": "uuid",
   "firstName": "string",
   "lastName": "string",
   "documentType": "string",
@@ -7844,12 +7844,12 @@
       <tr>
         <td>[POST] /</td>
         <td>{
-  "appointmentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "branchId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "vehicleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "customerId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "appointmentId": "uuid",
+  "branchId": "uuid",
+  "vehicleId": "uuid",
+  "customerId": "uuid",
   "diagnosticSummary": "string",
-  "mileageIn": 0
+  "mileageIn": "int"
 }</td>
         <td>-</td>
         <td>{
@@ -7874,8 +7874,8 @@
       <tr>
         <td>[POST] /{id}/tasks</td>
         <td>{
-  "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "assignedMechanicId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceId": "uuid",
+  "assignedMechanicId": "uuid",
   "description": "string"
 }</td>
         <td>id: id de una work order.</td>
@@ -7915,8 +7915,8 @@
       <tr>
         <td>[POST] /{id}/tasks/{taskId}/start</td>
         <td>{
-  "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "assignedMechanicId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceId": "uuid",
+  "assignedMechanicId": "uuid",
   "description": "string"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.</td>
@@ -7993,8 +7993,8 @@
       <tr>
         <td>[POST] /{id}/tasks/{taskId}/products</td>
         <td>{
-  "productId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "quantity": 0
+  "productId": "uuid",
+  "quantity": "int"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.</td>
         <td>{
@@ -8081,7 +8081,7 @@
         <td>[PUT] /{id}</td>
         <td>{
   "diagnosticSummary": "string",
-  "mileageIn": 0
+  "mileageIn": "int"
 }</td>
         <td>id: id de una work order.</td>
         <td>{
@@ -8130,8 +8130,8 @@
       <tr>
         <td>[PUT] /{id}/tasks/{taskId}</td>
         <td>{
-  "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "assignedMechanicId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceId": "uuid",
+  "assignedMechanicId": "uuid",
   "description": "string"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.</td>
@@ -8181,7 +8181,7 @@
       <tr>
         <td>[PUT] /{id}/tasks/{taskId}/products/{productId}</td>
         <td>{
-  "quantity": 1
+  "quantity": "int"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.<br>productId: id de un producto de la branch.</td>
         <td>{
@@ -8231,9 +8231,9 @@
         <td rowspan="6"><strong>/api/v1/quotes</strong></td>
         <td>[POST] /</td>
         <td>{
-  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-  "discountPercentage": 0
+  "workOrderId": "uuid",
+  "branchId": "uuid",
+  "discountPercentage": "double"
 }</td>
         <td>-</td>
         <td>{
@@ -8267,7 +8267,7 @@
       <tr>
         <td>[PUT] /{id}</td>
         <td>{
-  "discountPercentage": 15
+  "discountPercentage": "double"
 }</td>
         <td>id: id de la cotización.</td>
         <td>{
@@ -8372,11 +8372,11 @@
         <td rowspan="6"><strong>/api/v1/vouchers</strong></td>
         <td>[POST] /</td>
         <td>{
-  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-  "type": "RECEIPT",
-  "customerDocumentType": "DNI",
-  "customerDocumentNumber": "77777777",
-  "customerName": "Juan Carlos"
+  "quoteId": "uuid",
+  "type": "string",
+  "customerDocumentType": "string",
+  "customerDocumentNumber": "string",
+  "customerName": "string"
 }</td>
         <td>-</td>
         <td>{
@@ -8418,8 +8418,8 @@
       <tr>
         <td>[POST] /{voucherId}/payments</td>
         <td>{
-  "amount": 50,
-  "method": "CASH"
+  "amount": "double",
+  "method": "string"
 }</td>
         <td>voucherId: id del comprobante.</td>
         <td>{
