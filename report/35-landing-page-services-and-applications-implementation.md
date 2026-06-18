@@ -8549,12 +8549,12 @@
       <tr>
         <td>[POST] /checkout</td>
         <td>{
-  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-  "type": "RECEIPT",
-  "customerDocumentType": "DNI",
-  "customerDocumentNumber": "77777777",
-  "customerName": "Juan Carlos",
-  "method": "CREDIT_CARD"
+  "quoteId": "uuid",
+  "type": "string",
+  "customerDocumentType": "string",
+  "customerDocumentNumber": "string",
+  "customerName": "string",
+  "method": "string"
 }</td>
         <td>-</td>
         <td>{
