@@ -7576,8 +7576,8 @@
         <td>-</td>
         <td>UserId: id del usuario.</td>
         <td>{
-  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "id": "uuid",
+  "userId": "uuid",
   "firstName": "string",
   "lastName": "string",
   "documentType": "string",
@@ -7607,7 +7607,7 @@
         <td>El response nos confirma el cliente que esta vinculado a este usuario.</td>
       </tr>
       <tr>
-        <td rowspan="15"><strong>/api/v1/work-orders</strong></td>
+        <td rowspan="12"><strong>/api/v1/work-orders</strong></td>
         <td>[GET] /{id}</td>
         <td>-</td>
         <td>id: id de la work order.</td>
@@ -7844,12 +7844,12 @@
       <tr>
         <td>[POST] /</td>
         <td>{
-  "appointmentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "branchId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "vehicleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "customerId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "appointmentId": "uuid",
+  "branchId": "uuid",
+  "vehicleId": "uuid",
+  "customerId": "uuid",
   "diagnosticSummary": "string",
-  "mileageIn": 0
+  "mileageIn": "int"
 }</td>
         <td>-</td>
         <td>{
@@ -7874,8 +7874,8 @@
       <tr>
         <td>[POST] /{id}/tasks</td>
         <td>{
-  "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "assignedMechanicId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceId": "uuid",
+  "assignedMechanicId": "uuid",
   "description": "string"
 }</td>
         <td>id: id de una work order.</td>
@@ -7915,8 +7915,8 @@
       <tr>
         <td>[POST] /{id}/tasks/{taskId}/start</td>
         <td>{
-  "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "assignedMechanicId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceId": "uuid",
+  "assignedMechanicId": "uuid",
   "description": "string"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.</td>
@@ -7993,8 +7993,8 @@
       <tr>
         <td>[POST] /{id}/tasks/{taskId}/products</td>
         <td>{
-  "productId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "quantity": 0
+  "productId": "uuid",
+  "quantity": "int"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.</td>
         <td>{
@@ -8081,7 +8081,7 @@
         <td>[PUT] /{id}</td>
         <td>{
   "diagnosticSummary": "string",
-  "mileageIn": 0
+  "mileageIn": "int"
 }</td>
         <td>id: id de una work order.</td>
         <td>{
@@ -8130,8 +8130,8 @@
       <tr>
         <td>[PUT] /{id}/tasks/{taskId}</td>
         <td>{
-  "serviceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "assignedMechanicId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceId": "uuid",
+  "assignedMechanicId": "uuid",
   "description": "string"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.</td>
@@ -8181,7 +8181,7 @@
       <tr>
         <td>[PUT] /{id}/tasks/{taskId}/products/{productId}</td>
         <td>{
-  "quantity": 1
+  "quantity": "int"
 }</td>
         <td>id: id de una work order.<br>taskId: id de una work order task.<br>productId: id de un producto de la branch.</td>
         <td>{
@@ -8226,6 +8226,358 @@
 }</td>
         <td><img src="assets/endpoint-19.png" alt="Logotipo de atelier"></td>
         <td>El response nos devuelve la cantidad del producto de la work order task actualizada y los precios.</td>
+      </tr>
+      <tr>
+        <td rowspan="6"><strong>/api/v1/quotes</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "workOrderId": "uuid",
+  "branchId": "uuid",
+  "discountPercentage": "double"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
+  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+  "subtotalAmount": 0,
+  "discountPercentage": 0,
+  "totalAmount": 0,
+  "status": "DRAFT"
+}</td>
+        <td><img src="assets/endpoint-billing-1.png" alt="Logotipo de atelier"></td>
+        <td>El response crea una nueva cotización en estado borrador (DRAFT) sin retornar body.</td>
+      </tr>
+      <tr>
+        <td>[GET] /{id}</td>
+        <td>-</td>
+        <td>id: id de la cotización.</td>
+        <td>{
+  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
+  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+  "subtotalAmount": 0,
+  "discountPercentage": 0,
+  "totalAmount": 0,
+  "status": "DRAFT"
+}</td>
+        <td><img src="assets/endpoint-billing-2.png" alt="Logotipo de atelier"></td>
+        <td>El response nos devuelve los detalles de una cotización por su ID.</td>
+      </tr>
+      <tr>
+        <td>[PUT] /{id}</td>
+        <td>{
+  "discountPercentage": "double"
+}</td>
+        <td>id: id de la cotización.</td>
+        <td>{
+  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
+  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+  "subtotalAmount": 0,
+  "discountPercentage": 15,
+  "totalAmount": 0,
+  "status": "DRAFT"
+}</td>
+        <td><img src="assets/endpoint-billing-3.png" alt="Logotipo de atelier"></td>
+        <td>El response actualiza el descuento aplicado a una cotización específica.</td>
+      </tr>
+      <tr>
+        <td>[POST] /{id}/cancel</td>
+        <td>-</td>
+        <td>id: id de la cotización.</td>
+        <td>{
+  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
+  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+  "subtotalAmount": 0,
+  "discountPercentage": 15,
+  "totalAmount": 0,
+  "status": "CANCELED"
+}</td>
+        <td><img src="assets/endpoint-billing-5.png" alt="Logotipo de atelier"></td>
+        <td>El response cancela una cotización, cambiando su estado a CANCELLED.</td>
+      </tr>
+      <tr>
+        <td>[POST] /{id}/approve</td>
+        <td>-</td>
+        <td>id: id de la cotización.</td>
+        <td>{
+  "id": "2a0b1f8a-883c-414a-894c-bf3d7a994a36",
+  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+  "subtotalAmount": 0,
+  "discountPercentage": 5,
+  "totalAmount": 0,
+  "status": "APPROVED"
+}</td>
+        <td><img src="assets/endpoint-billing-4.png" alt="Logotipo de atelier"></td>
+        <td>El response aprueba una cotización, cambiando su estado a APPROVED.</td>
+      </tr>
+      <tr>
+        <td>[GET] /branch/{branchId}</td>
+        <td>-</td>
+        <td>branchId: id de la sucursal.</td>
+        <td>[
+  {
+    "id": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+    "workOrderId": "bfb3ff5f-25fb-4e3c-850d-e87a0dac61ca",
+    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+    "subtotalAmount": 180,
+    "discountPercentage": 0,
+    "totalAmount": 180,
+    "status": "APPROVED"
+  },
+  {
+    "id": "ea2baf53-c70d-4592-bf11-da892646d781",
+    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+    "subtotalAmount": 0,
+    "discountPercentage": 10,
+    "totalAmount": 0,
+    "status": "APPROVED"
+  },
+  {
+    "id": "002f51ca-8d52-4096-b2f3-838dfc44e6a5",
+    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+    "subtotalAmount": 150,
+    "discountPercentage": 10,
+    "totalAmount": 135,
+    "status": "APPROVED"
+  },
+  {
+    "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
+    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+    "subtotalAmount": 0,
+    "discountPercentage": 15,
+    "totalAmount": 0,
+    "status": "CANCELED"
+  },
+  {
+    "id": "2a0b1f8a-883c-414a-894c-bf3d7a994a36",
+    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
+    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
+    "subtotalAmount": 0,
+    "discountPercentage": 5,
+    "totalAmount": 0,
+    "status": "APPROVED"
+  }
+]</td>
+        <td><img src="assets/endpoint-billing-6.png" alt="Logotipo de atelier"></td>
+        <td>El response obtiene todas las cotizaciones de una sucursal.</td>
+      </tr>
+      <tr>
+        <td rowspan="6"><strong>/api/v1/vouchers</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "quoteId": "uuid",
+  "type": "string",
+  "customerDocumentType": "string",
+  "customerDocumentNumber": "string",
+  "customerName": "string"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
+  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "77777777",
+  "customerName": "Juan Carlos",
+  "totalAmount": 180,
+  "status": "PENDING",
+  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
+  "payments": [],
+  "totalPaid": 0
+}</td>
+        <td><img src="assets/endpoint-billing-8.png" alt="Logotipo de atelier"></td>
+        <td>El response genera un nuevo comprobante (Factura/Boleta) a partir de una cotización y la envía a SUNAT.</td>
+      </tr>
+      <tr>
+        <td>[GET] /{voucherId}</td>
+        <td>-</td>
+        <td>voucherId: id del comprobante.</td>
+        <td>{
+  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
+  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "77777777",
+  "customerName": "Juan Carlos",
+  "totalAmount": 180,
+  "status": "PENDING",
+  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
+  "payments": [],
+  "totalPaid": 0
+}</td>
+        <td><img src="assets/endpoint-billing-11.png" alt="Logotipo de atelier"></td>
+        <td>El response devuelve los detalles de un comprobante por su ID, incluyendo el registro de sus pagos.</td>
+      </tr>
+      <tr>
+        <td>[POST] /{voucherId}/payments</td>
+        <td>{
+  "amount": "double",
+  "method": "string"
+}</td>
+        <td>voucherId: id del comprobante.</td>
+        <td>{
+  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
+  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "77777777",
+  "customerName": "Juan Carlos",
+  "totalAmount": 180,
+  "status": "PARTIALLY_PAID",
+  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
+  "payments": [
+    {
+      "id": "223e4ef5-c815-45b4-a360-f410e1284b38",
+      "amount": 50,
+      "method": "CASH"
+    },
+    {
+      "id": "ce6b8c10-6553-441c-ac13-913c8e1cd747",
+      "amount": 50,
+      "method": "CASH"
+    }
+  ],
+  "totalPaid": 100
+}</td>
+        <td><img src="assets/endpoint-billing-10.png" alt="Logotipo de atelier"></td>
+        <td>El response agrega un pago (parcial o total) a un comprobante existente.</td>
+      </tr>
+      <tr>
+        <td>[DELETE] /{voucherId}/payments/{paymentId}</td>
+        <td>-</td>
+        <td>voucherId: id del comprobante.<br>paymentId: id del pago.</td>
+        <td>{
+  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
+  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "77777777",
+  "customerName": "Juan Carlos",
+  "totalAmount": 180,
+  "status": "PARTIALLY_PAID",
+  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
+  "payments": [
+    {
+      "id": "223e4ef5-c815-45b4-a360-f410e1284b38",
+      "amount": 50,
+      "method": "CASH"
+    }
+  ],
+  "totalPaid": 50
+}</td>
+        <td><img src="assets/endpoint-billing-12.png" alt="Logotipo de atelier"></td>
+        <td>El response elimina un pago específico de un comprobante y recalcula el estado y los montos.</td>
+      </tr>
+      <tr>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>branchId: id de la sucursal (query param).</td>
+        <td>[
+  {
+    "id": "ca79912b-b9b1-4eb1-8655-e53016894d6f",
+    "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+    "type": "RECEIPT",
+    "customerDocumentType": "DNI",
+    "customerDocumentNumber": "77777777",
+    "customerName": "Juan Carlos",
+    "totalAmount": 180,
+    "status": "PAID",
+    "externalInvoiceId": "f0839a78-8577-4e2a-bb14-85fb2140422a",
+    "payments": [
+      {
+        "id": "0b5a2652-8ace-4766-8295-553417712372",
+        "amount": 180,
+        "method": "CREDIT_CARD"
+      }
+    ],
+    "totalPaid": 180
+  },
+  {
+    "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
+    "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+    "type": "RECEIPT",
+    "customerDocumentType": "DNI",
+    "customerDocumentNumber": "77777777",
+    "customerName": "Juan Carlos",
+    "totalAmount": 180,
+    "status": "PARTIALLY_PAID",
+    "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
+    "payments": [
+      {
+        "id": "223e4ef5-c815-45b4-a360-f410e1284b38",
+        "amount": 50,
+        "method": "CASH"
+      }
+    ],
+    "totalPaid": 50
+  },
+  {
+    "id": "cb1f3636-30d1-4049-bebe-69c5636bdef4",
+    "quoteId": "002f51ca-8d52-4096-b2f3-838dfc44e6a5",
+    "type": "RECEIPT",
+    "customerDocumentType": "DNI",
+    "customerDocumentNumber": "77777777",
+    "customerName": "Juan Carlos",
+    "totalAmount": 135,
+    "status": "PAID",
+    "externalInvoiceId": "2d3cc8f7-5d34-4564-81b3-06cafbe4d2ef",
+    "payments": [
+      {
+        "id": "0f61e7f1-48b2-40c8-bc8d-716dd159ac4e",
+        "amount": 50,
+        "method": "CASH"
+      },
+      {
+        "id": "9df18557-3778-4853-a83c-61a35227d15a",
+        "amount": 85,
+        "method": "CREDIT_CARD"
+      }
+    ],
+    "totalPaid": 135
+  }
+]</td>
+        <td><img src="assets/endpoint-billing-7.png" alt="Logotipo de atelier"></td>
+        <td>El response obtiene los comprobantes emitidos en una sucursal específica.</td>
+      </tr>
+      <tr>
+        <td>[POST] /checkout</td>
+        <td>{
+  "quoteId": "uuid",
+  "type": "string",
+  "customerDocumentType": "string",
+  "customerDocumentNumber": "string",
+  "customerName": "string",
+  "method": "string"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "69167ff9-9823-42cf-920f-2b962bbf83b3",
+  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "77777777",
+  "customerName": "Juan Carlos",
+  "totalAmount": 180,
+  "status": "PAID",
+  "externalInvoiceId": "7d261f0b-a721-49b6-998b-006de9543e1c",
+  "payments": [
+    {
+      "id": "7e0955bb-8435-4d39-a404-8202417d9931",
+      "amount": 180,
+      "method": "CREDIT_CARD"
+    }
+  ],
+  "totalPaid": 180
+}</td>
+        <td><img src="assets/endpoint-billing-9.png" alt="Logotipo de atelier"></td>
+        <td>El response procesa la generación del comprobante y registra el pago total en una sola transacción.</td>
       </tr>
     </tbody>
 </table>
