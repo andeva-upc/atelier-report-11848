@@ -7448,6 +7448,7 @@
 ![](assets/webapp-6.png "Capturas de Pantalla de la Web App de atelier")
 ![](assets/webapp-7.png "Capturas de Pantalla de la Web App de atelier")
 ![](assets/webapp-8.png "Capturas de Pantalla de la Web App de atelier")
+![](assets/webapp-9.png "Capturas de Pantalla de la Web App de atelier")
 
 **Figura 98**
 
@@ -7461,7 +7462,6 @@
 ![](assets/platform-sw-6.png "Capturas de Pantalla de Swagger con los endpoints de atelier")
 ![](assets/platform-sw-7.png "Capturas de Pantalla de Swagger con los endpoints de atelier")
 ![](assets/platform-sw-8.png "Capturas de Pantalla de Swagger con los endpoints de atelier")
-![](assets/platform-sw-9.png "Capturas de Pantalla de Swagger con los endpoints de atelier")
 
 #### 5.2.3.6.&emsp;&emsp;*Services Documentation Evidence for Sprint Review* {#cap-5-2-3-6}
 
