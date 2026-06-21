@@ -102,7 +102,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/uvBe5RgN/atelier-sprint-backlog-1](https://trello.com/b/uvBe5RgN/atelier-sprint-backlog-1).
 
-**Figura**
+**Figura 96**
 
 *Captura de Pantalla del Sprint Backlog #1 atelier en Trello*
 
@@ -303,7 +303,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Esta sección inicia con un resumen detallado de los objetivos alcanzados durante el primer sprint del proyecto Atelier. Durante esta iteración, el esfuerzo del equipo se enfocó exitosamente en el desarrollo e implementación de la primera versión funcional de la Landing Page. Se logró construir y estilizar las interfaces visuales clave para el embudo de captación comercial, abarcando la cabecera principal con la propuesta de valor, la cuadrícula de exploración de los módulos, la tabla comparativa de planes de suscripción, la presentación del equipo desarrollador y el pie de página con accesos legales. Asimismo, se garantizó un diseño completamente responsivo para una correcta adaptabilidad en dispositivos móviles y de escritorio.
 
-**Figura 91**
+**Figura 97**
 
 *Capturas de Pantalla de la Landing Page de atelier*
 
@@ -325,7 +325,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Integración de la rama de lanzamiento. Como paso inicial, el equipo consolidó todos los avances de diseño y maquetación de las distintas ramas de características hacia la rama principal de despliegue. Esto asegura que el código a desplegar sea la versión estable y aprobada del Sprint.
 
-**Figura 92**
+**Figura 98**
 
 *Repositorio del website de atelier*
 
@@ -333,7 +333,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura 93**
+**Figura 99**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -341,13 +341,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura 94**
+**Figura 100**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/vercel-repo-deploy.jpeg "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura 95**
+**Figura 101**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -371,7 +371,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura 96**
+**Figura 102**
 
 *Gráfico de commits*
 
@@ -495,7 +495,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/xhhM4rYX/atelier-sprint-backlog-2](https://trello.com/b/xhhM4rYX/atelier-sprint-backlog-2).
 
-**Figura 97**
+**Figura 103**
 
 *Captura de Pantalla del Sprint Backlog #2 atelier en Trello*
 
@@ -1143,7 +1143,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQCpTxZ-ag_KQ7IVCmDfBK6ZAYwH-s_Spe5JOStb3O5RtE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eza18p).
 
-**Figura 97**
+**Figura 104**
 
 *Capturas de Pantalla de la Web App de atelier*
 
@@ -1166,7 +1166,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Verificamos que el repositorio de Github este preparado para el despliegue.
 
-**Figura 98**
+**Figura 105**
 
 *Repositorio del web app de atelier*
 
@@ -1174,7 +1174,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Configuración del entorno en Vercel.
 
-**Figura 99**
+**Figura 106**
 
 *Captura de pantalla de la seccion de proyectos de Vercel*
 
@@ -1182,13 +1182,13 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Selección el repositorio y desplegar.
 
-**Figura 100**
+**Figura 107**
 
 *Captura de pantalla de la seccion de despliegue de Vercel*
 
 ![](assets/ercel-web-app-deploy.png "Captura de pantalla de la seccion de despliegue de Vercel")
 
-**Figura 101**
+**Figura 108**
 
 *Captura de pantalla de la configuración de despliegue de Vercel*
 
@@ -1214,7 +1214,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura 102**
+**Figura 109**
 
 *Gráfico de commits*
 
@@ -1228,7 +1228,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta el cuadro de resumen del sprint planning:
 
-**Tabla 25**
+**Tabla 29**
 
 *Tabla de Sprint 3 de atelier*
 
@@ -1251,7 +1251,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Se han designado los responsables de liderar el desarrollo del front-end de cada módulo operativo para asegurar la especialización en la lógica de cada vista.
 
-**Tabla 26**
+**Tabla 30**
 
 *Leadership-and-Collaboration Matrix*
 
@@ -1345,7 +1345,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta una captura de pantalla del sprint backlog en la herramienta de gestión Trello, junto con su respectivo enlace público: [https://trello.com/b/Ps9vRgAV/atelier-sprint-backlog-3](https://trello.com/b/Ps9vRgAV/atelier-sprint-backlog-3).
 
-**Figura 97**
+**Figura 110**
 
 *Captura de Pantalla del Sprint Backlog #3 atelier en Trello*
 
@@ -1353,7 +1353,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las Technical Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
-**Tabla 27**
+**Tabla 31**
 
 *Sprint Backlog #3 atelier*
 
@@ -2514,7 +2514,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presenta la tabla detallada que incluye, para el repositorio de la web application, los commits directamente relacionados con la implementación de las características mencionadas:
 
-**Tabla 28**
+**Tabla 32**
 
 *Tabla de Commits del Sprint #3*
 
@@ -7436,7 +7436,7 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas conectadas con algunos endpoints que se desarrollaron y capturas de pantalla de los endpoints en Swagger, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-3]().
 
-**Figura 97**
+**Figura 111**
 
 *Capturas de Pantalla de la Web App de atelier*
 
@@ -7450,7 +7450,7 @@
 ![](assets/webapp-8.png "Capturas de Pantalla de la Web App de atelier")
 ![](assets/webapp-9.png "Capturas de Pantalla de la Web App de atelier")
 
-**Figura 98**
+**Figura 112**
 
 *Capturas de Pantalla de Swagger con los endpoints de atelier*
 
@@ -7481,7 +7481,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Para la ejecución y validación del desarrollo del backend durante el Sprint 3 consulte el link: [https://atelier-platform.onrender.com/swagger-ui/index.html](https://atelier-platform.onrender.com/swagger-ui/index.html)
 
-**Figura 99**
+**Tabla 33**
 
 *Tabla de los endpoints de atelier para el sprint 3*
 
@@ -8588,7 +8588,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 1: Verificamos que el repositorio de Github este preparado para el despliegue.
 
-**Figura 98**
+**Figura 113**
 
 *Repositorio del platform de atelier*
 
@@ -8596,7 +8596,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en el dashboard de Render, hacemos click en "New Web Service".
 
-**Figura 87**
+**Figura 114**
 
 *Captura de pantalla del dashboard de Render*
 
@@ -8604,7 +8604,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 3: Colocamos el url del repositorio que aloja el codigo fuente del platform de atelier.
 
-**Figura 88**
+**Figura 115**
 
 *Captura de pantalla de la seccion de configuración de Render*
 
@@ -8612,7 +8612,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento del platform de atelier.
 
-**Figura 89**
+**Figura 116**
 
 *Captura de pantalla de la configuración de despliegue de Render*
 
@@ -8621,7 +8621,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-platform.onrender.com/swagger-ui/index.html](https://atelier-platform.onrender.com/swagger-ui/index.html), comprobamos el correcto despliegue de atelier.
 
-**Figura 90**
+**Figura 117**
 
 *Captura de pantalla de confirmación atelier en Render*
 
@@ -8645,13 +8645,13 @@
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:
 
-**Figura 102**
+**Figura 118**
 
 *Gráfico de commits del platform*
 
 ![](assets/commits-sprint-3.jpg "Gráfico de commits del platform")
 
-**Figura 103**
+**Figura 119**
 
 *Gráfico de commits de la webapp*
 
