@@ -126,6 +126,16 @@
 
 ![](assets/Design-Level-Billing.png "Contexto de Billing")
 
+&emsp;&emsp;&emsp;&emsp;**g) IAM:** Contexto especializado en la Identidad y Gestión de Accesos (Identity & Access Management). Su responsabilidad exclusiva es manejar el registro, inicio de sesión y recuperación de credenciales mediante los agregados `User` y `UserStatus`.
+
+**Figura 61**
+
+*Design-Level: Contexto de IAM*
+
+![](assets/Design-Level-IAM.png "Contexto de IAM")
+
+&emsp;&emsp;&emsp;&emsp;Para una visualización interactiva y en máxima resolución del *Design-Level Event Storming* completo, se puede acceder a nuestra pizarra oficial: [Atelier Design-Level Event Storming (Miro Board)](https://miro.com/welcomeonboard/d2pUcVdMSVllNHRvRU05UGEzQXE5OSs3UGJmQWw0TlhmUDEwcWpPWG9vTTdGWERndEZ1cFEwZThkYVVMbjUxaUkyUk9nV2tBaEdqNm85SVJYZFZ5c0VtNkUvVTB0dUJhNnRjMXdseDVrcG1QT3FVVmh1U0RGRk8vY0dyUlQ4emV3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=354791055916).
+
 ### 4.6.2.&emsp;&emsp;*Software Architecture Context Diagram* {#cap-4-6-2}
 
 &emsp;&emsp;&emsp;&emsp;El diagrama de contexto (Nivel 1 del modelo C4) proporciona una panorámica fundamental orientada a comprender el alcance global del proyecto. En este nivel inicial de abstracción, se ilustra a **atelier** como un sistema central dinámico interactuando dentro de su entorno operativo cotidiano. El modelo identifica nítidamente a los actores primarios (administradores y dueños de los talleres, mecánicos operativos y los conductores) y delinea las fronteras lógicas al exponer sus interacciones con dependencias funcionales críticas, tales como los módulos IoT de escaneo permanente OBD2 integrados a los vehículos, las pasarelas de transacción financiera integradas y los servicios externos de mensajería para alertas.
