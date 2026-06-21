@@ -94,7 +94,8 @@
 
 ![](assets/Design-Level-IoT.png "Contexto de IoT")
 
-&emsp;&emsp;&emsp;&emsp;**c) Fleet:** Administra la relación con el cliente y su flota. Utiliza los agregados `Customer`, `Vehicle` y `Appointment` para coordinar las necesidades de mantenimiento preventivo.
+&emsp;&emsp;&emsp;&emsp;**c) Fleet:** Administra la relación operativa entre clientes, empleados, sedes y vehículos dentro del taller. En la versión actualizada del backend, este bounded context incorpora los agregados `Appointment`, `CustomerRegistration` y `EmployeeRegistration`, permitiendo coordinar citas de mantenimiento, registrar la vinculación de clientes con una sede y registrar la asignación de empleados o personal técnico a una sede. De esta manera, Fleet concentra reglas de negocio relacionadas con la planificación de servicios, la disponibilidad operativa y la trazabilidad de registros asociados a la atención del taller.
+
 
 **Figura 57**
 
@@ -138,7 +139,9 @@
 
 ### 4.6.2.&emsp;&emsp;*Software Architecture Context Diagram* {#cap-4-6-2}
 
-&emsp;&emsp;&emsp;&emsp;El diagrama de contexto (Nivel 1 del modelo C4) proporciona una panorámica fundamental orientada a comprender el alcance global del proyecto. En este nivel inicial de abstracción, se ilustra a **atelier** como un sistema central dinámico interactuando dentro de su entorno operativo cotidiano. El modelo identifica nítidamente a los actores primarios (administradores y dueños de los talleres, mecánicos operativos y los conductores) y delinea las fronteras lógicas al exponer sus interacciones con dependencias funcionales críticas, tales como los módulos IoT de escaneo permanente OBD2 integrados a los vehículos, las pasarelas de transacción financiera integradas y los servicios externos de mensajería para alertas.
+&emsp;&emsp;&emsp;&emsp;El diagrama de contexto proporciona una panorámica fundamental orientada a comprender el alcance global del proyecto. En este nivel inicial de abstracción, se ilustra a atelier como un sistema central dinámico interactuando con sus tres actores principales: el **Dueño/Administrador del taller**, el **Mecánico/Empleado** y el **Cliente del taller**, todos ellos consumiendo la plataforma a través de una única aplicación web.
+
+&emsp;&emsp;&emsp;&emsp;A nivel de sistemas externos, el código confirma cinco integraciones reales: el **Dispositivo OBD2**, que envía lotes de telemetría directamente a la API; **Facthub**, la API externa de facturación electrónica que emite los comprobantes ante SUNAT (reemplaza la referencia genérica "SUNAT / PSE" de la versión anterior); **Google Identity Platform**, usada para el inicio de sesión social; y un **servidor SMTP (Gmail)**, único canal de notificaciones saliente implementado hoy, utilizado exclusivamente para la recuperación de contraseña. Se identificó además un **procesador de pagos (Stripe)** referenciado en el código para el cobro de la suscripción SaaS del taller, pero su llamada está simulada (`log.info`, sin SDK ni llamada HTTP real), por lo que se documenta como una integración mockeada. La pasarela de pagos para cobrar al cliente final (antes descrita genéricamente como "Culqi, Niubiz") y el servicio de notificaciones por WhatsApp no tienen ninguna integración en el código fuente actual; se mantienen en el modelo como elementos planeados.
 
 **Figura 61**
 
@@ -148,7 +151,15 @@
 
 ### 4.6.3.&emsp;&emsp;*Software Architecture Container Diagrams* {#cap-4-6-3}
 
-&emsp;&emsp;&emsp;&emsp;El diagrama de contenedores (Nivel 2 del modelo C4) profundiza en la estructura subyacente, desagregando el ecosistema global en unidades de despliegue y servicio autónomas. En esta topología se identifican de manera explícita las aplicaciones interactivas del cliente (la aplicación web ERP robusta para la gestión administrativa y la aplicación móvil empleada en piso por los mecánicos), comunicándose a nivel de red con una sólida capa de servicios. Asimismo, el mapeo detalla los sistemas de persistencia diferenciada, destacando la sinergia entre bases de datos relacionales estandarizadas ideales para el control transaccional del inventario y las citas, y bases de datos especializadas para series de tiempo, optimizadas estrictamente para procesar el denso volumen de datos telemétricos capturados recurrentemente.
+&emsp;&emsp;&emsp;&emsp;El diagrama de contenedores confirma que, a la fecha, **atelier** se despliega como tres contenedores reales:
+
+&emsp;&emsp;&emsp;&emsp;**a) Web Application:** SPA construida en **Angular 21** (Angular Material, PrimeNG, Chart.js/ng2-charts), desplegada en Vercel. Es la **única** aplicación cliente que existe en el código entregado: sirve tanto al Dueño/Administrador como al Mecánico/Empleado y al Cliente, adaptando las vistas según el rol autenticado.
+
+&emsp;&emsp;&emsp;&emsp;**b) Core Backend API:** monolito modular en **Java 21 / Spring Boot 4**, desplegado en Render, que expone toda la lógica de negocio vía REST (`/api/v1/...`) organizada en ocho Bounded Contexts (DDD): `iam`, `core`, `fleet`, `iot`, `operations`, `inventory`, `billing` y `shared`. No existen microservicios independientes: toda la plataforma corre en un único proceso.
+
+&emsp;&emsp;&emsp;&emsp;**c) Database:** base de datos relacional **PostgreSQL** (no MySQL, como indicaba la versión anterior de este documento), con `hibernate.dialect=PostgreSQLDialect` confirmado en la configuración. No existe una base de datos especializada en series de tiempo: las lecturas de telemetría OBD2 se almacenan en la misma base relacional, dentro del Bounded Context `iot`.
+
+&emsp;&emsp;&emsp;&emsp;Los tres contenedores adicionales que figuraban en la versión anterior del documento — Mobile App, Message Broker y Async Worker Service — no tienen código ni repositorio en el material entregado. Se conservan en el diagrama actualizado, pero marcados visualmente como Planeado(borde punteado), ya que corresponden a trabajo que el equipo aún tiene pendiente de implementar.
 
 **Figura 62**
 
@@ -158,9 +169,24 @@
 
 ### 4.6.4.&emsp;&emsp;*Software Architecture Components Diagrams* {#cap-4-6-4}
 
-&emsp;&emsp;&emsp;&emsp;Los diagramas de componentes (Nivel 3 del modelo C4) ofrecen una disección exhaustiva de los contenedores más relevantes del ecosistema **atelier**. Este nivel táctico exhibe la estructuración del código en módulos lógicos, responsabilidades aisladas y el flujo de dependencias instaurado entre ellos para satisfacer las reglas de negocio del dominio. A continuación, se exponen las arquitecturas internas de los 4 contenedores principales de la plataforma:
+&emsp;&emsp;&emsp;&emsp;El diagrama de componentes descompone el **Core Backend API** —el único contenedor de backend que existe hoy— en sus componentes reales, agrupados por Bounded Context, siguiendo el mismo patrón de capas (`interfaces.rest` → `application` → `domain`/`infrastructure.persistence`) en los ocho módulos:
 
-&emsp;&emsp;&emsp;&emsp;**a) Core Backend API:** Exhibe la estructuración de la lógica de negocio transaccional, dominios y controladores técnicos delegados para orquestar comportamientos complejos, destacándose flujos de altísima importancia como la sincronización de datos telemétricos, el flujo transaccional de facturación y la gestión de refacciones e insumos.
+&emsp;&emsp;&emsp;&emsp;**a) IAM:** `AuthenticationController` y `UsersController` exponen login, login con Google y recuperación de contraseña; delegan en los servicios de aplicación, que a su vez usan un `JWT Token Service`, un `Password Hashing Service` (BCrypt) y un `SmtpEmailService` (adaptador de salida hacia el servidor SMTP).
+
+&emsp;&emsp;&emsp;&emsp;**b) Core:** `WorkshopsController`, `BranchesController`, `OwnersController`, `EmployeesController`, `CustomersController` y `ProfilesController` gestionan la multi-tenencia; el `SubscriptionCommandService` administra el plan de suscripción de cada sucursal y **simula** el cobro con tarjeta (Stripe mockeado).
+
+&emsp;&emsp;&emsp;&emsp;**c) Fleet:** `AppointmentsController` junto con los controladores de auto-registro de clientes y empleados.
+
+&emsp;&emsp;&emsp;&emsp;**d) IoT:** `TelemetryBatchesController` ingesta los lotes OBD2; `Obd2DevicesController`, `Obd2DeviceRegistrationsController`, `VehiclesController` y `CustomerVehiclesController` administran dispositivos y vehículos.
+
+&emsp;&emsp;&emsp;&emsp;**e) Operations:** `WorkOrdersController`, `WorkOrderTasksController` y `ServicesController` gestionan el ciclo de vida de la Orden de Trabajo. El `WorkOrderPaymentListener` escucha el evento de integración `PaymentProcessedEvent` (publicado en el mismo proceso, vía `ApplicationEventPublisher` de Spring — **no** a través de una cola de mensajes) para marcar la orden como pagada.
+
+&emsp;&emsp;&emsp;&emsp;**f) Inventory:** `ProductsController` administra el stock de repuestos.
+
+&emsp;&emsp;&emsp;&emsp;**g) Billing:** `QuotesController`, `VouchersController` y `CheckoutsController` orquestan la cotización y el cobro; `FacthubGatewayImpl` es el adaptador anti-corrupción (ACL) que llama de forma **síncrona** a la API REST de Facthub para emitir el comprobante; `VoucherPaidListener` traduce el evento de dominio `VoucherPaidEvent` en el evento de integración `PaymentProcessedEvent` consumido por Operations.
+
+&emsp;&emsp;&emsp;&emsp;**h) Shared:** un conjunto de `Spring Data JPA Repositories` centraliza el acceso ORM a PostgreSQL para los ocho Bounded Contexts.
+
 
 **Figura 64**
 
@@ -168,7 +194,10 @@
 
 ![](assets/c4-components-diagram.svg "Core Backend API Components Diagram")
 
-&emsp;&emsp;&emsp;&emsp;**b) Single-Page Application:** Muestra la arquitectura de la interfaz web en Angular. Agrupa la capa de enrutamiento y seguridad con las vistas gerenciales (Dashboard), el módulo de citas y la revisión de gráficos predictivos de telemetría. Además, encapsula las peticiones hacia la API principal.
+    Dentro del componente **Fleet**, los controladores `AppointmentsController`, `CustomerRegistrationsController` y `EmployeeRegistrationsController` exponen endpoints RESTful para consultar, crear, actualizar y eliminar registros relacionados con citas, clientes registrados y empleados registrados. La lógica de negocio no se concentra en los controladores, sino en servicios de aplicación separados en command services y query services. Estos servicios orquestan los casos de uso y delegan las reglas principales a los agregados del dominio. Finalmente, la infraestructura implementa repositorios y adaptadores JPA para persistir la información en PostgreSQL, manteniendo la separación entre interfaces, aplicación, dominio e infraestructura.
+
+
+&emsp;&emsp;&emsp;&emsp;Los diagramas de componentes de **Single-Page Application**, **Mobile App** y **Async Worker Service** que figuraban en la versión anterior de este documento se retiraron de esta sección: el primero corresponde a un solo contenedor (Web Application) ya cubierto a nivel de contenedor en 4.6.3, y los otros dos pertenecen a contenedores aún no implementados, por lo que no existe código del cual derivar sus componentes internos todavía.
 
 **Figura 65**
 
