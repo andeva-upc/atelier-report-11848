@@ -8639,8 +8639,6 @@
 
 &emsp;&emsp;&emsp;&emsp;Aldo Machacca: En el platform, desarrollo el bounded context Billing y el microservicio de SUNAT junto con los endpoints correspondientes ya operando. Por parte del webapp, se encargo de realizar el bounded context Billing con las vistas y componentes necesarios para este sprint 3.
 
-&emsp;&emsp;&emsp;&emsp;Mariana Morocho: En el platform, desarrollo el bounded context Fleet junto con los endpoints correspondientes ya operando. Por parte del webapp, se encargo de realizar el bounded context Fleet con las vistas y componentes de Staff y Customers necesarios para este sprint 3.
-
 &emsp;&emsp;&emsp;&emsp;Jennifer Riveros: En el platform, desarrollo el bounded context Fleet junto con los endpoints correspondientes ya operando. Por parte del webapp, se encargo de realizar el bounded context Fleet con las vistas y componentes de Appointments necesarios para este sprint 3.
 
 &emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas en imagen de los analíticos de colaboración y commits extraídos de la pestaña "Insights" del repositorio en GitHub, las cuales evidencian la participación de todos los miembros del equipo:

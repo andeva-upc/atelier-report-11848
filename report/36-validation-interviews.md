@@ -29,7 +29,7 @@
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Tabla**
+**Tabla 34**
 
 *Entrevista a*
 
@@ -57,7 +57,7 @@
 	</tbody>
 </table>
 
-**Tabla**
+**Tabla  35**
 
 *Entrevista a*
 
@@ -85,7 +85,7 @@
 	</tbody>
 </table>
 
-**Tabla**
+**Tabla  36**
 
 *Entrevista a*
 
@@ -115,7 +115,7 @@
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Tabla**
+**Tabla  37**
 
 *Entrevista a*
 
@@ -143,7 +143,7 @@
 	</tbody>
 </table>
 
-**Tabla**
+**Tabla  38**
 
 *Entrevista a*
 
@@ -171,7 +171,7 @@
 	</tbody>
 </table>
 
-**Tabla**
+**Tabla  39**
 
 *Entrevista a*
 
@@ -227,7 +227,7 @@
 
  - ESCALA DE SEVERIDAD:
 
-**Tabla**
+**Tabla 40**
 
 *Escalas de severidad*
 
@@ -238,7 +238,7 @@
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.                                     |
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
-**Tabla**
+**Tabla  41**
 
 *Tabla de resumen*
 

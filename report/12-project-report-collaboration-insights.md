@@ -76,8 +76,6 @@ El presente documento corresponde al segundo avance (AV2) del reporte del proyec
 
 - **Aldo Jeanfranco Machacca Soto:** Cumplio con las tareas en el desarollo del sprint 3, cambiar las imagenes del Software Architecture Container Diagrams y realizo sus entrevistas correspondiente para el validation interviews.
 
-- **Mariana Hortencia Morocho Pinedo:** Correcion del artefacto de los user personas, colocar las imagenes correctas del user journey mapping y realizo sus entrevistas correspondiente para el validation interviews.
-
 - **Jennifer Yamilet Riveros Vera:** Correcion del artefacto de los user personas, modificar el Class Diagram y realizo sus entrevistas correspondiente para el validation interviews..
 
 - **Adiel Abdiaz Sanchez Santin:** Agregar el bounded context iam al Design-Level Event Storming, con mejoras en el bounded context core, y y realizo sus entrevistas correspondiente para el validation interviews.
