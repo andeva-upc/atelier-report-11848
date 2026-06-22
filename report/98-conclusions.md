@@ -16,4 +16,6 @@
 
 - Integración B2B con Proveedores de Repuestos: Para agilizar la cadena de suministro del taller, el siguiente paso en el ecosistema debe ser la integración de la API de Atelier con los sistemas de inventario de los principales proveedores de autopartes. Esto permitirá automatizar las órdenes de compra cuando el ERP detecte que un repuesto clave ha alcanzado su stock mínimo.
 
+# Video About-the-Team {#video-about-the-team}
+
 <div style='page-break-after: always'></div>

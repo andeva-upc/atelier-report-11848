@@ -34,7 +34,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Backend (Web Services): La lógica del servidor y los endpoints se programaron en JetBrains IntelliJ IDEA, utilizando el lenguaje Java y el framework Spring Boot.
 
-&emsp;&emsp;&emsp;&emsp;Base de Datos: El esquema relacional se estructuró y administró con MySQL y se construyó con la herramienta dbdiagram, garantizando la correcta creación y persistencia de los datos vinculados a la API.
+&emsp;&emsp;&emsp;&emsp;Base de Datos: El esquema relacional se estructuró y administró con PostgreSQL y se construyó con la herramienta ERD, garantizando la correcta creación y persistencia de los datos vinculados a la API.
 
 **Software Testing**
 
@@ -50,13 +50,13 @@
 
 &emsp;&emsp;&emsp;&emsp;La puesta en producción de los distintos módulos se ejecutó utilizando servicios especializados en la nube:
 
-&emsp;&emsp;&emsp;&emsp;Landing Page: Fue alojada en GitHub Pages, un servicio optimizado para el despliegue directo de sitios web estáticos desde un repositorio.
+&emsp;&emsp;&emsp;&emsp;Landing Page: Fue alojada en Vecel, Esta plataforma ofrece un entorno optimizado para frameworks de frontend modernos, permitiendo una integración fluida de despliegue continuo desde GitHub.
 
-&emsp;&emsp;&emsp;&emsp;Frontend: Para el despliegue de la aplicación web, se ha seleccionado Vercel. Esta plataforma ofrece un entorno optimizado para frameworks de frontend modernos, permitiendo una integración fluida de despliegue continuo desde GitHub. Su infraestructura garantiza tiempos de carga mínimos y una alta disponibilidad para que los administradores de los talleres accedan al sistema sin interrupciones.
+&emsp;&emsp;&emsp;&emsp;Frontend: Para el despliegue de la aplicación web, se ha seleccionado Vercel. Su infraestructura garantiza tiempos de carga mínimos y una alta disponibilidad para que los administradores de los talleres accedan al sistema sin interrupciones.
 
 &emsp;&emsp;&emsp;&emsp;Backend: La API fue desplegada en Render, una plataforma en la nube que automatiza el alojamiento de servicios web, garantizando la disponibilidad pública e ininterrumpida de la aplicación.
 
-&emsp;&emsp;&emsp;&emsp;Base de Datos: Para el despliegue de la base de datos relacional conectada al backend, se recurrió a Render, facilitando el alojamiento remoto y gratuito de la información.
+&emsp;&emsp;&emsp;&emsp;Base de Datos: Para el despliegue de la base de datos relacional conectada al backend, se recurrió a Aiven, facilitando el alojamiento remoto y gratuito de la información.
 
 ### 5.1.2.&emsp;&emsp;*Source Code Management* {#cap-5-1-2}
 
@@ -70,7 +70,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Webapp: [https://github.com/andeva-upc/atelier-webapp-open-source](https://github.com/andeva-upc/atelier-webapp-open-source)
 
-&emsp;&emsp;&emsp;&emsp;Platform: [https://github.com/andeva-upc/atelier-platform-open-source](https://github.com/andeva-upc/atelier-platform-open-source)
+&emsp;&emsp;&emsp;&emsp;Platform: [https://github.com/andeva-upc/atelier-platform](https://github.com/andeva-upc/atelier-platform)
 
 **GitFlow**
 
@@ -184,7 +184,7 @@
 
 ![](assets/vercel-deploy.jpeg "Captura de pantalla de la configuración de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-11848.vercel.app/](https://atelier-11848.vercel.app/), comprobamos el correcto despliegue de atelier.
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-website-11848.vercel.app/](https://atelier-website-11848.vercel.app/), comprobamos el correcto despliegue de atelier.
 
 **Figura 85**
 
@@ -228,10 +228,57 @@
 
 ![](assets/vercel-deploy-2.png "Captura de pantalla de la configuración de despliegue de Vercel")
 
-&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-sepia-three.vercel.app/home](https://atelier-sepia-three.vercel.app/home), comprobamos el correcto despliegue de atelier.
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-webapp-11848.vercel.app/](https://atelier-webapp-11848.vercel.app/), comprobamos el correcto despliegue de atelier.
 
 **Figura 90**
 
 *Captura de pantalla de la Web Application de atelier en Vercel*
 
 ![](assets/web-app-1.png "Captura de pantalla de la Web Application de atelier en Vercel")
+
+**Platform**
+
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan la configuración para realizar el despliegue del platform de atelier.
+
+&emsp;&emsp;&emsp;&emsp;Paso 1: Ubicados en el repositorio con el codigo fuente del platform de atelier, nos preparamos y verificamos que los archivos ubicados en la rama main esten correctos.
+
+**Figura 91**
+
+*Repositorio del platform de atelier*
+
+![](assets/repo-platform-atelier.png "Repositorio del platform de atelier")
+
+&emsp;&emsp;&emsp;&emsp;Paso 2: Una vez ubicados en el dashboard de Render, hacemos click en "New Web Service".
+
+**Figura 92**
+
+*Captura de pantalla del dashboard de Render*
+
+![](assets/render-add-new.jpeg "Captura de pantalla del dashboard de Render")
+
+&emsp;&emsp;&emsp;&emsp;Paso 3: Colocamos el url del repositorio que aloja el codigo fuente del platform de atelier.
+
+**Figura 93**
+
+*Captura de pantalla de la seccion de configuración de Render*
+
+![](assets/render-platform-configure.png "Captura de pantalla de la seccion de configuración de Render")
+
+&emsp;&emsp;&emsp;&emsp;Paso 4: Configuramos el correcto desplegamiento del platform de atelier.
+
+**Figura 94**
+
+*Captura de pantalla de la configuración de despliegue de Render*
+
+![](assets/render-deploy-1.png "Captura de pantalla de la configuración de despliegue de Render")
+![](assets/render-deploy-2.png "Captura de pantalla de la configuración de despliegue de Render")
+
+&emsp;&emsp;&emsp;&emsp;Paso 5: A través del siguiente link: [https://atelier-platform.onrender.com/swagger-ui/index.html](https://atelier-platform.onrender.com/swagger-ui/index.html), comprobamos el correcto despliegue del backend atelier.
+
+**Figura 95**
+
+*Captura de pantalla de confirmación atelier en Render*
+
+![](assets/platform.png "Captura de pantalla de confirmación atelier en Render")
+
+<div style='page-break-after: always'></div>

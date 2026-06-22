@@ -1,7 +1,5 @@
 ## 1.3. Segmentos Objetivo {#cap-1-3}
 
-&emsp;&emsp;&emsp;&emsp;En esta sección, se detallarán los segmentos objetivo identificados que debemos tener en cuenta en nuestra propuesta de valor.
-
 &emsp;&emsp;&emsp;&emsp;La oferta comercial de atelier tiene como meta el mercado automotriz, exactamente dueños o administradores de talleres automotrices independientes en Lima, a quienes les ofrecemos una aplicación web para optimizar tiempos, control sencillo y un sistema de fidelización con el conductor del vehículo. Asimismo, el conductor del vehículo se beneficia de manera indirecta, al prever gastos mayores a fallas técnicas graves desatendidas y obtener un servicio proactivo.
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**

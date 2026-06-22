@@ -1,17 +1,19 @@
 <center><img src="assets/logo-upc.png" alt="logo de la UPC"></center>
 
 <center>Universidad Peruana de Ciencias Aplicadas</center>
-<center>Facultad de Ingeniería</center>
+<center>Carrera de Ingeniería de Software</center>
 
-<center><h4>1asi0729 Desarrollo de Aplicaciones Open Source</h4></center>
+<center><h4>1asi0729</h4></center>
 
-<h6></h6>
-
-<center><b>"Informe de Trabajo Final"</b></center>
+<center><h4>Desarrollo de Aplicaciones Open Source</h4></center>
 
 <h6></h6>
 
-<center><b>NRC:</b> 11848</center>
+<center><b>NRC</b> 11848</center>
+
+<h6></h6>
+
+<center><h4>Informe del Trabajo Final</h4></center>
 
 <h6></h6>
 
@@ -19,21 +21,11 @@
 
 <h6></h6>
 
-<center><b>Startup:</b> Andeva</center>
+<center><b>Equipo:</b> Andeva</center>
 
 <h6></h6>
 
-<center><b>Producto:</b></center>
-
-<h6></h6>
-
-<center><img src="assets/logotipo-atelier.png" alt="Logotipo de atelier"></center>
-
-<h6></h6>
-
-<center><b>Carrera:</b> Ingeniería de Software</center>
-
-<center><b>Ciclo:</b> 2026-10</center>
+<center><b>Proyecto:</b> Atelier</center>
 
 <h6></h6>
 
@@ -74,6 +66,10 @@
 
 <h6></h6>
 
-<center><b>Abril 2026</b></center>
+<center><b>Período 2026-10</b></center>
+
+<h6></h6>
+
+<center><b>Junio 2026</b></center>
 
 <div style='page-break-after: always'></div>

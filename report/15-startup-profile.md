@@ -28,7 +28,7 @@
 
 *Startup Working Team Profile Matrix*
 
-<table>
+<table style="width: 100%; table-layout: fixed; word-wrap: break-word; font-size: 0.8em;">
 	<tbody>
 		<tr>
 			<td><b>Foto</b></td>
