@@ -7434,7 +7434,7 @@
 
 &emsp;&emsp;&emsp;&emsp;Durante este sprint se logro implementar y desplegar una primera versión del backend atelier.
 
-&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas conectadas con algunos endpoints que se desarrollaron y capturas de pantalla de los endpoints en Swagger, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-3]().
+&emsp;&emsp;&emsp;&emsp;A continuación, se presentan las capturas de pantalla de las principales vistas implementadas conectadas con algunos endpoints que se desarrollaron y capturas de pantalla de los endpoints en Swagger, junto con un enlace a un video demostrativo que ilustra y explica a detalle la visualización y navegación logrados en este Sprint: [Sprint-3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQCy7alqc7vaTbLSNllpRRwfAXyVS9OWdJddEcXSKrGzEew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=T4he19).
 
 **Figura 111**
 
