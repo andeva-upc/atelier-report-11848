@@ -8237,243 +8237,66 @@
 }</td>
         <td>-</td>
         <td>{
-  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
-  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-  "subtotalAmount": 0,
-  "discountPercentage": 0,
-  "totalAmount": 0,
+  "id": "4920e701-16e5-406c-b48b-aad84431aa96",
+  "workOrderId": "17cd32aa-d182-49e3-b19d-5eb363071f3f",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "subtotalAmount": 0.0,
+  "discountPercentage": 10.0,
+  "totalAmount": 0.0,
   "status": "DRAFT"
 }</td>
         <td><img src="assets/endpoint-billing-1.png" alt="Logotipo de atelier"></td>
-        <td>El response crea una nueva cotización en estado borrador (DRAFT) sin retornar body.</td>
+        <td>Asocia una cotización a una Orden de Trabajo del taller. El backend recupera el costo total preliminar de la orden y lo almacena como subtotalAmount, aplicando el descuento y guardando el estado como DRAFT.</td>
       </tr>
       <tr>
         <td>[GET] /{id}</td>
         <td>-</td>
-        <td>id: id de la cotización.</td>
+        <td>id: id de la cotización (uuid).</td>
         <td>{
-  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
-  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-  "subtotalAmount": 0,
-  "discountPercentage": 0,
-  "totalAmount": 0,
+  "id": "4920e701-16e5-406c-b48b-aad84431aa96",
+  "workOrderId": "17cd32aa-d182-49e3-b19d-5eb363071f3f",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "subtotalAmount": 0.0,
+  "discountPercentage": 10.0,
+  "totalAmount": 0.0,
   "status": "DRAFT"
 }</td>
         <td><img src="assets/endpoint-billing-2.png" alt="Logotipo de atelier"></td>
-        <td>El response nos devuelve los detalles de una cotización por su ID.</td>
+        <td>Permite consultar los valores monetarios de la cotización y verificar si ya fue aprobada, modificada o anulada.</td>
       </tr>
       <tr>
         <td>[PUT] /{id}</td>
         <td>{
   "discountPercentage": "double"
 }</td>
-        <td>id: id de la cotización.</td>
+        <td>id: id de la cotización (uuid).</td>
         <td>{
-  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
-  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-  "subtotalAmount": 0,
-  "discountPercentage": 15,
-  "totalAmount": 0,
+  "id": "4920e701-16e5-406c-b48b-aad84431aa96",
+  "workOrderId": "17cd32aa-d182-49e3-b19d-5eb363071f3f",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "subtotalAmount": 0.0,
+  "discountPercentage": 15.0,
+  "totalAmount": 0.0,
   "status": "DRAFT"
 }</td>
         <td><img src="assets/endpoint-billing-3.png" alt="Logotipo de atelier"></td>
-        <td>El response actualiza el descuento aplicado a una cotización específica.</td>
+        <td>Modifica el valor del descuento y dispara la lógica de cálculo interno en el agregado de dominio, actualizando dinámicamente el valor del totalAmount.</td>
       </tr>
       <tr>
-        <td>[POST] /{id}/cancel</td>
+        <td>[POST] /{id}/approvals</td>
         <td>-</td>
-        <td>id: id de la cotización.</td>
+        <td>id: id de la cotización (uuid).</td>
         <td>{
-  "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
-  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-  "subtotalAmount": 0,
-  "discountPercentage": 15,
-  "totalAmount": 0,
-  "status": "CANCELED"
-}</td>
-        <td><img src="assets/endpoint-billing-5.png" alt="Logotipo de atelier"></td>
-        <td>El response cancela una cotización, cambiando su estado a CANCELLED.</td>
-      </tr>
-      <tr>
-        <td>[POST] /{id}/approve</td>
-        <td>-</td>
-        <td>id: id de la cotización.</td>
-        <td>{
-  "id": "2a0b1f8a-883c-414a-894c-bf3d7a994a36",
-  "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-  "subtotalAmount": 0,
-  "discountPercentage": 5,
-  "totalAmount": 0,
+  "id": "4920e701-16e5-406c-b48b-aad84431aa96",
+  "workOrderId": "17cd32aa-d182-49e3-b19d-5eb363071f3f",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "subtotalAmount": 0.0,
+  "discountPercentage": 15.0,
+  "totalAmount": 0.0,
   "status": "APPROVED"
 }</td>
         <td><img src="assets/endpoint-billing-4.png" alt="Logotipo de atelier"></td>
-        <td>El response aprueba una cotización, cambiando su estado a APPROVED.</td>
-      </tr>
-      <tr>
-        <td>[GET] /branch/{branchId}</td>
-        <td>-</td>
-        <td>branchId: id de la sucursal.</td>
-        <td>[
-  {
-    "id": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-    "workOrderId": "bfb3ff5f-25fb-4e3c-850d-e87a0dac61ca",
-    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-    "subtotalAmount": 180,
-    "discountPercentage": 0,
-    "totalAmount": 180,
-    "status": "APPROVED"
-  },
-  {
-    "id": "ea2baf53-c70d-4592-bf11-da892646d781",
-    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-    "subtotalAmount": 0,
-    "discountPercentage": 10,
-    "totalAmount": 0,
-    "status": "APPROVED"
-  },
-  {
-    "id": "002f51ca-8d52-4096-b2f3-838dfc44e6a5",
-    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-    "subtotalAmount": 150,
-    "discountPercentage": 10,
-    "totalAmount": 135,
-    "status": "APPROVED"
-  },
-  {
-    "id": "3c02497d-063b-44cc-af94-030e7de5bed9",
-    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-    "subtotalAmount": 0,
-    "discountPercentage": 15,
-    "totalAmount": 0,
-    "status": "CANCELED"
-  },
-  {
-    "id": "2a0b1f8a-883c-414a-894c-bf3d7a994a36",
-    "workOrderId": "12b1873f-9119-466a-beb7-289dc8330689",
-    "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-    "subtotalAmount": 0,
-    "discountPercentage": 5,
-    "totalAmount": 0,
-    "status": "APPROVED"
-  }
-]</td>
-        <td><img src="assets/endpoint-billing-6.png" alt="Logotipo de atelier"></td>
-        <td>El response obtiene todas las cotizaciones de una sucursal.</td>
-      </tr>
-      <tr>
-        <td rowspan="6"><strong>/api/v1/vouchers</strong></td>
-        <td>[POST] /</td>
-        <td>{
-  "quoteId": "uuid",
-  "type": "string",
-  "customerDocumentType": "string",
-  "customerDocumentNumber": "string",
-  "customerName": "string"
-}</td>
-        <td>-</td>
-        <td>{
-  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
-  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-  "type": "RECEIPT",
-  "customerDocumentType": "DNI",
-  "customerDocumentNumber": "77777777",
-  "customerName": "Juan Carlos",
-  "totalAmount": 180,
-  "status": "PENDING",
-  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
-  "payments": [],
-  "totalPaid": 0
-}</td>
-        <td><img src="assets/endpoint-billing-8.png" alt="Logotipo de atelier"></td>
-        <td>El response genera un nuevo comprobante (Factura/Boleta) a partir de una cotización y la envía a SUNAT.</td>
-      </tr>
-      <tr>
-        <td>[GET] /{voucherId}</td>
-        <td>-</td>
-        <td>voucherId: id del comprobante.</td>
-        <td>{
-  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
-  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-  "type": "RECEIPT",
-  "customerDocumentType": "DNI",
-  "customerDocumentNumber": "77777777",
-  "customerName": "Juan Carlos",
-  "totalAmount": 180,
-  "status": "PENDING",
-  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
-  "payments": [],
-  "totalPaid": 0
-}</td>
-        <td><img src="assets/endpoint-billing-11.png" alt="Logotipo de atelier"></td>
-        <td>El response devuelve los detalles de un comprobante por su ID, incluyendo el registro de sus pagos.</td>
-      </tr>
-      <tr>
-        <td>[POST] /{voucherId}/payments</td>
-        <td>{
-  "amount": "double",
-  "method": "string"
-}</td>
-        <td>voucherId: id del comprobante.</td>
-        <td>{
-  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
-  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-  "type": "RECEIPT",
-  "customerDocumentType": "DNI",
-  "customerDocumentNumber": "77777777",
-  "customerName": "Juan Carlos",
-  "totalAmount": 180,
-  "status": "PARTIALLY_PAID",
-  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
-  "payments": [
-    {
-      "id": "223e4ef5-c815-45b4-a360-f410e1284b38",
-      "amount": 50,
-      "method": "CASH"
-    },
-    {
-      "id": "ce6b8c10-6553-441c-ac13-913c8e1cd747",
-      "amount": 50,
-      "method": "CASH"
-    }
-  ],
-  "totalPaid": 100
-}</td>
-        <td><img src="assets/endpoint-billing-10.png" alt="Logotipo de atelier"></td>
-        <td>El response agrega un pago (parcial o total) a un comprobante existente.</td>
-      </tr>
-      <tr>
-        <td>[DELETE] /{voucherId}/payments/{paymentId}</td>
-        <td>-</td>
-        <td>voucherId: id del comprobante.<br>paymentId: id del pago.</td>
-        <td>{
-  "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
-  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-  "type": "RECEIPT",
-  "customerDocumentType": "DNI",
-  "customerDocumentNumber": "77777777",
-  "customerName": "Juan Carlos",
-  "totalAmount": 180,
-  "status": "PARTIALLY_PAID",
-  "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
-  "payments": [
-    {
-      "id": "223e4ef5-c815-45b4-a360-f410e1284b38",
-      "amount": 50,
-      "method": "CASH"
-    }
-  ],
-  "totalPaid": 50
-}</td>
-        <td><img src="assets/endpoint-billing-12.png" alt="Logotipo de atelier"></td>
-        <td>El response elimina un pago específico de un comprobante y recalcula el estado y los montos.</td>
+        <td>Transiciona el estado de la cotización de DRAFT a APPROVED (Aprobada). Esto cierra la fase de negociación del presupuesto y habilita la creación de comprobantes asociados.</td>
       </tr>
       <tr>
         <td>[GET] /</td>
@@ -8481,103 +8304,213 @@
         <td>branchId: id de la sucursal (query param).</td>
         <td>[
   {
-    "id": "ca79912b-b9b1-4eb1-8655-e53016894d6f",
-    "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-    "type": "RECEIPT",
-    "customerDocumentType": "DNI",
-    "customerDocumentNumber": "77777777",
-    "customerName": "Juan Carlos",
-    "totalAmount": 180,
-    "status": "PAID",
-    "externalInvoiceId": "f0839a78-8577-4e2a-bb14-85fb2140422a",
-    "payments": [
-      {
-        "id": "0b5a2652-8ace-4766-8295-553417712372",
-        "amount": 180,
-        "method": "CREDIT_CARD"
-      }
-    ],
-    "totalPaid": 180
+    "id": "66666111-1111-1111-1111-111111111111",
+    "workOrderId": "55555111-1111-1111-1111-111111111111",
+    "branchId": "ddddd111-1111-1111-1111-111111111111",
+    "subtotalAmount": 445.0,
+    "discountPercentage": 0.0,
+    "totalAmount": 445.0,
+    "status": "APPROVED"
   },
   {
-    "id": "346c238f-ec58-4fba-8be2-f83db536f6d1",
-    "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
-    "type": "RECEIPT",
-    "customerDocumentType": "DNI",
-    "customerDocumentNumber": "77777777",
-    "customerName": "Juan Carlos",
-    "totalAmount": 180,
-    "status": "PARTIALLY_PAID",
-    "externalInvoiceId": "923947ab-5951-46ba-bb28-580d3ed633ee",
-    "payments": [
-      {
-        "id": "223e4ef5-c815-45b4-a360-f410e1284b38",
-        "amount": 50,
-        "method": "CASH"
-      }
-    ],
-    "totalPaid": 50
-  },
-  {
-    "id": "cb1f3636-30d1-4049-bebe-69c5636bdef4",
-    "quoteId": "002f51ca-8d52-4096-b2f3-838dfc44e6a5",
-    "type": "RECEIPT",
-    "customerDocumentType": "DNI",
-    "customerDocumentNumber": "77777777",
-    "customerName": "Juan Carlos",
-    "totalAmount": 135,
-    "status": "PAID",
-    "externalInvoiceId": "2d3cc8f7-5d34-4564-81b3-06cafbe4d2ef",
-    "payments": [
-      {
-        "id": "0f61e7f1-48b2-40c8-bc8d-716dd159ac4e",
-        "amount": 50,
-        "method": "CASH"
-      },
-      {
-        "id": "9df18557-3778-4853-a83c-61a35227d15a",
-        "amount": 85,
-        "method": "CREDIT_CARD"
-      }
-    ],
-    "totalPaid": 135
+    "id": "62f19bb5-1b0d-4aae-96fd-c35bd9a79e1c",
+    "workOrderId": "22cf8db0-dbde-423a-b9a2-7adca203b94c",
+    "branchId": "ddddd111-1111-1111-1111-111111111111",
+    "subtotalAmount": 1000.0,
+    "discountPercentage": 15.0,
+    "totalAmount": 850.0,
+    "status": "CANCELED"
   }
 ]</td>
-        <td><img src="assets/endpoint-billing-7.png" alt="Logotipo de atelier"></td>
-        <td>El response obtiene los comprobantes emitidos en una sucursal específica.</td>
+        <td><img src="assets/endpoint-billing-6.png" alt="Logotipo de atelier"></td>
+        <td>Filtra el histórico de cotizaciones de la base de datos por el identificador de sede física (branchId) para facilitar su administración en el dashboard de facturación.</td>
       </tr>
       <tr>
-        <td>[POST] /checkout</td>
+        <td>[POST] /{id}/cancellations</td>
+        <td>-</td>
+        <td>id: id de la cotización (uuid).</td>
+        <td>{
+  "id": "62f19bb5-1b0d-4aae-96fd-c35bd9a79e1c",
+  "workOrderId": "22cf8db0-dbde-423a-b9a2-7adca203b94c",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "subtotalAmount": 1000.0,
+  "discountPercentage": 15.0,
+  "totalAmount": 850.0,
+  "status": "CANCELED"
+}</td>
+        <td><img src="assets/endpoint-billing-5.png" alt="Logotipo de atelier"></td>
+        <td>Cambia el estado del agregado de cotización a CANCELED (Cancelado). Esto inhabilita el flujo de facturación y cobro para esta propuesta. Solo es realizable si la cotización se encuentra en estado DRAFT.</td>
+      </tr>
+      <tr>
+        <td rowspan="5"><strong>/api/v1/vouchers</strong></td>
+        <td>[POST] /</td>
         <td>{
   "quoteId": "uuid",
-  "type": "string",
+  "type": "string (RECEIPT | INVOICE)",
   "customerDocumentType": "string",
   "customerDocumentNumber": "string",
-  "customerName": "string",
-  "method": "string"
+  "customerName": "string"
 }</td>
         <td>-</td>
         <td>{
-  "id": "69167ff9-9823-42cf-920f-2b962bbf83b3",
-  "quoteId": "f4637eb2-08a4-4aa9-88d0-7675db8b22da",
+  "id": "2411dae2-82aa-41de-94c1-aaa386160451",
+  "quoteId": "ccc5443d-edb9-4f17-948f-4b541bcb1fd4",
   "type": "RECEIPT",
   "customerDocumentType": "DNI",
-  "customerDocumentNumber": "77777777",
-  "customerName": "Juan Carlos",
-  "totalAmount": 180,
-  "status": "PAID",
-  "externalInvoiceId": "7d261f0b-a721-49b6-998b-006de9543e1c",
+  "customerDocumentNumber": "45678901",
+  "customerName": "luis",
+  "totalAmount": 1350.45,
+  "status": "PENDING",
+  "externalInvoiceId": "92dc4c27-b9b0-410c-858a-b02e0073dcca",
+  "payments": [],
+  "totalPaid": 0.0
+}</td>
+        <td><img src="assets/endpoint-billing-8.png" alt="Logotipo de atelier"></td>
+        <td>Se comunica con la pasarela Facthub para emitir y firmar digitalmente el XML de SUNAT utilizando las credenciales y certificado cargados del taller. El comprobante se crea inicialmente en la plataforma con estado de pago PENDING.</td>
+      </tr>
+      <tr>
+        <td>[POST] /{voucherId}/payments</td>
+        <td>{
+  "amount": "BigDecimal",
+  "method": "string (CASH | CREDIT_CARD | DEBIT_CARD | BANK_TRANSFER)"
+}</td>
+        <td>voucherId: id del comprobante (uuid).</td>
+        <td>{
+  "id": "2411dae2-82aa-41de-94c1-aaa386160451",
+  "quoteId": "ccc5443d-edb9-4f17-948f-4b541bcb1fd4",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "45678901",
+  "customerName": "luis",
+  "totalAmount": 1350.45,
+  "status": "PARTIALLY_PAID",
+  "externalInvoiceId": "92dc4c27-b9b0-410c-858a-b02e0073dcca",
   "payments": [
     {
-      "id": "7e0955bb-8435-4d39-a404-8202417d9931",
-      "amount": 180,
-      "method": "CREDIT_CARD"
+      "id": "0e39e4b4-f6d5-4d9f-81a4-1144fe12aec9",
+      "amount": 500.0,
+      "method": "CASH"
     }
   ],
-  "totalPaid": 180
+  "totalPaid": 500.0
+}</td>
+        <td><img src="assets/endpoint-billing-10.png" alt="Logotipo de atelier"></td>
+        <td>Registra una transacción de ingreso vinculada al comprobante. Si el monto pagado es menor al total, cambia el estado a PARTIALLY_PAID; si liquida la deuda, transiciona a PAID.</td>
+      </tr>
+      <tr>
+        <td>[DELETE] /{voucherId}/payments/{paymentId}</td>
+        <td>-</td>
+        <td>voucherId: id del comprobante (uuid).<br>paymentId: id del pago (uuid).</td>
+        <td>{
+  "id": "2411dae2-82aa-41de-94c1-aaa386160451",
+  "quoteId": "ccc5443d-edb9-4f17-948f-4b541bcb1fd4",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "45678901",
+  "customerName": "luis",
+  "totalAmount": 1350.45,
+  "status": "PENDING",
+  "externalInvoiceId": "92dc4c27-b9b0-410c-858a-b02e0073dcca",
+  "payments": [],
+  "totalPaid": 0.0
+}</td>
+        <td><img src="assets/endpoint-billing-12.png" alt="Logotipo de atelier"></td>
+        <td>Anula la transacción de pago, sustrae el monto del total acumulado pagado (totalPaid) y actualiza el estado del comprobante devolviéndolo a PENDING o PARTIALLY_PAID según el saldo restante.</td>
+      </tr>
+      <tr>
+        <td>[GET] /{voucherId}</td>
+        <td>-</td>
+        <td>voucherId: id del comprobante (uuid).</td>
+        <td>{
+  "id": "2411dae2-82aa-41de-94c1-aaa386160451",
+  "quoteId": "ccc5443d-edb9-4f17-948f-4b541bcb1fd4",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "45678901",
+  "customerName": "luis",
+  "totalAmount": 1350.45,
+  "status": "PENDING",
+  "externalInvoiceId": "92dc4c27-b9b0-410c-858a-b02e0073dcca",
+  "payments": [],
+  "totalPaid": 0.0
+}</td>
+        <td><img src="assets/endpoint-billing-11.png" alt="Logotipo de atelier"></td>
+        <td>Permite consultar los detalles fiscales del comprobante y el historial de abonos vinculados.</td>
+      </tr>
+      <tr>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>branchId: id de la sucursal (query param).</td>
+        <td>[
+  {
+    "id": "4c73acb5-6923-4f7f-873d-6828a3831ed5",
+    "quoteId": "66666111-1111-1111-1111-111111111111",
+    "type": "RECEIPT",
+    "customerDocumentType": "DNI",
+    "customerDocumentNumber": "74859612",
+    "customerName": "Juan Perez",
+    "totalAmount": 445.0,
+    "status": "PAID",
+    "externalInvoiceId": "55770d3f-be96-4ebd-ac0d-90e1b4c4ecb5",
+    "payments": [
+      {
+        "id": "a98e6b17-491f-4194-9b2c-6f91366580da",
+        "amount": 445.0,
+        "method": "CREDIT_CARD"
+      }
+    ],
+    "totalPaid": 445.0
+  },
+  {
+    "id": "ee783c9e-765c-4553-9836-2ad252a64a3c",
+    "quoteId": "62f19bb5-1b0d-4aae-96fd-c35bd9a79e1c",
+    "type": "INVOICE",
+    "customerDocumentType": null,
+    "customerDocumentNumber": null,
+    "customerName": null,
+    "totalAmount": 1180.0,
+    "status": "PENDING",
+    "externalInvoiceId": null,
+    "payments": [],
+    "totalPaid": 0.0
+  }
+]</td>
+        <td><img src="assets/endpoint-billing-7.png" alt="Logotipo de atelier"></td>
+        <td>Obtiene el historial de cobranza y facturas electrónicas de la sede, mostrando el balance consolidado de cobros para el arqueo de caja.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/checkouts</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "quoteId": "uuid",
+  "type": "string (RECEIPT | INVOICE)",
+  "customerDocumentType": "string",
+  "customerDocumentNumber": "string",
+  "customerName": "string",
+  "method": "string (CASH | CREDIT_CARD | DEBIT_CARD | BANK_TRANSFER)"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "ac27070e-4933-4a2c-a80c-84801faf4cfe",
+  "quoteId": "66666111-1111-1111-1111-111111111111",
+  "type": "RECEIPT",
+  "customerDocumentType": "DNI",
+  "customerDocumentNumber": "45678901",
+  "customerName": "luis",
+  "totalAmount": 445.0,
+  "status": "PAID",
+  "externalInvoiceId": "6f121f7a-bd87-46d4-a079-6c030a0c5aad",
+  "payments": [
+    {
+      "id": "54b8f21e-64ce-4c3b-a130-347eadf44e4b",
+      "amount": 445.0,
+      "method": "CASH"
+    }
+  ],
+  "totalPaid": 445.0
 }</td>
         <td><img src="assets/endpoint-billing-9.png" alt="Logotipo de atelier"></td>
-        <td>El response procesa la generación del comprobante y registra el pago total en una sola transacción.</td>
+        <td>Este endpoint simplifica el flujo uniendo los pasos de creación de voucher y registro de pago. Al ejecutarse, genera el XML del comprobante, lo firma vía Facthub y crea automáticamente un registro de pago asociado por la totalidad del monto (totalAmount), dejando el comprobante con estado PAID y cancelando la deuda del cliente en un solo paso.</td>
       </tr>
     </tbody>
 </table>
