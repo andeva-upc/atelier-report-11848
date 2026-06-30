@@ -48,7 +48,7 @@
 			<td>0.3.1</td>
 			<td>22/04/2026</td>
 			<td>Joel Huamani Estefanero</td>
-			<td>Se actualizo el apartado de anexos del reporte.</td>
+			<td>Se actualizó la sección de anexos del informe.</td>
 		</tr>
 		<tr>
 			<td>0.3.2</td>

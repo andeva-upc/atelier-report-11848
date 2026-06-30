@@ -68,7 +68,7 @@
 
 ### 1.2.2.&emsp;&emsp;*Lean UX Process* {#cap-1-2-2}
 
-&emsp;&emsp;&emsp;&emsp;En esta sección, se abordará el uso del Lean UX Process, una metodología específicamente diseñada y centrada en el usuario, en el cual validaremos la solución con técnicas como "Lean UX Problem Statements", "Lean UX Assumptions", "Lean UX Hypothesis Statements" y "Lean UX Canvas".
+&emsp;&emsp;&emsp;&emsp;En esta sección, se abordará el uso del Lean UX Process, un marco de trabajo específicamente diseñado y centrado en el usuario, en el cual validaremos la solución con técnicas como "Lean UX Problem Statements", "Lean UX Assumptions", "Lean UX Hypothesis Statements" y "Lean UX Canvas".
 
 #### 1.2.2.1.&emsp;&emsp;*Lean UX Problem Statements* {#cap-1-2-2-1}
 
