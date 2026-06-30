@@ -36,17 +36,6 @@
 			<td><b>Carrera</b></td>
 		</tr>
 		<tr>
-			<td rowspan="3"><img alt="Imagen de Morocho Pinedo, Mariana" src="assets/imagen-mariana-morocho.jpg" style="max-width: 100px; width: 100px;"></td>
-			<td>Morocho Pinedo, Mariana - U202411521</td>
-			<td>Ingeniería de Software</td>
-		</tr>
-		<tr>
-			<td colspan="2"><b>Descripción</b></td>
-		</tr>
-		<tr>
-			<td colspan="2">Soy estudiante de Ingeniería de Software de quinto ciclo. Me considero una persona empática y orientada al trabajo en equipo, con un especial interés en el desarrollo frontend. Disfruto crear interfaces claras y agradables, buscando que la experiencia del usuario sea intuitiva y fluida. Cuento con conocimientos en C++ y Python, que complemento con mi enfoque hacia la parte visual y funcional de las aplicaciones.<br><br>Me gusta apoyar a mis compañeros y mantener una comunicación clara. Entre mis habilidades destacan la coordinación de tareas y la capacidad de aportar ideas para mejorar tanto la interfaz como la dinámica del equipo. Dentro de una startup, me visualizo en un rol orientado al frontend y la gestión, donde pueda contribuir al diseño de interfaces, apoyar en la organización del equipo y asegurar que el trabajo fluya de manera clara, eficiente y alineada con los objetivos del proyecto.</td>
-		</tr>
-		<tr>
 			<td rowspan="3"><img alt="Imagen de Huamani Estefanero, Joel" src="assets/imagen-joel-huamani-estefanero.jpg" style="max-width: 100px; width: 100px;"></td>
 			<td>Huamani Estefanero, Joel – U20241E275</td>
 			<td>Ingeniería de Software</td>

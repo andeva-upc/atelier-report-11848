@@ -190,6 +190,24 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.3.8. *Team Collaboration Insights during Sprint*](#cap-5-2-3-8)
 
+&emsp;&emsp;&emsp;&emsp;[5.2.4. Sprint 4](#cap-5-2-4)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.1. *Sprint Planning 4*](#cap-5-2-4-1)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.2. *Aspect Leaders and Collaborators*](#cap-5-2-4-2)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.3. *Sprint Backlog 4*](#cap-5-2-4-3)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.4. *Development Evidence for Sprint Review*](#cap-5-2-4-4)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.5. *Execution Evidence for Sprint Review*](#cap-5-2-4-5)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.6. *Services Documentation Evidence for Sprint Review*](#cap-5-2-4-6)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.7. *Software Deployment Evidence for Sprint Review*](#cap-5-2-4-7)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[5.2.4.8. *Team Collaboration Insights during Sprint*](#cap-5-2-4-8)
+
 &emsp;&emsp;[5.3. Validation Interviews](#cap-5-3)
 
 &emsp;&emsp;&emsp;&emsp;[5.3.1. Diseño de Entrevistas](#cap-5-3-1)
