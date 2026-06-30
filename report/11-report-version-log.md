@@ -146,6 +146,18 @@
 			<td>Joel Huamani Estefanero</td>
 			<td>Se realizó la revisión final de AV2 y release del repositorio.</td>
 		</tr>
+		<tr>
+			<td>3.1.0</td>
+			<td>30/06/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Documentación del Sprint Backlog #4</td>
+		</tr>
+		<tr>
+			<td>4.0.0</td>
+			<td>05/06/2026</td>
+			<td>Joel Huamani Estefanero</td>
+			<td>Se realizó la revisión final de TB2 y release del repositorio.</td>
+		</tr>
 	</tbody>
 </table>
 
