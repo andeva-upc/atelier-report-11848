@@ -18,10 +18,10 @@
 
 | User Goal | Descripción del Flujo                                                                                                 | Objetivo de Validación                                                   |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **UG 2**      | En este flujo se detalla el proceso para que el dueño del taller consulte los antecedentes técnicos de un vehículo específico. El usuario accede a la sección de Gestión de Vehículos o al buscador global, donde ingresa el número de placa o bastidor para localizar la unidad. Una vez seleccionado el vehículo, el sistema despliega el Historial de Órdenes de Trabajo, permitiendo visualizar de forma cronológica todas las reparaciones, repuestos instalados y diagnósticos previos realizados en el taller.                            | Validar claridad de creacion de una work order y las tareas de este. |
-| **UG 3**      | En este flujo se describe el proceso para la administración y control de suministros dentro del taller. El usuario accede al módulo de Inventario, donde puede seleccionar la opción para registrar nuevos repuestos completando los datos técnicos, categoría y cantidad inicial. Asimismo, el sistema permite realizar ajustes manuales de stock para corregir discrepancias o registrar ingresos extraordinarios de mercancía.                                               | Validar facilidad de registro de un producto y un lote.                   |
-| **UG 4**      | En este flujo se detalla el proceso integral desde la recepción del cliente hasta el registro del ingreso. El usuario con rol de administrador accede al Calendario Interactivo, donde selecciona la fecha y hora disponible para agendar una cita de mantenimiento preventivo, vinculando los datos del vehículo y el cliente.                                             | Comprobar que el registro de un cliente cumpla las necesidades.              |
-| **UG 5**      | En este flujo se detalla cuando el usuario inicia en el Control de Citas, donde puede visualizar los servicios en progreso y navegar hacia el Historial de Citas para revisar servicios completados o cancelados. Para programar una nueva atención, el administrador utiliza el formulario de registro, donde selecciona al cliente, ingresa los datos del vehículo (placa y tipo de servicio), y define la fecha y hora en el calendario interactivo.                  | Verificar que sea intuitivo el modo de agendar citas. |
+| **UG 2**      | En este flujo se detalla el proceso para que el dueño del taller consulte los antecedentes técnicos de un vehículo específico. El usuario accede a la sección de Gestión de Vehículos o al buscador global, donde ingresa el número de placa o bastidor para localizar la unidad. Una vez seleccionado el vehículo, el sistema despliega el Historial de Órdenes de Trabajo, permitiendo visualizar de forma cronológica todas las reparaciones, repuestos instalados y diagnósticos previos realizados en el taller                            | Validar claridad del registro de una work order y las tareas que contiene. |
+| **UG 3**      | EEn este flujo se describe el proceso para la administración y control de suministros dentro del taller. El usuario accede al módulo de Inventario, donde puede seleccionar la opción para registrar nuevos repuestos completando los datos técnicos, categoría y cantidad inicial. Asimismo, el sistema permite realizar ajustes manuales de stock para corregir discrepancias o registrar ingresos extraordinarios de mercancía.                                               | Validar el registro de un producto y el lote del producto.                   |
+| **UG 4**      | En este flujo se detalla el proceso integral desde la recepción del cliente hasta el registro del ingreso. El usuario con rol de administrador accede al Calendario Interactivo, donde selecciona la fecha y hora disponible para agendar una cita de mantenimiento preventivo, vinculando los datos del vehículo y el cliente.                                             | Confirmar acceso intuitivo para una cita y registrar una work order de esa cita.              |
+| **UG 5**      | En este flujo se detalla cuando el usuario inicia en el Control de Citas, donde puede visualizar los servicios en progreso y navegar hacia el Historial de Citas para revisar servicios completados o cancelados. Para programar una nueva atención, el administrador utiliza el formulario de registro, donde selecciona al cliente, ingresa los datos del vehículo (placa y tipo de servicio), y define la fecha y hora en el calendario interactivo | Validar el cobro de una work order.                  |
 
 ### 5.3.2.&emsp;&emsp;*Registro de Entrevistas* {#cap-5-3-2}
 
@@ -29,7 +29,7 @@
 
 **Segmento Objetivo 1: Dueños o administradores de talleres automotrices independientes en Lima**
 
-**Tabla 34**
+**Tabla 39**
 
 *Entrevista a Roxana Conde Vera*
 
@@ -59,7 +59,7 @@
 
 **Segmento Objetivo 2: Conductores de vehículos de Lima**
 
-**Tabla 35**
+**Tabla 40**
 
 *Entrevista a Jheferson Aldair Ciriaco Benite*
 
@@ -87,7 +87,7 @@
 	</tbody>
 </table>
 
-**Tabla 36**
+**Tabla 41**
 
 *Entrevista a Alex Cruz*
 
@@ -115,7 +115,7 @@
 	</tbody>
 </table>
 
-**Tabla 37**
+**Tabla 42**
 
 *Entrevista a Nataly Rojas Luja*
 
@@ -171,7 +171,7 @@
 
  - ESCALA DE SEVERIDAD:
 
-**Tabla 38**
+**Tabla 43**
 
 *Escalas de severidad*
 
@@ -182,7 +182,7 @@
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.                                     |
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
-**Tabla 39**
+**Tabla 44**
 
 *Tabla de resumen*
 
