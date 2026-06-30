@@ -400,7 +400,7 @@
 |    Sprint 2 - 1 Review Summary      |    The team successfully developed and deployed the functional landing page. All planned user stories regarding the value proposition, service modules, and subscription plans were completed and verified on the production environment.      |
 |    Sprint 2 – 1 Retrospective Summary      |    The team identified that initial task estimations were too low. For the upcoming sprint, we committed to consolidating engineering tasks into blocks of 4 to 8 hours and ensuring a more rigorous technical documentation process.      |
 |     **Sprint Goal & User Stories**     |          |
-|     Sprint 2 Goal     |     Our focus for this sprint is to develop the front-end architecture and functional user interfaces for the core modules of the Atelier web application. We aim to implement the Dashboard, Work-Orders, Telemetry, Customers, Appointments, and Billing sections, ensuring a consistent UI/UX, seamless navigation, and data visualization to support essential workshop operations.     |
+|     Sprint 2 Goal     |     Our focus is on developing the front-end architecture and functional user interfaces for the core modules of the Atelier web application, implementing the Dashboard, Work-Orders, Telemetry, Customers, Appointments, and Billing sections.<br>We believe it delivers a consistent UI/UX, seamless navigation, and intuitive data visualization to support essential workshop operations.<br>This will be confirmed when users can interact with all core module views, perform frontend navigation between sections, and view data correctly simulated on the user interfaces.     |
 |     Sprint 2 Velocity     |     69     |
 |     Sum of Story Points     |   69       |
 
