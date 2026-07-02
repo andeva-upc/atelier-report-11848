@@ -43,6 +43,7 @@
 			<td>Nombre: Roxana Conde Vera<br>
             Edad: 28<br>
             Provincia: Lima<br>
+            Distrito: La Molina<br>
             Ocupación: Asistente de administración<br>
 			Minuto de inicio: 00:00<br>
 			Duración: 9:54min<br>
@@ -73,6 +74,7 @@
 			<td>Nombre: Jheferson Aldair Ciriaco Benite<br>
             Edad: 26<br>
             Provincia: Lima<br>
+            Distrito: Pueblo Libre<br>
             Ocupación: Conductor y universitario<br>
 			Minuto de inicio: 9:54<br>
 			Duración: 8:20min<br>
@@ -99,8 +101,9 @@
 		</tr>
 		<tr>
 			<td>Nombre: Alex Cruz<br>
-            Edad: <br>
+            Edad: 35<br>
             Provincia: Lima<br>
+            Distrito: San Miguel<br>
             Ocupación: Estudiante universitario<br>
 			Minuto de inicio: 22:52<br>
 			Duración: 10:50min<br>
@@ -129,6 +132,7 @@
 			<td>Nombre: Nataly Rojas Luja<br>
             Edad: 28<br>
             Provincia: Lima<br>
+            Distrito: Santa Anita<br>
             Ocupación: Estudiante universitaria y conductora<br>
 			Minuto de inicio: 32:42<br>
 			Duración: 07:15min<br>
@@ -169,7 +173,7 @@
 
 10. Registrar un cliente.
 
- - ESCALA DE SEVERIDAD:
+#### 5.3.3.1.&emsp;&emsp;*Escala de Severidad* {#cap-5-3-3-1}
 
 **Tabla 38**
 
@@ -182,43 +186,29 @@
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.                                     |
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
+#### 5.3.3.2.&emsp;&emsp;*TABLA RESUMEN* {#cap-5-3-3-2}
+
 **Tabla 39**
 
-*Tabla de resumen*
+*Tabla resumen de evaluaciones heurísticas*
 
-| #   | Problema                                                                                                | Escala de severidad | Heurística/Principio violado                                                        |
-| --- | ------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| 1   | Falta de retroalimentación inmediata o indicador de carga al registrar un vehículo |        3            | Heurística violada: Usabilidad - Visibilidad del estado del sistema  |
-| 2   |        El formulario no cuenta con una lista/autocompletado para seleccionar marca o modelo del vehículo                                      |       3            |         Heurística violada: Usabilidad - Reconocimiento antes que recuerdo.                                            |
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|:---:|---|
+| 1 | Falta de retroalimentación inmediata o indicador de carga al registrar un vehículo | 3 | Usabilidad - Visibilidad del estado del sistema |
+| 2 | El formulario no cuenta con una lista/autocompletado para seleccionar marca o modelo del vehículo | 3 | Usabilidad - Reconocimiento antes que recuerdo |
 
+#### 5.3.3.3.&emsp;&emsp;*DESCRIPCIÓN DE PROBLEMAS* {#cap-5-3-3-3}
 
-- Descripción de problemas
+* **Problema 1:** Falta de retroalimentación inmediata o indicador de carga al registrar un vehículo.
+  - **Detalle del problema:** Al hacer clic en el botón de registrar un vehículo, el sistema procesa la solicitud en segundo plano pero la interfaz no muestra ningún tipo de animación de carga (spinner) o indicador de que la petición está en curso. Como consecuencia, el usuario asume que el botón no funciona y tiende a presionarlo múltiples veces, lo que puede provocar solicitudes duplicadas o frustración.
+  - **Escala de severidad:** 3 (Problema mayor)
+  - **Heurística/Principio violada(o):** Usabilidad - Visibilidad del estado del sistema.
+  - **Recomendación:** Implementar un spinner de carga o deshabilitar el botón de envío temporalmente con un estado visual que indique "Registrando...", seguido de una notificación toast emergente que confirme el éxito del registro o informe del error.
 
-1. Problema #1: Falta de retroalimentación inmediata o indicador de carga al registrar un vehículo
-
-Severidad: 3
-Heuristica violada: Usabilidad - Visibilidad del estado del sistema
-
-Problema: Al hacer clic en el botón de registrar un vehículo, el sistema procesa la solicitud en segundo plano pero la interfaz no muestra ningún tipo de animación de carga (spinner) o indicador de que la petición está en curso. Como consecuencia, el usuario asume que el botón no funciona y tiende a presionarlo múltiples veces, lo que puede provocar solicitudes duplicadas o frustración.
-
-Recomendacion: Implementar un spinner de carga o deshabilitar el botón de envío temporalmente con un estado visual que indique "Registrando...", seguido de una notificación toast emergente que confirme el éxito del registro o informe del error. 
-
-2. Problema #2: El formulario no cuenta con una lista/autocompletado para seleccionar marca o modelo del vehículo
-
-Severidad: 3
-Heuristica violada: Usabilidad - Visibilidad del estado del sistema
-
-Problema: Durante la entrevista, Jheferson Aldair Ciriaco Benite indicó que, al registrar un vehículo, le gustaría que el sistema muestre una lista de carros o un buscador con autocompletado. Mencionó que debería funcionar de manera similar a cuando se selecciona un país en una lista desplegable: el usuario escribe apenas una letra y el sistema muestra opciones relacionadas. Actualmente, el formulario permite escribir manualmente la marca y el modelo del vehículo, lo que obliga al usuario a recordar el nombre exacto y puede generar errores o inconsistencias al ingresar la información.
-
-Recomendacion: Implementar un campo de autocompletado para la marca y el modelo del vehículo. Por ejemplo, al escribir una letra o parte del nombre, el sistema debería mostrar una lista de opciones disponibles para que el usuario seleccione la alternativa correcta. Esto facilitaría el registro del vehículo, reduciría errores de escritura y haría el flujo más rápido e intuitivo para el conductor.
-
-2. Problema #2: El formulario no cuenta con una lista/autocompletado para seleccionar marca o modelo del vehículo
-
-Severidad: 3
-Heuristica violada: Usabilidad - Visibilidad del estado del sistema
-
-Problema: Durante la entrevista, Jheferson Aldair Ciriaco Benite indicó que, al registrar un vehículo, le gustaría que el sistema muestre una lista de carros o un buscador con autocompletado. Mencionó que debería funcionar de manera similar a cuando se selecciona un país en una lista desplegable: el usuario escribe apenas una letra y el sistema muestra opciones relacionadas. Actualmente, el formulario permite escribir manualmente la marca y el modelo del vehículo, lo que obliga al usuario a recordar el nombre exacto y puede generar errores o inconsistencias al ingresar la información.
-
-Recomendacion: Implementar un campo de autocompletado para la marca y el modelo del vehículo. Por ejemplo, al escribir una letra o parte del nombre, el sistema debería mostrar una lista de opciones disponibles para que el usuario seleccione la alternativa correcta. Esto facilitaría el registro del vehículo, reduciría errores de escritura y haría el flujo más rápido e intuitivo para el conductor.
+* **Problema 2:** El formulario no cuenta con una lista/autocompletado para seleccionar marca o modelo del vehículo.
+  - **Detalle del problema:** Durante la entrevista, el usuario indicó que, al registrar un vehículo, le gustaría que el sistema muestre una lista de carros o un buscador con autocompletado. Mencionó que debería funcionar de manera similar a cuando se selecciona un país en una lista desplegable: el usuario escribe apenas una letra y el sistema muestra opciones relacionadas. Actualmente, el formulario permite escribir manualmente la marca y el modelo del vehículo, lo que obliga al usuario a recordar el nombre exacto y puede generar errores o inconsistencias al ingresar la información.
+  - **Escala de severidad:** 3 (Problema mayor)
+  - **Heurística/Principio violada(o):** Usabilidad - Reconocimiento antes que recuerdo.
+  - **Recomendación:** Implementar un campo de autocompletado para la marca y el modelo del vehículo. Por ejemplo, al escribir una letra o parte del nombre, el sistema debería mostrar una lista de opciones disponibles para que el usuario seleccione la alternativa correcta. Esto facilitaría el registro del vehículo, reduciría errores de escritura y haría el flujo más rápido e intuitivo para el conductor.
 
 <div style='page-break-after: always'></div>

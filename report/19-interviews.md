@@ -170,6 +170,7 @@
 			<td>Nombre: Alan Mamani<br>
             Edad: 27<br>
             Provincia: Lima<br>
+            Distrito: Santiago de Surco<br>
             Ocupación: Administrador Auxiliar<br>
 			Minuto de inicio: 00:00<br>
 			Duración: 18:33min<br>
@@ -198,6 +199,7 @@
 			<td>Nombre: Marcelo Ramos<br>
             Edad: 73<br>
             Provincia: Lima<br>
+            Distrito: Chorrillos<br>
             Ocupación: Mecánico<br>
 			Minuto de inicio: 18:34<br>
 			Duración: 17:24min<br>
@@ -226,6 +228,7 @@
 			<td>Nombre: Jorge Aguilar<br>
             Edad: 65<br>
             Provincia: Lima<br>
+            Distrito: San Miguel<br>
             Ocupación: Mecánico<br>
 			Minuto de inicio: 35:58<br>
 			Duración: 18:34min<br>
@@ -254,6 +257,7 @@
 			<td>Nombre: Reinaldo Machacca<br>
             Edad: 41<br>
             Provincia: Lima<br>
+            Distrito: Los Olivos<br>
             Ocupación: Mecánico Electrónico<br>
 			Minuto de inicio: 54:32<br>
 			Duración: 18:38min<br>
@@ -284,6 +288,7 @@
 			<td>Nombre: Henry Huamani<br>
             Edad: 53<br>
             Provincia: Lima<br>
+            Distrito: San Juan de Lurigancho<br>
             Ocupación: Conductor<br>
 			Minuto de inicio: 01:13:10<br>
 			Duración: 11:50min<br>
@@ -312,6 +317,7 @@
 			<td>Nombre: Miguel Álvarez<br>
             Edad: 25<br>
             Provincia: Lima<br>
+            Distrito: Miraflores<br>
             Ocupación: Conductor<br>
 			Minuto de inicio: 01:25:01<br>
 			Duración: 23:05min<br>
@@ -340,6 +346,7 @@
 			<td>Nombre: Marcos Ruiz<br>
             Edad: 45<br>
             Provincia: Lima<br>
+            Distrito: La Victoria<br>
             Ocupación: Taxista<br>
 			Minuto de inicio: 01:48:07<br>
 			Duración: 10:30min<br>
@@ -368,6 +375,7 @@
 			<td>Nombre: Eugenio Estefanero<br>
             Edad: 75<br>
             Provincia: Lima<br>
+            Distrito: Lince<br>
             Ocupación: Conductor Jubilado<br>
 			Minuto de inicio: 01:58:38<br>
 			Duración: 08:33<br>
@@ -396,6 +404,7 @@
 			<td>Nombre: Roxana Conde<br>
             Edad: 22<br>
             Provincia: Lima<br>
+            Distrito: La Molina<br>
             Ocupación: Estudiante Universitaria<br>
 			Minuto de inicio: 02:07:12<br>
 			Duración: 10:51min<br>
