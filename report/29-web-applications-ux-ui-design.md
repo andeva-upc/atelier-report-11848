@@ -3,7 +3,7 @@
 ### 4.4.1.&emsp;&emsp;*Web Applications Wireframes* {#cap-4-4-1}
 &emsp;&emsp;&emsp;&emsp;En esta sección se presentarán los wireframes de la aplicación, los cuales son bosquejos de baja fidelidad sobre las funcionalidades principales de nuestra solución.
 
-**Figura 30**
+**Figura 31**
 
 *Wireframe del inicio de la plataforma web*
 
@@ -13,13 +13,13 @@
 ![](assets/Wireframe-4.png "Wireframe del inicio de la plataforma web")
 ![](assets/Wireframe-5.png "Wireframe del inicio de la plataforma web")
 
-**Figura 31**
+**Figura 32**
 
 *Wireframe del DashBoard de la plataforma web*
 
 ![](assets/Wireframe-6.png "Wireframe del DashBoard de la plataforma web")
 
-**Figura 32**
+**Figura 33**
 
 *Wireframe de Órdenes de trabajo de la plataforma web*
 
@@ -27,7 +27,7 @@
 ![](assets/Wireframe-8.png "Wireframe de Órdenes de trabajo de la plataforma web")
 ![](assets/Wireframe-7.png "Wireframe de Órdenes de trabajo de la plataforma web")
 
-**Figura 33**
+**Figura 34**
 
 *Wireframe de Citas de la plataforma web*
 
@@ -37,14 +37,14 @@
 ![](assets/Wireframe-14.png "Wireframe de Citas de la plataforma web")
 ![](assets/Wireframe-15.png "Wireframe de Citas de la plataforma web")
 
-**Figura 34**
+**Figura 35**
 
 *Wireframe de Personal de la plataforma web*
 
 ![](assets/Wireframe-37.png "Wireframe de Personal de la plataforma web")
 ![](assets/Wireframe-30.png "Wireframe de Personal de la plataforma web")
 
-**Figura 35**
+**Figura 36**
 
 *Wireframe de Inventario de la plataforma web*
 
@@ -52,7 +52,7 @@
 ![](assets/Wireframe-10.png "Wireframe de Inventario de la plataforma web")
 ![](assets/Wireframe-11.png "Wireframe de Inventario de la plataforma web")
 
-**Figura 36**
+**Figura 37**
 
 *Wireframe de Facturación de la plataforma web*
 
@@ -62,7 +62,7 @@
 ![](assets/Wireframe-35.png "Wireframe de Facturación de la plataforma web")
 
 
-**Figura 37**
+**Figura 38**
 
 *Wireframe de Clientes de la plataforma web*
 
@@ -73,7 +73,7 @@
 
 &emsp;&emsp;&emsp;&emsp;En esta sección se exponen los prototipos de la plataforma web, los cuales consisten en representaciones de media y alta fidelidad que ilustran las funciones esenciales del sistema. Dichos diseños se han desarrollado tomando como base los esquemas estructurales o wireframes elaborados con anterioridad.
 
-**Figura 38**
+**Figura 39**
 
 *Mock-up del inicio de la plataforma web*
 
@@ -83,13 +83,13 @@
 ![](assets/Mock-Up-4.png "Mock-up del inicio de la plataforma web")
 ![](assets/Mock-Up-5.png "Mock-up del inicio de la plataforma web")
 
-**Figura 39**
+**Figura 40**
 
 *Mock-up del DashBoard de la plataforma web*
 
 ![](assets/Mock-Up-40.png "Mock-up del DashBoard de la plataforma web")
 
-**Figura 40**
+**Figura 41**
 
 *Mock-up de Órdenes de trabajo de la plataforma web*
 
@@ -97,7 +97,7 @@
 ![](assets/Mock-Up-39.png "Mock-up de Órdenes de trabajo de la plataforma web")
 ![](assets/Mock-Up-41.png "Mock-up de Órdenes de trabajo de la plataforma web")
 
-**Figura 41**
+**Figura 42**
 
 *Mock-up de Citas de la plataforma web*
 
@@ -107,14 +107,14 @@
 ![](assets/Mock-Up-25.png "Mock-up de Citas de la plataforma web")
 ![](assets/Mock-Up-26.png "Mock-up de Citas de la plataforma web")
 
-**Figura 42**
+**Figura 43**
 
 *Mock-up de Personal de la plataforma web*
 
 ![](assets/Mock-Up-37.png "Mock-up de Personal de la plataforma web")
 ![](assets/Mock-Up-47.png "Mock-up de Personal de la plataforma web")
 
-**Figura 43**
+**Figura 44**
 
 *Mock-up de Inventario de la plataforma web*
 
@@ -122,7 +122,7 @@
 ![](assets/Mock-Up-45.png "Mock-up de Inventario de la plataforma web")
 ![](assets/Mock-Up-17.png "Mock-up de Inventario de la plataforma web")
 
-**Figura 44**
+**Figura 45**
 
 *Mock-up de Facturación de la plataforma web*
 
@@ -134,12 +134,76 @@
 ![](assets/Mock-Up-31.png "Mock-up de Facturación de la plataforma web")
 ![](assets/Mock-Up-32.png "Mock-up de Facturación de la plataforma web")
 
-**Figura 45**
+**Figura 46**
 
 *Mock-up de Clientes de la plataforma web*
 
 ![](assets/Mock-Up-34.png "Mock-up de Clientes de la plataforma web")
 ![](assets/Mock-Up-46.png "Mock-up de Clientes de la plataforma web")
+
+**Figura 47**
+
+*Mock-up del inicio de la plataforma mobile web browser*
+
+![](assets/Mock-Up-50.png "Mock-up de Clientes de la plataforma mobile web browser")
+![](assets/Mock-Up-51.png "Mock-up de Clientes de la plataforma mobile web browser")
+![](assets/Mock-Up-52.png "Mock-up de Clientes de la plataforma mobile web browser")
+![](assets/Mock-Up-53.png "Mock-up de Clientes de la plataforma mobile web browser")
+![](assets/Mock-Up-54.png "Mock-up de Clientes de la plataforma mobile web browser")
+![](assets/Mock-Up-55.png "Mock-up de Clientes de la plataforma mobile web browser")
+![](assets/Mock-Up-56.png "Mock-up de Clientes de la plataforma mobile web browser")
+
+**Figura 48**
+
+*Mock-up del DashBoard de la plataforma mobile web browser*
+
+![](assets/Mock-Up-57.png "Mock-up del DashBoard de la plataforma mobile web browser")
+![](assets/Mock-Up-58.png "Mock-up del DashBoard de la plataforma mobile web browser")
+![](assets/Mock-Up-59.png "Mock-up del DashBoard de la plataforma mobile web browser")
+
+**Figura 49**
+
+*Mock-up de Órdenes de trabajo de la plataforma mobile web browser*
+
+![](assets/Mock-Up-60.png "Mock-up de Órdenes de trabajo de la plataforma mobile web browser")
+![](assets/Mock-Up-61.png "Mock-up de Órdenes de trabajo de la plataforma mobile web browser")
+![](assets/Mock-Up-63.png "Mock-up de Órdenes de trabajo de la plataforma mobile web browser")
+
+**Figura 50**
+
+*Mock-up de Citas de la plataforma mobile web browser*
+
+![](assets/Mock-Up-68.png "Mock-up de Citas de la plataforma mobile web browser")
+![](assets/Mock-Up-69.png "Mock-up de Citas de la plataforma mobile web browser")
+
+**Figura 51**
+
+*Mock-up de Telimetria de la plataforma mobile web browser*
+
+![](assets/Mock-Up-70.png "Mock-up de Telimetria de la plataforma mobile web browser")
+![](assets/Mock-Up-72.png "Mock-up de Telimetria de la plataforma mobile web browser")
+![](assets/Mock-Up-73.png "Mock-up de Telimetria de la plataforma mobile web browser")
+
+**Figura 52**
+
+*Mock-up de Inventario de la plataforma mobile web browser*
+
+![](assets/Mock-Up-64.png "Mock-up de Inventario de la plataforma mobile web browser")
+![](assets/Mock-Up-65.png "Mock-up de Inventario de la plataforma mobile web browser")
+
+**Figura 53**
+
+*Mock-up de Facturación de la plataforma mobile web browser*
+
+![](assets/Mock-Up-75.png "Mock-up de Facturación de la plataforma mobile web browser")
+![](assets/Mock-Up-74.png "Mock-up de Facturación de la plataforma mobile web browser")
+
+**Figura 54**
+
+*Mock-up de Clientes de la plataforma mobile web browser*
+
+![](assets/Mock-Up-66.png "Mock-up de Clientes de la plataforma mobile web browser")
+![](assets/Mock-Up-67.png "Mock-up de Clientes de la plataforma mobile web browser")
 
 ### 4.4.3.&emsp;&emsp;*Web Applications Wireflow Diagrams* {#cap-4-4-3}
 
