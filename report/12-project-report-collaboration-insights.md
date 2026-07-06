@@ -76,8 +76,6 @@ El presente documento corresponde al segundo avance (AV2) del reporte del proyec
 
 - **Aldo Jeanfranco Machacca Soto:** Cumplio con las tareas en el desarollo del sprint 3, cambiar las imagenes del Software Architecture Container Diagrams y realizo sus entrevistas correspondiente para el validation interviews.
 
-- **Mariana Hortencia Morocho Pinedo:** Correcion del artefacto de los user personas, colocar las imagenes correctas del user journey mapping y realizo sus entrevistas correspondiente para el validation interviews.
-
 - **Jennifer Yamilet Riveros Vera:** Correcion del artefacto de los user personas, modificar el Class Diagram y realizo sus entrevistas correspondiente para el validation interviews..
 
 - **Adiel Abdiaz Sanchez Santin:** Agregar el bounded context iam al Design-Level Event Storming, con mejoras en el bounded context core, y y realizo sus entrevistas correspondiente para el validation interviews.
@@ -86,5 +84,21 @@ Finalmente, la siguiente evidencia visual ha sido extraída de la pestaña Pulse
 &emsp;&emsp;&emsp;&emsp;
 
 <center><img src="assets/insights-3.png"></center>
+
+##### Reporte de colaboración del TB2
+
+El presente reporte consolida los resultados y entregables correspondientes al TB2 del proyecto. Este documento abarca las correcciones aplicadas a los hitos previos para asegurar la calidad del entregable final. Las contribuciones específicas del equipo se desglosan de la siguiente manera:
+
+- El integrante Luis Granda, se encargo de realizar las vistas de telemetry, dashboard de cliente del webapp y documentacion de endpoints.
+- El integrante Joel Huamani, realizó las vistas de inicio de sesion, con inicio de google y registro de un taller con una sucursal.
+- El integrante Aldo Machacca, realizó las vistas de billing y configuracion del cliente y administrador.
+- La integrante Jennifer Riveros, hizó la documentacion de sus endpoints.
+- El integrante Adiel Sanchez, realizó las vistas del dashboard del administrador.
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+&emsp;&emsp;&emsp;&emsp;
+
+
+<center><img src="assets/insights-4.png"></center>
 
 <div style='page-break-after: always'></div>

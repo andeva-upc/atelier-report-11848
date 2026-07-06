@@ -18,4 +18,12 @@
 
 # Video About-the-Team {#video-about-the-team}
 
+LINK: [Video About-the-Team]()
+
+**Figura 124**
+
+*Captura de pantalla del Video About-The-Team*
+
+![](assets/video-about-the-team.png "Captura de pantalla del Video About-The-Team")
+
 <div style='page-break-after: always'></div>
