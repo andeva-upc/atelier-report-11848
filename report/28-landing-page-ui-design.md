@@ -35,3 +35,17 @@
 ![](assets/landing-page-mock-up-3.jpg "Mock-up del Landing Page de atelier")
 ![](assets/landing-page-mock-up-4.jpg "Mock-up del Landing Page de atelier")
 ![](assets/landing-page-mock-up-5.jpg "Mock-up del Landing Page de atelier")
+
+
+
+&emsp;&emsp;&emsp;&emsp;Asimismo, se presenta la versión Mobile Web Browser del Landing Page, adaptada a una pantalla de menor tamaño. Esta propuesta conserva la identidad visual de Atelier, reorganizando los contenidos en una estructura vertical, clara y fácil de navegar. Además, se mantiene la jerarquía visual y la visibilidad.
+
+**Figura 30**
+
+*Mock-up del Landing Page Mobile Web Browser de Atelier*
+
+![](assets/landing-page-mobile-mock-up-1.png "Mock-up del Landing Page Mobile Web Browser de Atelier")
+![](assets/landing-page-mobile-mock-up-2.png "Mock-up del Landing Page Mobile Web Browser de Atelier")
+![](assets/landing-page-mobile-mock-up-3.png "Mock-up del Landing Page Mobile Web Browser de Atelier")
+![](assets/landing-page-mobile-mock-up-4.png "Mock-up del Landing Page Mobile Web Browser de Atelier")
+![](assets/landing-page-mobile-mock-up-5.png "Mock-up del Landing Page Mobile Web Browser de Atelier")

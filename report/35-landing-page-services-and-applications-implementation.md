@@ -7584,63 +7584,6 @@
   "documentNumber": "string",
   "phone": "string"
 }</td>
-        <td><img src="assets/endpoint-6.png" alt="Logotipo de atelier"></td>
-        <td>El response nos confirma el empleado que esta vinculado a este usuario.</td>
-      </tr>
-      <tr>
-        <td rowspan="1"><strong>/api/v1/customers</strong></td>
-        <td>[GET] /users/{userId}</td>
-        <td>-</td>
-        <td>UserId: id del usuario.</td>
-        <td>{
-  "id": "476ef359-4e65-4c65-ab92-4bd9ee343307",
-  "userId": "d0a454c7-9ca5-4fb0-ae50-44722c3c16e8",
-  "isCorporate": false,
-  "firstName": "Joel",
-  "lastName": "31",
-  "businessName": "",
-  "documentType": "DNI",
-  "documentNumber": "95468543",
-  "phone": "962356843"
-}</td>
-        <td><img src="assets/endpoint-7.png" alt="Logotipo de atelier"></td>
-        <td>El response nos confirma el cliente que esta vinculado a este usuario.</td>
-      </tr>
-      <tr>
-        <td rowspan="12"><strong>/api/v1/work-orders</strong></td>
-        <td>[GET] /{id}</td>
-        <td>-</td>
-        <td>id: id de la work order.</td>
-        <td>{
-  "id": "bfb3ff5f-25fb-4e3c-850d-e87a0dac61ca",
-  "appointmentId": "cc6850f0-4e1c-4c03-8a22-a5dd252f6346",
-  "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-  "vehicleId": "11111111-1111-1111-1111-111111111111",
-  "customerId": "85f93177-95e5-456d-9597-3cc3cadd91d5",
-  "internalNumber": 1,
-  "formattedNumber": "LIM-01-000001",
-  "status": "PENDING",
-  "diagnosticSummary": "Revisión general",
-  "mileageIn": 1000,
-  "totalAmount": 180,
-  "tasks": [
-    {
-      "id": "b57c2f38-7796-4f33-ad72-4206db1bc4e2",
-      "serviceId": "33333111-1111-1111-1111-111111111111",
-      "branchId": "827d14c8-2543-41c5-b33c-ef9b529dcd3e",
-      "assignedMechanicId": "fffff222-1111-1111-1111-111111111111",
-      "status": "PENDING",
-      "description": "Revisión general",
-      "price": 180,
-      "startedAt": null,
-      "completedAt": null,
-      "products": [],
-      "createdAt": "2026-06-14T21:10:35.125937Z"
-    }
-  ],
-  "createdAt": "2026-06-14T20:41:29.257729Z",
-  "updatedAt": "2026-06-14T21:10:35.043427Z"
-}</td>
         <td><img src="assets/endpoint-8.png" alt="Logotipo de atelier"></td>
         <td>El response nos devuelve la work order con las tareas asignadas a estas work order y los productos utilizados.</td>
       </tr>
@@ -8576,8 +8519,109 @@
   ],
   "totalPaid": 180
 }</td>
-        <td><img src="assets/endpoint-billing-9.png" alt="Logotipo de atelier"></td>
+        <td><img src="assets/endpoint-billing-9.png" alt="Endpoint POST checkout billing"></td>
         <td>El response procesa la generación del comprobante y registra el pago total en una sola transacción.</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><strong>/api/v1/customers</strong></td>
+        <td>[GET] /users/{userId}</td>
+        <td>-</td>
+        <td>UserId: id del usuario.</td>
+        <td>{
+  "id": "476ef359-4e65-4c65-ab92-4bd9ee343307",
+  "userId": "d0a454c7-9ca5-4fb0-ae50-44722c3c16e8",
+  "isCorporate": false,
+  "firstName": "Joel",
+  "lastName": "31",
+  "businessName": "",
+  "documentType": "DNI",
+  "documentNumber": "95468543",
+  "phone": "962356843"
+}</td>
+        <td><img src="assets/endpoint-7.png" alt="Endpoint GET customers by user"></td>
+        <td>El response nos confirma el cliente que está vinculado a este usuario.</td>
+      </tr>
+      <tr>
+        <td>[POST] /</td>
+        <td>{
+  "userId": "ffec1c59-d72d-447d-915c-b867118890e8",
+  "isCorporate": false,
+  "firstName": "Dan",
+  "lastName": "Prueba",
+  "documentType": "DNI",
+  "documentNumber": "12345678",
+  "phone": "999888777"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "userId": "ffec1c59-d72d-447d-915c-b867118890e8",
+  "isCorporate": false,
+  "firstName": "Dan",
+  "lastName": "Prueba",
+  "businessName": null,
+  "documentType": "DNI",
+  "documentNumber": "12345678",
+  "phone": "999888777"
+}</td>
+        <td><img src="assets/endpoint-post-customers.jpeg" alt="Endpoint POST customers"></td>
+        <td>El response confirma la creación de un nuevo perfil de cliente asociado a un usuario registrado en la plataforma.</td>
+      </tr>
+      <tr>
+        <td rowspan="4"><strong>/api/v1/customer-registrations</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "branchId": "dddd1111-1111-1111-1111-111111111111"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "b0433810-0cc5-4247-9098-94ac690f7892",
+  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "branchId": "dddd1111-1111-1111-1111-111111111111",
+  "status": "ACTIVE"
+}</td>
+        <td><img src="assets/endpoint-post-customer-registrations.jpeg" alt="Endpoint POST customer registrations"></td>
+        <td>El response confirma la creación del registro que vincula a un cliente con una sucursal del taller.</td>
+      </tr>
+      <tr>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>branchId: id de la sucursal.<br>customerId: id del cliente.</td>
+        <td>{
+  "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
+  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "branchId": "dddd1111-1111-1111-1111-111111111111",
+  "status": "ACTIVE"
+}</td>
+        <td><img src="assets/endpoint-get-customer-registrations.jpeg" alt="Endpoint GET customer registrations"></td>
+        <td>El response permite consultar los registros de clientes filtrados por sucursal y cliente.</td>
+      </tr>
+      <tr>
+        <td>[GET] /{id}</td>
+        <td>-</td>
+        <td>id: id del registro de cliente.</td>
+        <td>{
+  "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
+  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "branchId": "dddd1111-1111-1111-1111-111111111111",
+  "status": "ACTIVE"
+}</td>
+        <td><img src="assets/endpoint-get-customer-registration-by-id.jpeg" alt="Endpoint GET customer registration by id"></td>
+        <td>El response devuelve el registro de cliente solicitado mediante su identificador único.</td>
+      </tr>
+      <tr>
+        <td>[PUT] /{id}</td>
+        <td>-</td>
+        <td>id: id del registro de cliente.</td>
+        <td>{
+  "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
+  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "branchId": "dddd1111-1111-1111-1111-111111111111",
+  "status": "INACTIVE"
+}</td>
+        <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
+        <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
       </tr>
       <tr>
         <td rowspan="6"><strong>/api/v1/inventory/products</strong></td>
@@ -8694,6 +8738,18 @@
         <td><img src="assets/endpoint-inventory-6.png" alt="Logotipo de atelier"></td>
         <td>El endpoint elimina el producto y todos los lotes asociados del inventario, retornando un estado 204 si fue exitoso.</td>
       </tr>
+  <td>-</td>
+  <td>id: id del registro de cliente.</td>
+  <td>{
+  "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
+  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "branchId": "dddd1111-1111-1111-1111-111111111111",
+  "status": "INACTIVE"
+}</td>
+  <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
+  <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
+</tr>
+>>>>>>> origin/develop
     </tbody>
 </table>
 
