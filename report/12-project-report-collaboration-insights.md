@@ -92,7 +92,7 @@ El presente reporte consolida los resultados y entregables correspondientes al T
 - El integrante Luis Granda, se encargo de realizar las vistas de telemetry, dashboard de cliente del webapp y documentacion de endpoints.
 - El integrante Joel Huamani, realizó las vistas de inicio de sesion, con inicio de google y registro de un taller con una sucursal.
 - El integrante Aldo Machacca, realizó las vistas de billing y configuracion del cliente y administrador.
-- La integrante Jennifer Riveros, hizó la documentacion de sus endpoints.
+- La integrante Jennifer Riveros, hizó la documentacion de sus endpoints y agrego los mockups mobile.
 - El integrante Adiel Sanchez, realizó las vistas del dashboard del administrador.
 
 Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.

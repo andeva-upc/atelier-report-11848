@@ -3,13 +3,14 @@
 <center>Universidad Peruana de Ciencias Aplicadas</center>
 <center>Carrera de Ingeniería de Software</center>
 
-<center><h4>1asi0729</h4></center>
+<center><h4>1ASI0729</h4></center>
 
 <center><h4>Desarrollo de Aplicaciones Open Source</h4></center>
 
 <h6></h6>
 
-<center><b>NRC</b> 11848</center>
+<center>NRC</center>
+<center><b>11848</b></center>
 
 <h6></h6>
 
@@ -17,15 +18,18 @@
 
 <h6></h6>
 
-<center><b>Docente:</b> Velasquez Nuñez, Angel Augusto</center>
+<center>Docente</center>
+<center><b>Velasquez Nuñez, Angel Augusto</b></center>
 
 <h6></h6>
 
-<center><b>Equipo:</b> Andeva</center>
+<center>Equipo</center>
+<center><b>Andeva</b></center>
 
 <h6></h6>
 
-<center><b>Proyecto:</b> Atelier</center>
+<center>Proyecto</center>
+<center><b>Atelier</b></center>
 
 <h6></h6>
 
@@ -50,14 +54,6 @@
 			<td>Machacca Soto, Aldo Jeanfranco</td>
 		</tr>
 		<tr>
-			<td>U202411521</td>
-			<td>Morocho Pinedo, Mariana Hortencia</td>
-		</tr>
-		<tr>
-			<td>U20241C998</td>
-			<td>Riveros Vera, Jennifer Yamilet</td>
-		</tr>
-		<tr>
 			<td>U20241E287</td>
 			<td>Sanchez Santin, Adiel Abdiaz</td>
 		</tr>
@@ -66,10 +62,10 @@
 
 <h6></h6>
 
-<center><b>Período 2026-10</b></center>
+<center><b>Período 202610</b></center>
 
 <h6></h6>
 
-<center><b>Junio 2026</b></center>
+<center><b>Julio 2026</b></center>
 
 <div style='page-break-after: always'></div>
