@@ -18,7 +18,9 @@
 
 # Video About-the-Team {#video-about-the-team}
 
-LINK: [Video About-the-Team]()
+Link Drive: [Video About-the-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e275_upc_edu_pe/IQANClZ0ypzxSIc45b_BEPHuAX_CuDzqaCEwYJKhX_3BzP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IeGVyS)
+
+Link Youtube: [Video About-the-Team](https://www.youtube.com/watch?v=433E7kuHh7g)
 
 **Figura 124**
 
