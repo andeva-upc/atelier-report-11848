@@ -8519,15 +8519,15 @@
   ],
   "totalPaid": 180
 }</td>
-  <td><img src="assets/endpoint-billing-9.png" alt="Endpoint POST checkout billing"></td>
-  <td>El response procesa la generación del comprobante y registra el pago total en una sola transacción.</td>
-</tr>
-<tr>
-  <td rowspan="2"><strong>/api/v1/customers</strong></td>
-  <td>[GET] /users/{userId}</td>
-  <td>-</td>
-  <td>UserId: id del usuario.</td>
-  <td>{
+        <td><img src="assets/endpoint-billing-9.png" alt="Endpoint POST checkout billing"></td>
+        <td>El response procesa la generación del comprobante y registra el pago total en una sola transacción.</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><strong>/api/v1/customers</strong></td>
+        <td>[GET] /users/{userId}</td>
+        <td>-</td>
+        <td>UserId: id del usuario.</td>
+        <td>{
   "id": "476ef359-4e65-4c65-ab92-4bd9ee343307",
   "userId": "d0a454c7-9ca5-4fb0-ae50-44722c3c16e8",
   "isCorporate": false,
@@ -8538,13 +8538,12 @@
   "documentNumber": "95468543",
   "phone": "962356843"
 }</td>
-  <td><img src="assets/endpoint-7.png" alt="Endpoint GET customers by user"></td>
-  <td>El response nos confirma el cliente que está vinculado a este usuario.</td>
-</tr>
-
-<tr>
-  <td>[POST] /</td>
-  <td>{
+        <td><img src="assets/endpoint-7.png" alt="Endpoint GET customers by user"></td>
+        <td>El response nos confirma el cliente que está vinculado a este usuario.</td>
+      </tr>
+      <tr>
+        <td>[POST] /</td>
+        <td>{
   "userId": "ffec1c59-d72d-447d-915c-b867118890e8",
   "isCorporate": false,
   "firstName": "Dan",
@@ -8553,8 +8552,8 @@
   "documentNumber": "12345678",
   "phone": "999888777"
 }</td>
-  <td>-</td>
-  <td>{
+        <td>-</td>
+        <td>{
   "id": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "userId": "ffec1c59-d72d-447d-915c-b867118890e8",
   "isCorporate": false,
@@ -8565,58 +8564,180 @@
   "documentNumber": "12345678",
   "phone": "999888777"
 }</td>
-  <td><img src="assets/endpoint-post-customers.jpeg" alt="Endpoint POST customers"></td>
-  <td>El response confirma la creación de un nuevo perfil de cliente asociado a un usuario registrado en la plataforma.</td>
-</tr>
-
-<tr>
-  <td rowspan="4"><strong>/api/v1/customer-registrations</strong></td>
-  <td>[POST] /</td>
-  <td>{
+        <td><img src="assets/endpoint-post-customers.jpeg" alt="Endpoint POST customers"></td>
+        <td>El response confirma la creación de un nuevo perfil de cliente asociado a un usuario registrado en la plataforma.</td>
+      </tr>
+      <tr>
+        <td rowspan="4"><strong>/api/v1/customer-registrations</strong></td>
+        <td>[POST] /</td>
+        <td>{
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111"
 }</td>
-  <td>-</td>
-  <td>{
+        <td>-</td>
+        <td>{
   "id": "b0433810-0cc5-4247-9098-94ac690f7892",
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111",
   "status": "ACTIVE"
 }</td>
-  <td><img src="assets/endpoint-post-customer-registrations.jpeg" alt="Endpoint POST customer registrations"></td>
-  <td>El response confirma la creación del registro que vincula a un cliente con una sucursal del taller.</td>
-</tr>
-
-<tr>
-  <td>[GET] /</td>
-  <td>-</td>
-  <td>branchId: id de la sucursal.<br>customerId: id del cliente.</td>
-  <td>{
+        <td><img src="assets/endpoint-post-customer-registrations.jpeg" alt="Endpoint POST customer registrations"></td>
+        <td>El response confirma la creación del registro que vincula a un cliente con una sucursal del taller.</td>
+      </tr>
+      <tr>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>branchId: id de la sucursal.<br>customerId: id del cliente.</td>
+        <td>{
   "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111",
   "status": "ACTIVE"
 }</td>
-  <td><img src="assets/endpoint-get-customer-registrations.jpeg" alt="Endpoint GET customer registrations"></td>
-  <td>El response permite consultar los registros de clientes filtrados por sucursal y cliente.</td>
-</tr>
-
-<tr>
-  <td>[GET] /{id}</td>
-  <td>-</td>
-  <td>id: id del registro de cliente.</td>
-  <td>{
+        <td><img src="assets/endpoint-get-customer-registrations.jpeg" alt="Endpoint GET customer registrations"></td>
+        <td>El response permite consultar los registros de clientes filtrados por sucursal y cliente.</td>
+      </tr>
+      <tr>
+        <td>[GET] /{id}</td>
+        <td>-</td>
+        <td>id: id del registro de cliente.</td>
+        <td>{
   "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111",
   "status": "ACTIVE"
 }</td>
-  <td><img src="assets/endpoint-get-customer-registration-by-id.jpeg" alt="Endpoint GET customer registration by id"></td>
-  <td>El response devuelve el registro de cliente solicitado mediante su identificador único.</td>
-</tr>
-
-<tr>
-  <td>[PUT] /{id}</td>
+        <td><img src="assets/endpoint-get-customer-registration-by-id.jpeg" alt="Endpoint GET customer registration by id"></td>
+        <td>El response devuelve el registro de cliente solicitado mediante su identificador único.</td>
+      </tr>
+      <tr>
+        <td>[PUT] /{id}</td>
+        <td>-</td>
+        <td>id: id del registro de cliente.</td>
+        <td>{
+  "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
+  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
+  "branchId": "dddd1111-1111-1111-1111-111111111111",
+  "status": "INACTIVE"
+}</td>
+        <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
+        <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
+      </tr>
+      <tr>
+        <td rowspan="6"><strong>/api/v1/inventory/products</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "uuid",
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0,
+  "stock": 0
+}</td>
+        <td><img src="assets/endpoint-inventory-1.png" alt="Logotipo de atelier"></td>
+        <td>El response nos devuelve el producto creado con la información básica para el inventario de una sucursal específica.</td>
+      </tr>
+      <tr>
+        <td>[GET] /?branchId={branchId}</td>
+        <td>-</td>
+        <td>branchId: id de la sucursal (UUID)</td>
+        <td>[
+  {
+    "id": "uuid",
+    "branchId": "uuid",
+    "category": "string",
+    "name": "string",
+    "sku": "string",
+    "description": "string",
+    "salePrice": 0,
+    "minimumStock": 0,
+    "stock": 0
+  }
+]</td>
+        <td><img src="assets/endpoint-inventory-2.png" alt="Logotipo de atelier"></td>
+        <td>El response devuelve una lista con todos los productos registrados en el inventario que pertenecen a una sucursal.</td>
+      </tr>
+      <tr>
+        <td>[POST] /{productId}/batches</td>
+        <td>{
+  "quantity": 0,
+  "acquisitionCost": 0
+}</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>{
+  "id": "uuid",
+  "quantity": 0,
+  "acquisitionCost": 0,
+  "receivedAt": "2026-06-22T00:00:00Z"
+}</td>
+        <td><img src="assets/endpoint-inventory-3.png" alt="Logotipo de atelier"></td>
+        <td>El response añade un nuevo lote al producto existente, incrementando su stock en el inventario.</td>
+      </tr>
+      <tr>
+        <td>[GET] /{productId}</td>
+        <td>-</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>{
+  "id": "uuid",
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0,
+  "stock": 0,
+  "batches": []
+}</td>
+        <td><img src="assets/endpoint-inventory-4.png" alt="Logotipo de atelier"></td>
+        <td>El response devuelve todos los detalles del producto, incluyendo su historial de lotes (batches) ingresados.</td>
+      </tr>
+      <tr>
+        <td>[PUT] /{productId}</td>
+        <td>{
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0
+}</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>{
+  "id": "uuid",
+  "branchId": "uuid",
+  "category": "string",
+  "name": "string",
+  "sku": "string",
+  "description": "string",
+  "salePrice": 0,
+  "minimumStock": 0,
+  "stock": 0
+}</td>
+        <td><img src="assets/endpoint-inventory-5.png" alt="Logotipo de atelier"></td>
+        <td>El response actualiza la información básica del producto (nombre, categoría, precio, etc.).</td>
+      </tr>
+      <tr>
+        <td>[DELETE] /{productId}</td>
+        <td>-</td>
+        <td>productId: id del producto (UUID)</td>
+        <td>- (204 No Content)</td>
+        <td><img src="assets/endpoint-inventory-6.png" alt="Logotipo de atelier"></td>
+        <td>El endpoint elimina el producto y todos los lotes asociados del inventario, retornando un estado 204 si fue exitoso.</td>
+      </tr>
   <td>-</td>
   <td>id: id del registro de cliente.</td>
   <td>{
@@ -8628,6 +8749,7 @@
   <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
   <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
 </tr>
+>>>>>>> origin/develop
     </tbody>
 </table>
 
