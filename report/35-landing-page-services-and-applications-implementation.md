@@ -8738,18 +8738,6 @@
         <td><img src="assets/endpoint-inventory-6.png" alt="Logotipo de atelier"></td>
         <td>El endpoint elimina el producto y todos los lotes asociados del inventario, retornando un estado 204 si fue exitoso.</td>
       </tr>
-  <td>-</td>
-  <td>id: id del registro de cliente.</td>
-  <td>{
-  "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
-  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
-  "branchId": "dddd1111-1111-1111-1111-111111111111",
-  "status": "INACTIVE"
-}</td>
-  <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
-  <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
-</tr>
->>>>>>> origin/develop
     </tbody>
 </table>
 
