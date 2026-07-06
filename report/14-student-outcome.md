@@ -67,7 +67,7 @@ stock y lotes de productos,
 garantizando que todo el equipo técnico
 comprendiera correctamente los límites
 y las responsabilidades de este módulo
-para su correcta integración.<br><strong>TB2</strong><br>TB2 ADIEL<br>
+para su correcta integración.<br><strong>TB2</strong><br>Sustenté ante el equipo las correcciones finales aplicadas al Bounded Context de Inventory y al módulo de Fleet, explicando la lógica de negocio y resolviendo dudas en las sesiones de sincronización.<br>
       </td>
       <td>
         <strong>AV1</strong><br>
@@ -132,7 +132,7 @@ endpoints de productos. Esta
 documentación garantizó una fácil
 integración para el equipo y mantuvo el
 rigor técnico exigido en el repositorio
-de GitHub.<br><strong>TB2</strong><br>TB2 ADIEL<br>
+de GitHub.<br><strong>TB2</strong><br>Documenté las correcciones finales y la estructura técnica de los módulos Inventory y Fleet, asegurando que toda la lógica de negocio actualizada quedara registrada en la documentación oficial del proyecto.<br>
       </td>
       <td>
         <strong>AV1</strong><br>
