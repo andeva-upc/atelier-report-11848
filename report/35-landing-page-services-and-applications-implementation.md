@@ -9523,8 +9523,8 @@
         <td>Done</td>
       </tr>
       <tr>
-        <td rowspan="26"><strong>TS005</strong></td>
-        <td rowspan="26">Procesamiento de Facturación y Pagos</td>
+        <td rowspan="36"><strong>TS005</strong></td>
+        <td rowspan="36">Procesamiento de Facturación y Pagos</td>
         <td>TS005-001</td>
         <td>Implementar Enumeraciones de Billing</td>
         <td>Create enumerations to manage the state of quotes (`DRAFT`, `APPROVED`, `CANCELED`), voucher types (`INVOICE`, `RECEIPT`), and available payment methods.</td>
@@ -9730,6 +9730,86 @@
         <td>Create the `billing-endpoints.md` documentation detailing URLs, payload JSON structures, HTTP methods, response codes, and i18n configurations.</td>
         <td>3</td>
         <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US026-04</td>
+        <td>Consumo de Endpoints de Cotización</td>
+        <td>Integrar el frontend para consumir los endpoints de creación y obtención de cotizaciones desde la RESTful API.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US026-05</td>
+        <td>Diálogo de Creación de Cotizaciones (i18n)</td>
+        <td>Desarrollar el componente de diálogo para la creación de cotizaciones con soporte multi-idioma (i18n).</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US028-04</td>
+        <td>Consumo de Endpoints de Emisión de Vouchers</td>
+        <td>Integrar el frontend para consumir los endpoints de pagos y generación de comprobantes (vouchers).</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US028-05</td>
+        <td>Refactorización y Limpieza de Facturación</td>
+        <td>Refactorizar el módulo eliminando pestañas obsoletas y filtrando cotizaciones duplicadas para prevenir errores.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US028-06</td>
+        <td>Integración de Facthub para Validación SUNAT</td>
+        <td>Implementar en el frontend la visualización de la validez de comprobantes a través de la API externa de Facthub.</td>
+        <td>4</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US029-04</td>
+        <td>Consumo de Endpoints de Descuentos</td>
+        <td>Conectar los inputs de la interfaz con los servicios de backend para aplicar descuentos dinámicos.</td>
+        <td>3</td>
+        <td>Aldo Machacca</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US030-04</td>
+        <td>Integración de Analítica y KPIs en el Dashboard</td>
+        <td>Conectar las tarjetas de KPIs (ingresos, rentabilidad) en el frontend consumiendo los datos agregados del backend.</td>
+        <td>4</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US030-05</td>
+        <td>Visualización Gráfica de Inresos y Rentabilidad</td>
+        <td>Implementar el gráfico de barras verticales dinámico utilizando Chart.js para comparar rentabilidad mensual.</td>
+        <td>3</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US030-06</td>
+        <td>Refactorización de Pestañas y Simplificación del Dashboard</td>
+        <td>Remover pestañas financieras obsoletas (egresos no soportados) y unificar la navegación en el panel de facturación.</td>
+        <td>2</td>
+        <td>Luis Granda</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>US031-01</td>
+        <td>Interfaz de Exportación Contable del Periodo</td>
+        <td>Diseñar e integrar la funcionalidad en el frontend para exportar el reporte mensual de transacciones contables.</td>
+        <td>3</td>
+        <td>Luis Granda</td>
         <td>Done</td>
       </tr>
       <tr>
@@ -10098,96 +10178,6 @@
         <td>Desarrollar y exponer los endpoints REST en 'Definir WorkshopsController' asegurando las respuestas HTTP correspondientes.</td>
         <td>3</td>
         <td>Joel Estefanero</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td rowspan="2"><strong>US026</strong></td>
-        <td rowspan="2">Creación de cotización digital</td>
-        <td>US026-04</td>
-        <td>Consumo de Endpoints de Cotización</td>
-        <td>Integrar el frontend para consumir los endpoints de creación y obtención de cotizaciones desde la RESTful API.</td>
-        <td>4</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US026-05</td>
-        <td>Diálogo de Creación de Cotizaciones (i18n)</td>
-        <td>Desarrollar el componente de diálogo para la creación de cotizaciones con soporte multi-idioma (i18n).</td>
-        <td>3</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td rowspan="3"><strong>US028</strong></td>
-        <td rowspan="3">Registro de cobro en caja</td>
-        <td>US028-04</td>
-        <td>Consumo de Endpoints de Emisión de Vouchers</td>
-        <td>Integrar el frontend para consumir los endpoints de pagos y generación de comprobantes (vouchers).</td>
-        <td>4</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US028-05</td>
-        <td>Refactorización y Limpieza de Facturación</td>
-        <td>Refactorizar el módulo eliminando pestañas obsoletas y filtrando cotizaciones duplicadas para prevenir errores.</td>
-        <td>3</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US028-06</td>
-        <td>Integración de Facthub para Validación SUNAT</td>
-        <td>Implementar en el frontend la visualización de la validez de comprobantes a través de la API externa de Facthub.</td>
-        <td>4</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td rowspan="1"><strong>US029</strong></td>
-        <td rowspan="1">Aplicación de descuentos</td>
-        <td>US029-04</td>
-        <td>Consumo de Endpoints de Descuentos</td>
-        <td>Conectar los inputs de la interfaz con los servicios de backend para aplicar descuentos dinámicos.</td>
-        <td>3</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td rowspan="3"><strong>US030</strong></td>
-        <td rowspan="3">Panel de ingresos y rentabilidad</td>
-        <td>US030-04</td>
-        <td>Integración de Analítica y KPIs en el Dashboard</td>
-        <td>Conectar las tarjetas de KPIs (ingresos, rentabilidad) en el frontend consumiendo los datos agregados del backend.</td>
-        <td>4</td>
-        <td>Luis Granda</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US030-05</td>
-        <td>Visualización Gráfica de Inresos y Rentabilidad</td>
-        <td>Implementar el gráfico de barras verticales dinámico utilizando Chart.js para comparar rentabilidad mensual.</td>
-        <td>3</td>
-        <td>Luis Granda</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US030-06</td>
-        <td>Refactorización de Pestañas y Simplificación del Dashboard</td>
-        <td>Remover pestañas financieras obsoletas (egresos no soportados) y unificar la navegación en el panel de facturación.</td>
-        <td>2</td>
-        <td>Luis Granda</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td rowspan="1"><strong>US031</strong></td>
-        <td rowspan="1">Exportación de reportes contables</td>
-        <td>US031-01</td>
-        <td>Interfaz de Exportación Contable del Periodo</td>
-        <td>Diseñar e integrar la funcionalidad en el frontend para exportar el reporte mensual de transacciones contables.</td>
-        <td>3</td>
-        <td>Luis Granda</td>
         <td>Done</td>
       </tr>
     </tbody>
