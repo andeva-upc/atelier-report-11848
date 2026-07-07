@@ -400,7 +400,7 @@
 |    Sprint 2 - 1 Review Summary      |    The team successfully developed and deployed the functional landing page. All planned user stories regarding the value proposition, service modules, and subscription plans were completed and verified on the production environment.      |
 |    Sprint 2 – 1 Retrospective Summary      |    The team identified that initial task estimations were too low. For the upcoming sprint, we committed to consolidating engineering tasks into blocks of 4 to 8 hours and ensuring a more rigorous technical documentation process.      |
 |     **Sprint Goal & User Stories**     |          |
-|     Sprint 2 Goal     |     Our focus is on delivering the core operational and telemetry interfaces for daily workshop management. We believe it delivers an intuitive and organized experience for daily task management and vehicle health monitoring to mechanics and administrators. This will be confirmed when workshop staff can visually navigate the creation of work orders, manage inventory catalogs, and view the telemetry dashboard layouts in the application prototype.     |
+|     Sprint 2 Goal     |     Our focus is on implementing work order initialization, appointment scheduling, and billing management for the atelier platform.<br>We believe it delivers repair tracking to workshop owners, scheduling control to receptionists, and discounted invoicing to car owners.<br>This will be confirmed when workshop owners can initialize a pending work order with a unique ID and apply an authorized discount to a final invoice, receptionists can book and reschedule appointments without time conflicts, and car owners receive guaranteed reservations.     |
 |     Sprint 2 Velocity     |     69     |
 |     Sum of Story Points     |   69       |
 
@@ -1243,7 +1243,7 @@
 |    Sprint 3 - 1 Review Summary      |    The team successfully developed and deployed the first version of the web application frontend using a Mock API. All core user interfaces were integrated and verified in the staging environment.      |
 |    Sprint 3 – 1 Retrospective Summary      |    The team recognized that relying on a mock server limits the validation of complex transactional logic. We agreed to prioritize the database schema consolidation and strictly adhere to the OpenAPI specification to ensure a smooth transition from the mock to the real API.      |
 |     **Sprint Goal & User Stories**     |          |
-|     Sprint 3 Goal     |     Our focus is on enabling real data persistence, multi-tenant isolation, and automated telemetry processing for the platform. We believe it delivers data security, accurate operational calculations, and reliable vehicle diagnostics to the subscribed workshop businesses. This will be confirmed when the platform can successfully process workshop registrations, manage work order transactions, and ingest live OBD2 data streams through its active endpoints.     |
+|     Sprint 3 Goal     |     Our focus is on deploying the relational database and implementing the RESTful API endpoints to transition the atelier platform from a mock server to a live backend. We believe it delivers persistent data management for inventory and billing to workshop owners, and automated telemetry ingestion to mechanics. This will be confirmed when workshop owners can register new work orders that are saved in the production database, and mechanics can query historical OBD2 batches retrieved from the live endpoints.     |
 |     Sprint 3 Velocity     |    70      |
 |     Sum of Story Points     |    70      |
 
