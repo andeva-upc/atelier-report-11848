@@ -8519,15 +8519,15 @@
   ],
   "totalPaid": 180
 }</td>
-        <td><img src="assets/endpoint-billing-9.png" alt="Endpoint POST checkout billing"></td>
-        <td>El response procesa la generación del comprobante y registra el pago total en una sola transacción.</td>
-      </tr>
-      <tr>
-        <td rowspan="2"><strong>/api/v1/customers</strong></td>
-        <td>[GET] /users/{userId}</td>
-        <td>-</td>
-        <td>UserId: id del usuario.</td>
-        <td>{
+  <td><img src="assets/endpoint-billing-9.png" alt="Endpoint POST checkout billing"></td>
+  <td>El response procesa la generación del comprobante y registra el pago total en una sola transacción.</td>
+</tr>
+<tr>
+  <td rowspan="2"><strong>/api/v1/customers</strong></td>
+  <td>[GET] /users/{userId}</td>
+  <td>-</td>
+  <td>UserId: id del usuario.</td>
+  <td>{
   "id": "476ef359-4e65-4c65-ab92-4bd9ee343307",
   "userId": "d0a454c7-9ca5-4fb0-ae50-44722c3c16e8",
   "isCorporate": false,
@@ -8538,12 +8538,13 @@
   "documentNumber": "95468543",
   "phone": "962356843"
 }</td>
-        <td><img src="assets/endpoint-7.png" alt="Endpoint GET customers by user"></td>
-        <td>El response nos confirma el cliente que está vinculado a este usuario.</td>
-      </tr>
-      <tr>
-        <td>[POST] /</td>
-        <td>{
+  <td><img src="assets/endpoint-7.png" alt="Endpoint GET customers by user"></td>
+  <td>El response nos confirma el cliente que está vinculado a este usuario.</td>
+</tr>
+
+<tr>
+  <td>[POST] /</td>
+  <td>{
   "userId": "ffec1c59-d72d-447d-915c-b867118890e8",
   "isCorporate": false,
   "firstName": "Dan",
@@ -8552,8 +8553,8 @@
   "documentNumber": "12345678",
   "phone": "999888777"
 }</td>
-        <td>-</td>
-        <td>{
+  <td>-</td>
+  <td>{
   "id": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "userId": "ffec1c59-d72d-447d-915c-b867118890e8",
   "isCorporate": false,
@@ -8564,65 +8565,69 @@
   "documentNumber": "12345678",
   "phone": "999888777"
 }</td>
-        <td><img src="assets/endpoint-post-customers.jpeg" alt="Endpoint POST customers"></td>
-        <td>El response confirma la creación de un nuevo perfil de cliente asociado a un usuario registrado en la plataforma.</td>
-      </tr>
-      <tr>
-        <td rowspan="4"><strong>/api/v1/customer-registrations</strong></td>
-        <td>[POST] /</td>
-        <td>{
+  <td><img src="assets/endpoint-post-customers.jpeg" alt="Endpoint POST customers"></td>
+  <td>El response confirma la creación de un nuevo perfil de cliente asociado a un usuario registrado en la plataforma.</td>
+</tr>
+
+<tr>
+  <td rowspan="4"><strong>/api/v1/customer-registrations</strong></td>
+  <td>[POST] /</td>
+  <td>{
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111"
 }</td>
-        <td>-</td>
-        <td>{
+  <td>-</td>
+  <td>{
   "id": "b0433810-0cc5-4247-9098-94ac690f7892",
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111",
   "status": "ACTIVE"
 }</td>
-        <td><img src="assets/endpoint-post-customer-registrations.jpeg" alt="Endpoint POST customer registrations"></td>
-        <td>El response confirma la creación del registro que vincula a un cliente con una sucursal del taller.</td>
-      </tr>
-      <tr>
-        <td>[GET] /</td>
-        <td>-</td>
-        <td>branchId: id de la sucursal.<br>customerId: id del cliente.</td>
-        <td>{
+  <td><img src="assets/endpoint-post-customer-registrations.jpeg" alt="Endpoint POST customer registrations"></td>
+  <td>El response confirma la creación del registro que vincula a un cliente con una sucursal del taller.</td>
+</tr>
+
+<tr>
+  <td>[GET] /</td>
+  <td>-</td>
+  <td>branchId: id de la sucursal.<br>customerId: id del cliente.</td>
+  <td>{
   "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111",
   "status": "ACTIVE"
 }</td>
-        <td><img src="assets/endpoint-get-customer-registrations.jpeg" alt="Endpoint GET customer registrations"></td>
-        <td>El response permite consultar los registros de clientes filtrados por sucursal y cliente.</td>
-      </tr>
-      <tr>
-        <td>[GET] /{id}</td>
-        <td>-</td>
-        <td>id: id del registro de cliente.</td>
-        <td>{
+  <td><img src="assets/endpoint-get-customer-registrations.jpeg" alt="Endpoint GET customer registrations"></td>
+  <td>El response permite consultar los registros de clientes filtrados por sucursal y cliente.</td>
+</tr>
+
+<tr>
+  <td>[GET] /{id}</td>
+  <td>-</td>
+  <td>id: id del registro de cliente.</td>
+  <td>{
   "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111",
   "status": "ACTIVE"
 }</td>
-        <td><img src="assets/endpoint-get-customer-registration-by-id.jpeg" alt="Endpoint GET customer registration by id"></td>
-        <td>El response devuelve el registro de cliente solicitado mediante su identificador único.</td>
-      </tr>
-      <tr>
-        <td>[PUT] /{id}</td>
-        <td>-</td>
-        <td>id: id del registro de cliente.</td>
-        <td>{
+  <td><img src="assets/endpoint-get-customer-registration-by-id.jpeg" alt="Endpoint GET customer registration by id"></td>
+  <td>El response devuelve el registro de cliente solicitado mediante su identificador único.</td>
+</tr>
+
+<tr>
+  <td>[PUT] /{id}</td>
+  <td>-</td>
+  <td>id: id del registro de cliente.</td>
+  <td>{
   "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
   "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
   "branchId": "dddd1111-1111-1111-1111-111111111111",
   "status": "INACTIVE"
 }</td>
-        <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
-        <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
-      </tr>
+  <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
+  <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
+</tr>
       <tr>
         <td rowspan="6"><strong>/api/v1/inventory/products</strong></td>
         <td>[POST] /</td>
@@ -8738,18 +8743,6 @@
         <td><img src="assets/endpoint-inventory-6.png" alt="Logotipo de atelier"></td>
         <td>El endpoint elimina el producto y todos los lotes asociados del inventario, retornando un estado 204 si fue exitoso.</td>
       </tr>
-  <td>-</td>
-  <td>id: id del registro de cliente.</td>
-  <td>{
-  "id": "df7704cc-19c9-4bda-aafa-4dc55f156334",
-  "customerId": "ea68ee5b-2fd7-4bea-8eea-245a88bfd57b",
-  "branchId": "dddd1111-1111-1111-1111-111111111111",
-  "status": "INACTIVE"
-}</td>
-  <td><img src="assets/endpoint-put-customer-registration-deactivate.jpeg" alt="Endpoint PUT deactivate customer registration"></td>
-  <td>El response confirma la desactivación del registro de cliente, cambiando su estado de ACTIVE a INACTIVE.</td>
-</tr>
->>>>>>> origin/develop
     </tbody>
 </table>
 
@@ -8849,7 +8842,7 @@
 |    Sprint 4 - 3 Review Summary      |     The team successfully deployed the relational database and the complete set of RESTful API endpoints. The core backend services, including multi-tenant isolation and the telemetry ingestion engine, were validated using API testing tools.     |
 |    Sprint 4 – 3 Retrospective Summary      |     The team recognized that strict payload matching is required between the client and the server. We agreed to prioritize the implementation of global error handling and loading states in the frontend to provide immediate feedback to the users during API calls.     |
 |     **Sprint Goal & User Stories**     |          |
-|     Sprint 4 Goal     |    Our focus is on integrating the multi-tenant onboarding, appointment scheduling, work order execution, inventory management, and telemetry modules. We believe it delivers business registration and subscription activation to workshop owners, booking controls to receptionists, stock tracking to administrators, and remote diagnostic capabilities to mechanics. This will be confirmed when workshop owners register and select subscription plans, receptionists schedule appointments without conflicts, administrators manage spare parts with minimum-stock alerts, and mechanics log in, link OBD2 devices, and view engine telemetry on active work orders. |
+|     Sprint 4 Goal     |    Our focus is on connecting the user interfaces with the active platform services and polishing the final user workflows. We believe it delivers a fully integrated, error-free, and seamless daily operational tool to the workshop administrators, mechanics, and receptionists. This will be confirmed when workshop staff can successfully complete the end-to-end flow from booking an appointment to closing a work order and viewing real-time telemetry on the final application without integration errors.      |
 |     Sprint 4 Velocity     |     37     |
 |     Sum of Story Points     |    37      |
 
@@ -8944,7 +8937,7 @@
 
 *Captura de Pantalla del Sprint Backlog #4 atelier en Trello*
 
-![](assets/sprint-4-trello.png "Captura de Pantalla del Sprint Backlog #4 atelier en Trello")
+![](assets/trello-4.png "Captura de Pantalla del Sprint Backlog #3 atelier en Trello")
 
 &emsp;&emsp;&emsp;&emsp;Seguidamente, se detalla la tabla de control de estado con la descomposición de las Technical Stories en tareas específicas asignadas a los miembros del equipo, estimadas en horas y con su estado actual de progreso.
 
@@ -9523,8 +9516,8 @@
         <td>Done</td>
       </tr>
       <tr>
-        <td rowspan="36"><strong>TS005</strong></td>
-        <td rowspan="36">Procesamiento de Facturación y Pagos</td>
+        <td rowspan="26"><strong>TS005</strong></td>
+        <td rowspan="26">Procesamiento de Facturación y Pagos</td>
         <td>TS005-001</td>
         <td>Implementar Enumeraciones de Billing</td>
         <td>Create enumerations to manage the state of quotes (`DRAFT`, `APPROVED`, `CANCELED`), voucher types (`INVOICE`, `RECEIPT`), and available payment methods.</td>
@@ -9730,86 +9723,6 @@
         <td>Create the `billing-endpoints.md` documentation detailing URLs, payload JSON structures, HTTP methods, response codes, and i18n configurations.</td>
         <td>3</td>
         <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US026-04</td>
-        <td>Consumo de Endpoints de Cotización</td>
-        <td>Integrar el frontend para consumir los endpoints de creación y obtención de cotizaciones desde la RESTful API.</td>
-        <td>4</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US026-05</td>
-        <td>Diálogo de Creación de Cotizaciones (i18n)</td>
-        <td>Desarrollar el componente de diálogo para la creación de cotizaciones con soporte multi-idioma (i18n).</td>
-        <td>3</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US028-04</td>
-        <td>Consumo de Endpoints de Emisión de Vouchers</td>
-        <td>Integrar el frontend para consumir los endpoints de pagos y generación de comprobantes (vouchers).</td>
-        <td>4</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US028-05</td>
-        <td>Refactorización y Limpieza de Facturación</td>
-        <td>Refactorizar el módulo eliminando pestañas obsoletas y filtrando cotizaciones duplicadas para prevenir errores.</td>
-        <td>3</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US028-06</td>
-        <td>Integración de Facthub para Validación SUNAT</td>
-        <td>Implementar en el frontend la visualización de la validez de comprobantes a través de la API externa de Facthub.</td>
-        <td>4</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US029-04</td>
-        <td>Consumo de Endpoints de Descuentos</td>
-        <td>Conectar los inputs de la interfaz con los servicios de backend para aplicar descuentos dinámicos.</td>
-        <td>3</td>
-        <td>Aldo Machacca</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US030-04</td>
-        <td>Integración de Analítica y KPIs en el Dashboard</td>
-        <td>Conectar las tarjetas de KPIs (ingresos, rentabilidad) en el frontend consumiendo los datos agregados del backend.</td>
-        <td>4</td>
-        <td>Luis Granda</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US030-05</td>
-        <td>Visualización Gráfica de Inresos y Rentabilidad</td>
-        <td>Implementar el gráfico de barras verticales dinámico utilizando Chart.js para comparar rentabilidad mensual.</td>
-        <td>3</td>
-        <td>Luis Granda</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US030-06</td>
-        <td>Refactorización de Pestañas y Simplificación del Dashboard</td>
-        <td>Remover pestañas financieras obsoletas (egresos no soportados) y unificar la navegación en el panel de facturación.</td>
-        <td>2</td>
-        <td>Luis Granda</td>
-        <td>Done</td>
-      </tr>
-      <tr>
-        <td>US031-01</td>
-        <td>Interfaz de Exportación Contable del Periodo</td>
-        <td>Diseñar e integrar la funcionalidad en el frontend para exportar el reporte mensual de transacciones contables.</td>
-        <td>3</td>
-        <td>Luis Granda</td>
         <td>Done</td>
       </tr>
       <tr>
