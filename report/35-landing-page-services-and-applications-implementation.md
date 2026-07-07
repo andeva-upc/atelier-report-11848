@@ -8743,6 +8743,181 @@
         <td><img src="assets/endpoint-inventory-6.png" alt="Logotipo de atelier"></td>
         <td>El endpoint elimina el producto y todos los lotes asociados del inventario, retornando un estado 204 si fue exitoso.</td>
       </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/obd2-devices</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "macAddress": "00:1B:44:11:3A:B7"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "082ed5a3-6c9d-4c77-8309-dea71ba93b19",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "macAddress": "00:1B:44:11:3A:B7",
+  "status": "AVAILABLE"
+}</td>
+        <td><img src="assets/endpoint-iot-1.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response registra un nuevo dispositivo OBD2 en una sucursal específica con estado inicial disponible (AVAILABLE).</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/vehicles</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "plateNumber": "ABC-123",
+  "brand": "Toyota",
+  "model": "Corolla",
+  "year": 2022,
+  "vin": "1HGCR2F83HA000000"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "290e78d9-e485-4dba-8025-4b677ef81ce6",
+  "userId": "8081ed5f-d2b9-49e7-8c71-dc88ea835769",
+  "vehicleId": "c0db79ae-8bb2-4fdd-ba52-0d2b76378351",
+  "status": "ACTIVE",
+  "createdAt": "2026-06-29T21:11:11.498217167Z"
+}</td>
+        <td><img src="assets/endpoint-iot-2.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response registra un vehículo y lo asocia al usuario autenticado.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/obd2-device-registrations</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "obd2DeviceId": "082ed5a3-6c9d-4c77-8309-dea71ba93b19",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "vehicleId": "c0db79ae-8bb2-4fdd-ba52-0d2b76378351"
+}</td>
+        <td>-</td>
+        <td>{
+  "id": "d9395c32-55c4-415c-bcec-a5318b0a0a22",
+  "obd2DeviceId": "082ed5a3-6c9d-4c77-8309-dea71ba93b19",
+  "branchId": "ddddd111-1111-1111-1111-111111111111",
+  "vehicleId": "c0db79ae-8bb2-4fdd-ba52-0d2b76378351",
+  "status": "ACTIVE",
+  "createdAt": "2026-06-29T21:15:48.812050998Z"
+}</td>
+        <td><img src="assets/endpoint-iot-3.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response vincula un dispositivo OBD2 registrado a un vehículo específico dentro de una sucursal.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/telemetry-batches</strong></td>
+        <td>[POST] /</td>
+        <td>{
+  "obd2DeviceId": "082ed5a3...",
+  "snapshots": [
+    {
+      "rpm": 2200,
+      "temperature": 88,
+      "speedKmh": 45.0,
+      "odometerKm": 15000,
+      "fuelLevelPercent": 85.0,
+      "createdAt": "2026-06-29T21:17:00.000Z"
+    }
+  ]
+}</td>
+        <td>-</td>
+        <td>[ ... ]</td>
+        <td><img src="assets/endpoint-iot-4.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response ingesta un nuevo lote de capturas de telemetría provenientes de un dispositivo OBD2.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/vehicles/{vehicleId}/telemetry-snapshots</strong></td>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>vehicleId: id del vehículo (path)</td>
+        <td>[
+  {
+    "id": "d4626182...",
+    "rpm": 2400,
+    "temperature": 89,
+    "speedKmh": 55,
+    "odometerKm": 15001,
+    "fuelLevelPercent": 84.8
+  }
+]</td>
+        <td><img src="assets/endpoint-iot-5.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response devuelve el historial completo de capturas de telemetría de un vehículo específico.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/obd2-devices/{id}</strong></td>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>id: id del dispositivo (path)</td>
+        <td>{
+  "id": "082ed5a3...",
+  "branchId": "ddddd111...",
+  "macAddress": "00:1B:44:11:3A:B7",
+  "status": "LINKED"
+}</td>
+        <td><img src="assets/endpoint-iot-6.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response obtiene los detalles de un dispositivo OBD2 registrado por su ID único.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/obd2-devices</strong></td>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>branchId (query), status (query)</td>
+        <td>[
+  {
+    "id": "99999111...",
+    "branchId": "ddddd111...",
+    "macAddress": "00:1A:3F:F1:4C:C2",
+    "status": "LINKED"
+  }
+]</td>
+        <td><img src="assets/endpoint-iot-7.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response devuelve los dispositivos OBD2 registrados de una sucursal, filtrados por estado.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/obd2-devices/{deviceId}/telemetry-snapshots/latest</strong></td>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>deviceId: id del dispositivo (path)</td>
+        <td>{
+  "id": "d4626182...",
+  "rpm": 2400,
+  "temperature": 89,
+  "speedKmh": 55,
+  "odometerKm": 15001,
+  "fuelLevelPercent": 84.8
+}</td>
+        <td><img src="assets/endpoint-iot-8.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response devuelve la captura de telemetría más reciente de un dispositivo OBD2.</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/obd2-devices/{id}</strong></td>
+        <td>[PUT] /</td>
+        <td>{
+  "macAddress": "00:1B:44:11:3A:B8"
+}</td>
+        <td>id: id del dispositivo (path)</td>
+        <td>{
+  "id": "082ed5a3...",
+  "branchId": "ddddd111...",
+  "macAddress": "00:1B:44:11:3A:B8",
+  "status": "LINKED"
+}</td>
+        <td><img src="assets/endpoint-iot-9.jpeg" alt="Logotipo de atelier"></td>
+        <td>El response actualiza los detalles de un dispositivo OBD2 existente (como su dirección MAC).</td>
+      </tr>
+      <tr>
+        <td rowspan="1"><strong>/api/v1/obd2-device-registrations</strong></td>
+        <td>[GET] /</td>
+        <td>-</td>
+        <td>branchId (query), status (query)</td>
+        <td>[
+  {
+    "id": "99999222...",
+    "obd2DeviceId": "99999111...",
+    "vehicleId": "11111111...",
+    "status": "ACTIVE"
+  }
+]</td>
+        <td><img src="assets/endpoint-iot-10.jpg" alt="Logotipo de atelier"></td>
+        <td>El response obtiene las vinculaciones (registros) entre dispositivos y vehículos de una sucursal, filtradas por estado.</td>
+      </tr>
     </tbody>
 </table>
 
